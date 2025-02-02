@@ -14,7 +14,7 @@
 | statut_vol | VARCHAR | Statut du vol (ouvert, fermé, annulé) |
 | id_aeroport_depart | INTEGER | Identifiant de l'aéroport de départ |
 | id_aeroport_arrivee | INTEGER | Identifiant de l'aéroport d'arrivée |
-| nom_aeroport | VARCHAR | Nom de l'aéroport |
+| nom_aeroport | VARCHAR | Nom de l'aéroport |s
 | id_ville | INTEGER | Identifiant de la ville desservie |
 | nom_ville | VARCHAR | Nom de la ville |
 | id_escale | INTEGER | Identifiant unique de l'escale |
