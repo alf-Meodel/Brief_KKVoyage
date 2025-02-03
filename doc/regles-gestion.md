@@ -26,10 +26,10 @@
 **RG16 :**  Une escale a une heure d'arrivée.
 
 ## Aeroport 
-**RG17 :**  Chaque aéroport dessert une ou plusieurs villes.
+**RG17 :**  Un aéroport dessert une ou plusieurs villes.
 
 ## Compagnie aérienne
-**RG18 :**  Des compagnies aériennes proposent différents vols.
+**RG18 :**   Un compagnies aériennes peut proposer différents vols.
 
 
 
