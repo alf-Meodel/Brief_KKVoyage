@@ -7,10 +7,13 @@
 - **RG3 :**  Un client peut annuler une réservation.
 - **RG4 :**  Un client peut confirmer une réservation.
 
+## Passager
+- **RG5 :** Un passager n'est pas obligatoirement un client 
+- **RG5 :** Un passager possède une reservation 
+
+
 ## Reservation 
 - **RG5 :**  Une réservation concerne un seul vol.
-
-
 - **RG6 :**  Une réservation concerne un seul passager.
 
 ## Vol  
@@ -20,20 +23,21 @@
 - **RG10 :** Un vol a un jour et une heure d'arrivée.
 - **RG11 :**  Un vol peut comporter des escales dans des aéroports.
 - **RG12 :**  Un vol est ouvert à la réservation .
-- **RG13 :**  Un vol est refermé sur ordre de la compagnie.
-- **RG14 :**  Un vol peut être annulé par la compagnie.
 
 ## Escale
 - **RG15 :**  Une escale a une heure de départ.
 - **RG16 :**  Une escale a une heure d'arrivée.
+- **RG16 :**  Une escale se fait dans un aeroport.
 
 ## Aeroport 
 - **RG17 :**  Un aéroport dessert une ou plusieurs villes.
 
 ## Compagnie aérienne
-- **RG18 :**   Un compagnies aériennes peut proposer différents vols.
+- **RG18 :**   Une compagnie aériennes peut proposer différents vols.
+- **RG18 :**   Une compagnie aériennes peut annuler un vol
+- **RG13 :**  Une compagnie aerienne peut fermer la reservation d'un vol 
 
-
-
-
+<!-- 
+- **RG13 :**  Un vol est refermé sur ordre de la compagnie.
+-->
 
