@@ -26,12 +26,15 @@
 
 
 ## Reservation 
+- **RG7 :**  Une réservation possède un identifiant unique
+
+----
+- **RG7 :**  Une réservation est strictement liée à un seul vol
+- **RG7 :**  Une réservation est strictement liée à un seul passager
+- **RG7 :**  Une réservation peut etre confirmée
+- **RG7 :**  Une réservation peut etre annulée
 
 
-
-- **RG7 :**  Une réservation concerne un seul vol
-- **RG8 :**  Une réservation concerne un seul passager
-- **RG6 :** Une réservation est strictement liée à un seul passager
 
 ## Vol  
 - **RG9 :**  Un vol a un aéroport de départ
