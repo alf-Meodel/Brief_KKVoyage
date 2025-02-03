@@ -9,35 +9,37 @@
 
 ## Passager
 - **RG5 :** Un passager n'est pas obligatoirement un client 
-- **RG5 :** Un passager possède une reservation 
+- **RG6 :** Un passager possède une reservation 
 
 
 ## Reservation 
-- **RG5 :**  Une réservation concerne un seul vol.
-- **RG6 :**  Une réservation concerne un seul passager.
+- **RG7 :**  Une réservation concerne un seul vol.
+- **RG8 :**  Une réservation concerne un seul passager.
 
 ## Vol  
-- **RG7 :**  Un vol a un aéroport de départ.
-- **RG8 :** Un vol possède un aéroport d'arrivée.
-- **RG9 :**  Un vol a un jour et une heure de départ, 
-- **RG10 :** Un vol a un jour et une heure d'arrivée.
-- **RG11 :**  Un vol peut comporter des escales dans des aéroports.
-- **RG12 :**  Un vol est ouvert à la réservation .
+- **RG9 :**  Un vol a un aéroport de départ.
+- **RG10 :** Un vol possède un aéroport d'arrivée.
+- **RG11 :**  Un vol a un jour et une heure de départ, 
+- **RG12 :** Un vol a un jour et une heure d'arrivée.
+- **RG13 :**  Un vol peut comporter des escales dans des aéroports.
+- **RG14 :**  Un vol est ouvert à la réservation .
 
 ## Escale
 - **RG15 :**  Une escale a une heure de départ.
 - **RG16 :**  Une escale a une heure d'arrivée.
-- **RG16 :**  Une escale se fait dans un aeroport.
+- **RG17 :**  Une escale se fait dans un aeroport.
 
 ## Aeroport 
-- **RG17 :**  Un aéroport se trouve dans une ville.
-- **RG18 :**  Un aéroport a un nom.
+- **RG18 :**  Un aéroport se trouve dans une ville.
+- **RG19 :**  Un aéroport a un nom.
+- **RG20 :**  Un aéroport dessert une ou plusieurs villes.
+
 
 ## Ville 
-- **RG17 :**  Un aéroport dessert une ou plusieurs villes.
+- **RG20 :**  Une ville peut possèder plusieurs aéroports.
 
 ## Compagnie aérienne
-- **RG18 :**   Une compagnie aériennes peut proposer différents vols.
-- **RG18 :**   Une compagnie aériennes peut annuler un vol
-- **RG13 :**  Une compagnie aerienne peut fermer la reservation d'un vol 
+- **RG21 :**   Une compagnie aériennes peut proposer différents vols.
+- **RG22 :**   Une compagnie aériennes peut annuler un vol
+- **RG23 :**  Une compagnie aerienne peut fermer la reservation d'un vol 
 
