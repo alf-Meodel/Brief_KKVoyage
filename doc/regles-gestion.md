@@ -2,19 +2,26 @@
 -----------------
 
 ## Client 
-- **RG1 :**  Un client peut réserver un ou plusieurs vols, 
+
+- **RG1 :**  Un client possède un identifiant unique
+- **RG1 :**  Un client possède un nom et un prenom
+- **RG1 :**  Un client possède un mail
+
+- **RG2 :**  Un client peut réserver pour lui même.
 - **RG2 :**  Un client peut réserver pour des passagers différents.
 - **RG3 :**  Un client peut annuler une réservation.
 - **RG4 :**  Un client peut confirmer une réservation.
 
+
 ## Passager
-- **RG5 :** Un passager n'est pas obligatoirement un client 
-- **RG6 :** Un passager possède une reservation 
+- **RG5 :** Un passager n'est pas nécessairement un client 
+
 
 
 ## Reservation 
 - **RG7 :**  Une réservation concerne un seul vol.
 - **RG8 :**  Une réservation concerne un seul passager.
+- **RG6 :** Une réservation est strictement liée à un seul passager
 
 ## Vol  
 - **RG9 :**  Un vol a un aéroport de départ.
