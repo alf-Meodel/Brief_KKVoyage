@@ -30,14 +30,14 @@
 - **RG16 :**  Une escale se fait dans un aeroport.
 
 ## Aeroport 
+- **RG17 :**  Un aéroport se trouve dans une ville.
+- **RG18 :**  Un aéroport a un nom.
+
+## Ville 
 - **RG17 :**  Un aéroport dessert une ou plusieurs villes.
 
 ## Compagnie aérienne
 - **RG18 :**   Une compagnie aériennes peut proposer différents vols.
 - **RG18 :**   Une compagnie aériennes peut annuler un vol
 - **RG13 :**  Une compagnie aerienne peut fermer la reservation d'un vol 
-
-<!-- 
-- **RG13 :**  Un vol est refermé sur ordre de la compagnie.
--->
 
