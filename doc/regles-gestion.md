@@ -9,6 +9,7 @@
 
 ## Reservation 
 **RG5 :**  Une réservation concerne un seul vol.
+**RG5 :**  Une réservation peut inclure des excales.
 **RG6 :**  Une réservation concerne un seul passager.
 
 ## Vol 
@@ -16,6 +17,7 @@
 **RG8 :** Un vol possède un aéroport d'arrivée.
 **RG9 :**  Un vol a un jour et une heure de départ, 
 **RG10 :** Un vol a un jour et une heure d'arrivée.
+// 
 **RG11 :**  Un vol peut comporter des escales dans des aéroports.
 **RG12 :**  Un vol est ouvert à la réservation .
 **RG13 :**  Un vol est refermé sur ordre de la compagnie.
