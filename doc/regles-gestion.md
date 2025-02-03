@@ -57,20 +57,24 @@
 ## Escale
 - **RG15 :**  Une escale a une heure de départ
 - **RG16 :**  Une escale a une heure d'arrivée
+---
 - **RG17 :**  Une escale est toujours située dans un aéroport
 - **RG17 :**  Une escale est déclaré dans une reservation ????
 
 ## Aeroport 
 - **RG18 :**  Un aéroport se trouve dans une ville
 - **RG19 :**  Un aéroport a un nom
+---
 - **RG20 :**  Un aéroport dessert une ou plusieurs villes
 
 
 ## Ville 
-- **RG20 :**  Une ville peut possèder plusieurs aéroports
+- **RG20 :**  Une ville peut contenir un ou plusieurs aéroports
 
 ## Compagnie aérienne
+
+
 - **RG21 :**   Une compagnie aériennes peut proposer différents vols
-- **RG22 :**   Une compagnie aériennes peut annuler un vol
-- **RG23 :**  Une compagnie aerienne peut fermer la reservation d'un vol 
+- **RG22 :**   Une compagnie aériennes peut annuler un vol 
+- **RG23 :**  Une compagnie aerienne peut fermer la reservation d'un vol ( avant son départ ?)
 
