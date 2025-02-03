@@ -8,8 +8,8 @@
 - **RG1 :**  Un client possède un prenom
 - **RG1 :**  Un client possède un mail
 ----
-- **RG2 :**  Un client peut réserver pour lui même
-- **RG2 :**  Un client peut réserver pour des passagers différents
+- **RG2 :**  Un client peut réserver un ou plusieurs vols pour lui même
+- **RG2 :**  Un client peut réserver un ou plusieurs vols pour d'autres passagers
 - **RG4 :**  Un client peut confirmer une réservation
 - **RG3 :**  Un client peut annuler une réservation
 
@@ -54,14 +54,15 @@
 - **RG13 :**  Un vol peut comporter une ou plusieurs escales
 - **RG14 :**  Un vol est ouvert à la réservation jusqu'a sa fermeture par une compagnie aérienne
 
-## Escale
+## Escale??
 - **RG15 :**  Une escale a une heure de départ
 - **RG16 :**  Une escale a une heure d'arrivée
 ---
 - **RG17 :**  Une escale est toujours située dans un aéroport
-- **RG17 :**  Une escale est déclaré dans une reservation ????
+
 
 ## Aeroport 
+- **RG19 :**  Un aéroport possède un identiffiant unique 
 - **RG19 :**  Un aéroport possède un nom
 - **RG18 :**  Un aéroport se trouve dans une ville
 
@@ -73,7 +74,7 @@
 
 - **RG20 :**  Une ville possède un id
 - **RG20 :**  Une ville possède un nom
-- **RG20 :**  Une ville possède un code postal
+- **RG20 :**  Une ville peut posséder un code postal
 - **RG20 :**  Une ville possède un pays
 
 ----
@@ -85,7 +86,7 @@
 - **RG21 :**   Une compagnie aériennes possède un id
 - **RG21 :**   Une compagnie aériennes possède une nom
 
-
+----
 - **RG21 :**   Une compagnie aériennes peut proposer différents vols
 - **RG22 :**   Une compagnie aériennes peut annuler un vol 
 - **RG23 :**  Une compagnie aerienne peut fermer la reservation d'un vol ( avant son départ ?)
