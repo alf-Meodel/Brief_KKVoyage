@@ -76,10 +76,14 @@
 - **RG20 :**  Une ville possède un code postal
 - **RG20 :**  Une ville possède un pays
 
+----
 
 - **RG20 :**  Une ville peut contenir un ou plusieurs aéroports
 
 ## Compagnie aérienne
+
+- **RG21 :**   Une compagnie aériennes possède un id
+- **RG21 :**   Une compagnie aériennes possède une nom
 
 
 - **RG21 :**   Une compagnie aériennes peut proposer différents vols
