@@ -10,8 +10,8 @@
 ----
 - **RG2 :**  Un client peut réserver pour lui même
 - **RG2 :**  Un client peut réserver pour des passagers différents
-- **RG3 :**  Un client peut annuler une réservation
 - **RG4 :**  Un client peut confirmer une réservation
+- **RG3 :**  Un client peut annuler une réservation
 
 
 ## Passager
@@ -20,12 +20,14 @@
 - **RG1 :**  Un passager possède un nom
 - **RG1 :**  Un passager possède un prenom
 ---- 
-- **RG5 :** Un passager possède une réservation
-- **RG5 :** Un passager n'est pas nécessairement un client 
+- **RG5 :** Un passager peut etre associé à plusieurs réservation
+- **RG5 :** Un passager n'est pas obligatoirement un client 
 
 
 
 ## Reservation 
+
+
 
 - **RG7 :**  Une réservation concerne un seul vol
 - **RG8 :**  Une réservation concerne un seul passager
