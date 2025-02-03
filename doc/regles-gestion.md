@@ -37,17 +37,28 @@
 
 
 ## Vol  
+
+- **RG9 :** Un vol possède un identifiant unique
+
+---
+
+- **RG9 :** Un vol est proposé par une seule compagnie aérienne
+
 - **RG9 :**  Un vol a un aéroport de départ
 - **RG10 :** Un vol possède un aéroport d'arrivée
-- **RG11 :**  Un vol a un jour et une heure de départ
-- **RG12 :** Un vol a un jour et une heure d'arrivée
-- **RG13 :**  Un vol peut comporter des escales dans des aéroports
-- **RG14 :**  Un vol est ouvert à la réservation 
+- **RG11 :**  Un vol a un jour de départ
+- **RG11 :**  Un vol a une heure de départ
+- **RG11 :**  Un vol a un jour d'arrivée
+- **RG11 :**  Un vol a une heure d'arrivée
+
+- **RG13 :**  Un vol peut comporter une ou plusieurs escales
+- **RG14 :**  Un vol est ouvert à la réservation jusqu'a sa fermeture par une compagnie aérienne
 
 ## Escale
 - **RG15 :**  Une escale a une heure de départ
 - **RG16 :**  Une escale a une heure d'arrivée
-- **RG17 :**  Une escale se fait dans un aeroport
+- **RG17 :**  Une escale est toujours située dans un aéroport
+- **RG17 :**  Une escale est déclaré dans une reservation ????
 
 ## Aeroport 
 - **RG18 :**  Un aéroport se trouve dans une ville
