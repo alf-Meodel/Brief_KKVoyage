@@ -27,6 +27,8 @@
 
 ## Aeroport 
 **RG17 :**  Chaque aéroport dessert une ou plusieurs villes.
+
+## Compagnie aérienne
 **RG18 :**  Des compagnies aériennes proposent différents vols.
 
 
