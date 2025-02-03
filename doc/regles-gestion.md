@@ -8,8 +8,8 @@
 **RG4 :**  Un client peut confirmer une réservation.
 
 ## Reservation 
-**RG3 :**  Une réservation concerne un seul vol.
-**RG4 :**  Une réservation concerne un seul passager.
+**RG5 :**  Une réservation concerne un seul vol.
+**RG6 :**  Une réservation concerne un seul passager.
 
 ## Vol 
 **RG7 :**  Un vol a un aéroport de départ.
