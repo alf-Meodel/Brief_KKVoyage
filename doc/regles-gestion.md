@@ -4,90 +4,90 @@
 ## Client 
 
 - **RG1 :**  Un client possède un identifiant unique
-- **RG1 :**  Un client possède un nom
-- **RG1 :**  Un client possède un prenom
-- **RG1 :**  Un client possède un mail
+- **RG2 :**  Un client possède un nom
+- **RG3 :**  Un client possède un prenom
+- **RG4 :**  Un client possède un mail
 ----
-- **RG2 :**  Un client peut réserver un ou plusieurs vols pour lui même
-- **RG2 :**  Un client peut réserver un ou plusieurs vols pour d'autres passagers
-- **RG4 :**  Un client peut confirmer une réservation
-- **RG3 :**  Un client peut annuler une réservation
+- **RG5 :**  Un client peut réserver un ou plusieurs vols pour lui même
+- **RG6 :**  Un client peut réserver un ou plusieurs vols pour d'autres passagers
+- **RG7 :**  Un client peut confirmer une réservation
+- **RG8 :**  Un client peut annuler une réservation
 
 
 ## Passager
 
-- **RG1 :**  Un passager possède un identifiant unique
-- **RG1 :**  Un passager possède un nom
-- **RG1 :**  Un passager possède un prenom
+- **RG9 :**  Un passager possède un identifiant unique
+- **RG10 :**  Un passager possède un nom
+- **RG11 :**  Un passager possède un prenom
 ---- 
-- **RG5 :** Un passager peut etre associé à plusieurs réservation
-- **RG5 :** Un passager n'est pas obligatoirement un client 
+- **RG12 :** Un passager peut etre associé à plusieurs réservation
+- **RG13 :** Un passager n'est pas obligatoirement un client 
 
 
 
 ## Reservation 
-- **RG7 :**  Une réservation possède un identifiant unique
+- **RG14 :**  Une réservation possède un identifiant unique
 
 ----
-- **RG7 :**  Une réservation est strictement liée à un seul vol
-- **RG7 :**  Une réservation est strictement liée à un seul passager
-- **RG7 :**  Une réservation peut etre confirmée
-- **RG7 :**  Une réservation peut etre annulée
+- **RG15 :**  Une réservation est strictement liée à un seul vol
+- **RG16 :**  Une réservation est strictement liée à un seul passager
+- **RG17 :**  Une réservation peut etre confirmée
+- **RG18 :**  Une réservation peut etre annulée
 
 
 
 ## Vol  
 
-- **RG9 :** Un vol possède un identifiant unique
+- **RG19 :** Un vol possède un identifiant unique
 
 ---
 
-- **RG9 :** Un vol est proposé par une seule compagnie aérienne
+- **RG20 :** Un vol est proposé par une seule compagnie aérienne
 
-- **RG9 :**  Un vol a un aéroport de départ
-- **RG10 :** Un vol possède un aéroport d'arrivée
-- **RG11 :**  Un vol a un jour de départ
-- **RG11 :**  Un vol a une heure de départ
-- **RG11 :**  Un vol a un jour d'arrivée
-- **RG11 :**  Un vol a une heure d'arrivée
+- **RG21 :**  Un vol a un aéroport de départ
+- **RG22 :** Un vol possède un aéroport d'arrivée
+- **RG23 :**  Un vol a un jour de départ
+- **RG24 :**  Un vol a une heure de départ
+- **RG25 :**  Un vol a un jour d'arrivée
+- **RG26 :**  Un vol a une heure d'arrivée
 
-- **RG13 :**  Un vol peut comporter une ou plusieurs escales
-- **RG14 :**  Un vol est ouvert à la réservation jusqu'a sa fermeture par une compagnie aérienne
+- **RG27 :**  Un vol peut comporter une ou plusieurs escales
+- **RG28 :**  Un vol est ouvert à la réservation jusqu'a sa fermeture par une compagnie aérienne
 
-## Escale??
-- **RG15 :**  Une escale a une heure de départ
-- **RG16 :**  Une escale a une heure d'arrivée
+## Escale
+- **RG29 :**  Une escale a une heure de départ
+- **RG30 :**  Une escale a une heure d'arrivée
 ---
-- **RG17 :**  Une escale est toujours située dans un aéroport
+- **RG31 :**  Une escale est toujours située dans un aéroport
 
 
 ## Aeroport 
-- **RG19 :**  Un aéroport possède un identiffiant unique 
-- **RG19 :**  Un aéroport possède un nom
-- **RG18 :**  Un aéroport se trouve dans une ville
+- **RG32 :**  Un aéroport possède un identiffiant unique 
+- **RG33 :**  Un aéroport possède un nom
+- **RG34 :**  Un aéroport se trouve dans une ville
 
 ---
-- **RG20 :**  Un aéroport dessert une ou plusieurs villes
+- **RG35 :**  Un aéroport dessert une ou plusieurs villes
 
 
 ## Ville 
 
-- **RG20 :**  Une ville possède un id
-- **RG20 :**  Une ville possède un nom
-- **RG20 :**  Une ville peut posséder un code postal
-- **RG20 :**  Une ville possède un pays
+- **RG36 :**  Une ville possède un id
+- **RG37 :**  Une ville possède un nom
+- **RG38 :**  Une ville peut posséder un code postal
+- **RG39 :**  Une ville possède un pays
 
 ----
 
-- **RG20 :**  Une ville peut contenir un ou plusieurs aéroports
+- **RG40 :**  Une ville peut contenir un ou plusieurs aéroports
 
 ## Compagnie aérienne
 
-- **RG21 :**   Une compagnie aériennes possède un id
-- **RG21 :**   Une compagnie aériennes possède une nom
+- **RG41 :**   Une compagnie aériennes possède un id
+- **RG42 :**   Une compagnie aériennes possède une nom
 
 ----
-- **RG21 :**   Une compagnie aériennes peut proposer différents vols
-- **RG22 :**   Une compagnie aériennes peut annuler un vol 
-- **RG23 :**  Une compagnie aerienne peut fermer la reservation d'un vol ( avant son départ ?)
+- **RG43 :**   Une compagnie aériennes peut proposer différents vols
+- **RG44 :**   Une compagnie aériennes peut annuler un vol 
+- **RG45 :**  Une compagnie aerienne peut fermer la reservation d'un vol ( avant son départ ?)
 
