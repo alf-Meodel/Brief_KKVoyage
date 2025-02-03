@@ -62,13 +62,21 @@
 - **RG17 :**  Une escale est déclaré dans une reservation ????
 
 ## Aeroport 
+- **RG19 :**  Un aéroport possède un nom
 - **RG18 :**  Un aéroport se trouve dans une ville
-- **RG19 :**  Un aéroport a un nom
+
 ---
 - **RG20 :**  Un aéroport dessert une ou plusieurs villes
 
 
 ## Ville 
+
+- **RG20 :**  Une ville possède un id
+- **RG20 :**  Une ville possède un nom
+- **RG20 :**  Une ville possède un code postal
+- **RG20 :**  Une ville possède un pays
+
+
 - **RG20 :**  Une ville peut contenir un ou plusieurs aéroports
 
 ## Compagnie aérienne
