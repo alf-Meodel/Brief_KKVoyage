@@ -9,7 +9,7 @@
 
 ## Reservation 
 **RG5 :**  Une réservation concerne un seul vol.
-**RG5 :**  Une réservation peut inclure des excales.
+**RG5 :**  Une réservation peut proposer des escales.
 **RG6 :**  Une réservation concerne un seul passager.
 
 ## Vol 
