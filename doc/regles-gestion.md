@@ -33,16 +33,14 @@
 
 ## Vol  
 - **RG19 :** Un vol possède un identifiant unique
-
+- **RG19 :** Un vol possède un numéro de vol 
+- **RG19 :** Un vol possède un statut
 ---
-
 - **RG20 :** Un vol est proposé par une seule compagnie aérienne
 - **RG21 :**  Un vol a un aéroport de départ
 - **RG22 :** Un vol possède un aéroport d'arrivée
-- **RG23 :**  Un vol a un jour de départ
-- **RG24 :**  Un vol a une heure de départ
-- **RG25 :**  Un vol a un jour d'arrivée
-- **RG26 :**  Un vol a une heure d'arrivée
+- **RG23 :**  Un vol a un jour et une heure de départ
+- **RG25 :**  Un vol a un jour et une heure d'arrivée
 - **RG27 :**  Un vol peut comporter une ou plusieurs escales
 - **RG28 :**  Un vol est ouvert à la réservation jusqu'a sa fermeture par une compagnie aérienne
 
