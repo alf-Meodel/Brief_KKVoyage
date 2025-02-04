@@ -27,10 +27,20 @@
 - **RG14 :**  Une réservation possède un statut
 ----
 
-
+- **RG17 add :**  Une réservation est confirmée lors du payement 
 - **RG16 :**  Une réservation peut concerner un ou plusieurs passagers 
-
 - **RG18 :**  Une réservation peut etre annulée
+
+## Payement
+
+- **RG14 :**  Une payement possède un identifiant unique
+- **RG14 :**  Une payement possède un montant 
+- **RG14 :**  Une payement possède une devise 
+- **RG14 :**  Une payement possède une date de paiement
+(
+- **RG14 :**  Une payement possède un statut
+- **RG14 :**  Une payement possède un moyen paiement ( paypal etc...)) 
+
 
 ## Vol  
 - **RG19 :** Un vol possède un identifiant unique
