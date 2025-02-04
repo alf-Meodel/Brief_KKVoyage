@@ -20,6 +20,11 @@
 - **RG9 :**  Un passager possède un identifiant unique
 - **RG10 :**  Un passager possède un nom
 - **RG11 :**  Un passager possède un prenom
+- **RG11 :**  Un passager possède une date de naissance 
+- **RG11 :**  Un passager possède une nationalité 
+
+
+
 ---- 
 - **RG12 :** Un passager peut etre associé à plusieurs réservation
 - **RG13 :** Un passager n'est pas obligatoirement un client 
