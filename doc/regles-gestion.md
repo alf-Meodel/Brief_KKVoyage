@@ -1,5 +1,7 @@
 # Règles de Gestion 
 -----------------
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
 
 ## Client 
 - **RG1 :**  Un client possède un identifiant unique
@@ -15,6 +17,9 @@
 - **RG6 :**  Un client peut réserver un ou plusieurs vols pour d'autres personnes *** 
 - **RG8 :**  Un client peut annuler une réservation
 
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+
 ## Personne ( heritage avec passager)
  **RG9 :**  Un personne possède un identifiant unique
 - **RG10 :**  Une personne possède un nom
@@ -23,7 +28,13 @@
 - **RG11 :**  Une personne possède une nationalité 
 - **RG11 :**  Une personne possède une adresse
 
+-----
 
+- **RG11 :**  Une personne n'est pas obligatoirement un passager 
+- **RG11 :**  Une personne n'est pas obligatoirement un client 
+
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
 
 ## Passager
 - **RG9 :**  Un passager possède un identifiant unique
@@ -37,6 +48,9 @@
 - **RG12 :** Un passager peut etre associé à plusieurs réservation
 - **RG13 :** Un passager n'est pas obligatoirement un client 
 
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+
 ## Reservation 
 
 - **RG14 :**  Une réservation possède un identifiant unique
@@ -48,6 +62,9 @@
 - **RG16 :**  Une réservation peut concerner un ou plusieurs passagers 
 - **RG18 :**  Une réservation peut etre annulée
 
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+
 ## Payement
 
 - **RG14 :**  Une payement possède un identifiant unique
@@ -58,6 +75,8 @@
 - **RG14 :**  Une payement possède un statut
 - **RG14 :**  Une payement possède un moyen paiement ( paypal etc...)) 
 
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
 
 ## Vol  
 - **RG19 :** Un vol possède un identifiant unique
@@ -76,6 +95,9 @@
 - **RG27 :**  Un vol peut comporter une ou plusieurs escales ?? 
 - **RG28 :**  Un vol est ouvert à la réservation jusqu'a sa fermeture par une compagnie aérienne
 
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+
 ## Escale
 - **RG29 :**  Une escale possède un identifiant unique 
 - **RG29 :** Si l’escale est commerciale, un nouveau vol doit être assigné après l’escale
@@ -86,6 +108,9 @@
 
 ---
 - **RG31 :**  Une escale est toujours située dans un aéroport
+
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
 
 ## Aeroport 
 - **RG32 :**  Un aéroport possède un identiffiant unique 
@@ -102,6 +127,9 @@
 ----
 - **RG40 :**  Une ville peut contenir un ou plusieurs aéroports
 
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+
 ## Compagnie aérienne
 - **RG41 :**   Une compagnie aériennes possède un id
 - **RG42 :**   Une compagnie aériennes possède une nom
@@ -110,6 +138,21 @@
 - **RG44 :**   Une compagnie aériennes peut annuler un vol 
 - **RG45 :**  Une compagnie aerienne peut fermer la reservation d'un vol ( avant son départ ?)
 ------------------------
+
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+------------------------------------T E S T -----------------------------------------------
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+
+
+
 
 - **RG17 NOPE :**  Une réservation peut etre confirmée*** - **RG17 NOPE :** via payement ? 
 
