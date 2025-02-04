@@ -30,6 +30,7 @@
 - **RG13 :** Un passager n'est pas obligatoirement un client 
 
 ## Reservation 
+
 - **RG14 :**  Une réservation possède un identifiant unique
 - **RG14 :**  Une réservation possède une date de réservation
 - **RG14 :**  Une réservation possède un statut
@@ -55,6 +56,10 @@
 - **RG19 :** Un vol possède un numéro de vol 
 - **RG19 :** Un vol possède un statut
 ---
+
+- **RG20 ADD:**:  Un vol a une capacité maximale de passagers,
+
+- **RG20 ADD:** Un vol peut être retardé ou annulé 
 - **RG20 :** Un vol est proposé par une seule compagnie aérienne
 - **RG21 :**  Un vol a un aéroport de départ
 - **RG22 :** Un vol possède un aéroport d'arrivée
