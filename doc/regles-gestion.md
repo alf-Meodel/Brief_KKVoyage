@@ -13,11 +13,11 @@
 - **RG7 :**  Un client possède une adresse 
 
 ----
+- **RG11 :** Un client choisit son aéroport de départ et d’arrivée lors de la réservation
 - **RG8 :**  Un client est celui qui effectue la réservation 
 - **RG9 :**  Un client peut réserver un ou plusieurs vols pour lui même
 - **RG10 :**  Un client peut réserver un ou plusieurs vols pour d'autres personnes *** 
 - **RG11 :**  Un client peut annuler une réservation
-
 - **RG12 :**  Une client n'est pas obligatoirement un passager 
 
 
@@ -50,6 +50,7 @@
 - **RG27 :**  Un passager possède une date de naissance 
 - **RG28 :**  Un passager possède une nationalité 
 - **RG29 :**  Un passager possède une adresse
+
 ---- 
 
 - **RG30 :** Un passager peut etre associé à plusieurs réservation
@@ -135,9 +136,15 @@
 - **RG65 :**  Un aéroport possède un identiffiant unique 
 - **RG66 :**  Un aéroport possède un nom
 - **RG67 :**  Un aéroport se trouve dans une ville
+
 ---
 
-- **RG68 :**  Un aéroport dessert une ou plusieurs villes
+- **RG67 :**  Un aéroport peut être desservi par plusieurs compagnies aériennes.
+
+
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+
 
 ## Ville 
 - **RG69 :**  Une ville possède un id
@@ -159,6 +166,8 @@
 
 - **RG78 :** une compagnie aerienne peut ouvrir la reservation d'un vol 
 - **RG78 :** une compagnie aerienne peut fermer la reservation d'un vol 
+
+- **RG78 :** Une compagnie aérienne peut desservir plusieurs aéroports.
 
 ------------------------
 
