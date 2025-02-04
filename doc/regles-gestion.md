@@ -107,8 +107,7 @@
 - **RG52 :** Un vol possède un aéroport d'arrivée
 - **RG53 :**  Un vol a un jour et une heure de départ
 - **RG54 :**  Un vol a un jour et une heure d'arrivée
-- **RG55 :**  Un vol est ouvert à la réservation par une compagnie aérienne
-- **RG55 :**  Un vol est fermé à la réservation par une compagnie aérienne
+
 
 
 -------------------------------------------------------------------------------------------
@@ -157,6 +156,9 @@
 ----
 - **RG76 :**   Une compagnie aériennes peut proposer différents vols
 - **RG77 :**   Une compagnie aériennes peut annuler un vol 
-- **RG78 :**  Une compagnie aerienne peut fermer la reservation d'un vol ( avant son départ ?)
+
+- **RG78 :** une compagnie aerienne peut ouvrir la reservation d'un vol 
+- **RG78 :** une compagnie aerienne peut fermer la reservation d'un vol 
+
 ------------------------
 
