@@ -19,6 +19,9 @@
 - **RG6 :**  Un client peut réserver un ou plusieurs vols pour d'autres personnes *** 
 - **RG8 :**  Un client peut annuler une réservation
 
+- **RG11 :**  Une client n'est pas obligatoirement un passager 
+
+
 -------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------
 
@@ -91,18 +94,15 @@
 ---
 
 - **RG20 ADD:**:  Un vol a une capacité maximale de passagers,
-
-- **RG20 ADD:** Un vol peut être retardé ou annulé 
 - **RG20 :** Un vol est proposé par une seule compagnie aérienne
+- **RG27 :**  Un vol peut comporter des escales techniques 
+
 - **RG21 :**  Un vol a un aéroport de départ
 - **RG22 :** Un vol possède un aéroport d'arrivée
 - **RG23 :**  Un vol a un jour et une heure de départ
 - **RG25 :**  Un vol a un jour et une heure d'arrivée
-- **RG27 :**  Un vol peut comporter une ou plusieurs escales ?? 
-
-???????
 - **RG28 :**  Un vol est ouvert à la réservation jusqu'a sa fermeture par une compagnie aérienne
-- **RG28 :** Un vol est considéré comme terminé une fois que tous les passagers ont débarqué.
+
 
 
 
@@ -163,7 +163,6 @@
 
 
 
-
 - **RG17 NOPE :**  Une réservation peut etre confirmée*** - **RG17 NOPE :** via payement ? 
 
 ------------------------
@@ -183,3 +182,5 @@ idées :
 ----- 
 
 Créer une entité personne qui devient passager uniquement si elle est enregistrée sur une reservation 
+
+- **RG28 :** Un vol est considéré comme terminé une fois que tous les passagers ont débarqué.
