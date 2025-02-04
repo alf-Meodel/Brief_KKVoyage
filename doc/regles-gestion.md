@@ -1,4 +1,5 @@
 # Règles de Gestion 
+
 -----------------
 -------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------
@@ -8,7 +9,7 @@
 - **RG2 :**  Un client possède un nom
 - **RG3 :**  Un client possède un prenom
 - **RG4 :**  Un client possède un email
-- **RG4 :**  Un client possède un numéro de téléphone
+- **RG5 :**  Un client possède un numéro de téléphone
 - **RG11 :**  Un passager possède une nationalité 
 - **RG4 :**  Un client possède une adresse 
 
@@ -56,10 +57,10 @@
 
 - **RG14 :**  Une réservation possède un identifiant unique
 - **RG14 :**  Une réservation possède une date de réservation
-- **RG14 :**  Une réservation possède un statut
+- **RG14 :**  Une réservation possède un statut ( en cours, annulé, validé )
 ----
 
-- **RG17 add :**  Une réservation est confirmée lors du payement 
+- **RG17 add :**  Une réservation se confirme au payement 
 - **RG16 :**  Une réservation peut concerner un ou plusieurs passagers 
 - **RG18 :**  Une réservation peut etre annulée
 
@@ -139,10 +140,6 @@
 - **RG44 :**   Une compagnie aériennes peut annuler un vol 
 - **RG45 :**  Une compagnie aerienne peut fermer la reservation d'un vol ( avant son départ ?)
 ------------------------
-
-
-
-
 
 
 
