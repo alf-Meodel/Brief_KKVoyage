@@ -26,6 +26,7 @@
 
 
 ---- 
+
 - **RG12 :** Un passager peut etre associé à plusieurs réservation
 - **RG13 :** Un passager n'est pas obligatoirement un client 
 
@@ -69,8 +70,13 @@
 - **RG28 :**  Un vol est ouvert à la réservation jusqu'a sa fermeture par une compagnie aérienne
 
 ## Escale
+- **RG29 :**  Une escale possède un identifiant unique 
+- **RG29 :** Si l’escale est commerciale, un nouveau vol doit être assigné après l’escale
+
 - **RG29 :**  Une escale a une heure de départ
 - **RG30 :**  Une escale a une heure d'arrivée
+- **RG30 :**  Une escale a une durée estimé 
+
 ---
 - **RG31 :**  Une escale est toujours située dans un aéroport
 
@@ -79,8 +85,8 @@
 - **RG33 :**  Un aéroport possède un nom
 - **RG34 :**  Un aéroport se trouve dans une ville
 ---
-- **RG35 :**  Un aéroport dessert une ou plusieurs villes
 
+- **RG35 :**  Un aéroport dessert une ou plusieurs villes
 ## Ville 
 - **RG36 :**  Une ville possède un id
 - **RG37 :**  Une ville possède un nom
@@ -110,3 +116,11 @@
 - **NOPE :**  Une réservation est strictement liée à un seul vol???  * nn car une reservation peut concerner plusieurs vols ; 
 - **NOPE :**  Un client peut confirmer une réservation ??? donc cela signifierais reserver puis devoir faire une autre action en mode t'es sur ? donc cette règl ne peut pas exister 
 - **NOPE :**  Une réservation est strictement liée à un seul passager**** nn car quand on fait une reseravtion elle comprend les mmebres de la famille dans la reservation on ne va pas avoir une reservation differente envoyé à chaque personne 
+
+-----------
+
+idées : 
+
+- **RG34 :**  Une escale peut être technique ou commerciale.
+- **RG29 :** Si l’escale est technique, les passagers peuvent rester dans l’avion ou être obligés de débarquer pour un contrôle.
+- **RG29 :** Une escale peut être effectuée par la même compagnie aérienne ou par une compagnie partenaire.
