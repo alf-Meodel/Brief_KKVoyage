@@ -7,9 +7,9 @@
 - **RG3 :**  Un client possède un prenom
 - **RG4 :**  Un client possède un email
 ----
+- **RG5 :**  Un client est celui qui effectue la réservation 
 - **RG5 :**  Un client peut réserver un ou plusieurs vols pour lui même
-- **RG6 :**  Un client peut réserver un ou plusieurs vols pour d'autres passagers
-- **RG7 :**  Un client peut confirmer une réservation
+- **RG6 :**  Un client peut réserver un ou plusieurs vols pour d'autres passagers *** 
 - **RG8 :**  Un client peut annuler une réservation
 
 
@@ -26,9 +26,10 @@
 - **RG14 :**  Une réservation possède une date de réservation
 - **RG14 :**  Une réservation possède un statut
 ----
-- **RG15 :**  Une réservation est strictement liée à un seul vol
-- **RG16 :**  Une réservation est strictement liée à un seul passager
-- **RG17 :**  Une réservation peut etre confirmée
+
+
+- **RG16 :**  Une réservation peut concerner un ou plusieurs passagers 
+
 - **RG18 :**  Une réservation peut etre annulée
 
 ## Vol  
@@ -41,7 +42,7 @@
 - **RG22 :** Un vol possède un aéroport d'arrivée
 - **RG23 :**  Un vol a un jour et une heure de départ
 - **RG25 :**  Un vol a un jour et une heure d'arrivée
-- **RG27 :**  Un vol peut comporter une ou plusieurs escales
+- **RG27 :**  Un vol peut comporter une ou plusieurs escales ?? 
 - **RG28 :**  Un vol est ouvert à la réservation jusqu'a sa fermeture par une compagnie aérienne
 
 ## Escale
@@ -73,3 +74,16 @@
 - **RG44 :**   Une compagnie aériennes peut annuler un vol 
 - **RG45 :**  Une compagnie aerienne peut fermer la reservation d'un vol ( avant son départ ?)
 
+
+
+
+
+------------------------
+
+- **RG17 NOPE :**  Une réservation peut etre confirmée*** - **RG17 NOPE :** via payement ? 
+
+------------------------
+
+- **NOPE :**  Une réservation est strictement liée à un seul vol???  * nn car une reservation peut concerner plusieurs vols ; 
+- **NOPE :**  Un client peut confirmer une réservation ??? donc cela signifierais reserver puis devoir faire une autre action en mode t'es sur ? donc cette règl ne peut pas exister 
+- **NOPE :**  Une réservation est strictement liée à un seul passager**** nn car quand on fait une reseravtion elle comprend les mmebres de la famille dans la reservation on ne va pas avoir une reservation differente envoyé à chaque personne 
