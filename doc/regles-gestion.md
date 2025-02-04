@@ -31,9 +31,12 @@
 - **RG11 :**  Une personne possède une adresse
 
 -----
-
+- **RG11 :**  Une personne peut devenir un client si elle effectue une reservation
+- **RG11 :**  Une personne peut devenir un passager si elle est incluse dans uen réservation confirmé 
+- **RG11 :**  Une personne peut etre client et passager à la fois 
 - **RG11 :**  Une personne n'est pas obligatoirement un passager 
 - **RG11 :**  Une personne n'est pas obligatoirement un client 
+
 
 -------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------
@@ -63,6 +66,7 @@
 - **RG17 add :**  Une réservation se confirme au payement 
 - **RG16 :**  Une réservation peut concerner un ou plusieurs passagers 
 - **RG18 :**  Une réservation peut etre annulée
+- **RG18 :**  Une réservation peut contenir un ou plusieurs vols (vols avec escales).
 
 -------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------
@@ -83,7 +87,7 @@
 ## Vol  
 - **RG19 :** Un vol possède un identifiant unique
 - **RG19 :** Un vol possède un numéro de vol
-- **RG19 :** Un vol possède un statut ( comme les compagnies se donnent le droit d'annuler des vols )
+- **RG19 :** Un vol possède un statut ( comme les compagnies se donnent le droit d'annuler des vols; En cours, Retardé, Annulé, Terminé )
 ---
 
 - **RG20 ADD:**:  Un vol a une capacité maximale de passagers,
@@ -95,15 +99,23 @@
 - **RG23 :**  Un vol a un jour et une heure de départ
 - **RG25 :**  Un vol a un jour et une heure d'arrivée
 - **RG27 :**  Un vol peut comporter une ou plusieurs escales ?? 
+
+???????
 - **RG28 :**  Un vol est ouvert à la réservation jusqu'a sa fermeture par une compagnie aérienne
+- **RG28 :** Un vol est considéré comme terminé une fois que tous les passagers ont débarqué.
+
+
 
 -------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------
 
 ## Escale
 - **RG29 :**  Une escale possède un identifiant unique 
-- **RG29 :** Si l’escale est commerciale, un nouveau vol doit être assigné après l’escale
-
+- **RG29 :**  Une escale possède un type (Technique, Commerciale).
+(si l’escale est commerciale, un nouveau vol doit être assigné après l’escale)
+- **RG29 :**  Une escale technique ne nécessite pas de changement d’avion.
+- **RG29 :** Une escale commerciale peut impliquer un changement d’avion et/ou de compagnie
+- **RG29 :** Une escale peut être annulée ou modifiée, entraînant un rebooking des passagers
 - **RG29 :**  Une escale a une heure de départ
 - **RG30 :**  Une escale a une heure d'arrivée
 - **RG30 :**  Une escale a une durée estimé 
