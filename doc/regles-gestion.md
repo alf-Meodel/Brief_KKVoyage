@@ -1,6 +1,5 @@
-# Règles de Gestion 
 
------------------
+# Règles de Gestion 
 -------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------
 
@@ -66,8 +65,8 @@
 - **RG34 :**  Une réservation possède un statut ( en cours, annulé, validé )
 ----
 
-- **RG35 add :**  Une réservation se confirme au payement 
-- **RG36 :**  Une réservation peut concerner un ou plusieurs passagers 
+- **RG35 :**  Une réservation se valide au payement 
+- **RG36 :**  Une réservation peut concerner une ou plusieurs personnes 
 - **RG37 :**  Une réservation peut etre annulée
 - **RG38 :**  Une réservation peut contenir un ou plusieurs vols (vols avec escales).
 
@@ -80,9 +79,16 @@
 - **RG40 :**  Une payement possède un montant 
 - **RG41 :**  Une payement possède une devise 
 - **RG42 :**  Une payement possède une date de paiement
-(
-- **RG43 :**  Une payement possède un statut
-- **RG44 :**  Une payement possède un moyen paiement ( paypal stripe cb)) 
+- **RG44 :**  Une payement possède un moyen paiement ( paypal stripe cb)
+- **RG43 :**  Une payement possède un statut ( en attente validé échoué)
+----
+
+- **RG43 :**  un paiement doit etre effectué par un client
+- **RG43 :**  Un paiement concerne une seule réservation
+- **RG43 :**  un paiement doit etre effectué par un client
+- **RG43 :**  un paiement doit etre effectué par un client
+
+
 
 -------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------
@@ -101,7 +107,8 @@
 - **RG52 :** Un vol possède un aéroport d'arrivée
 - **RG53 :**  Un vol a un jour et une heure de départ
 - **RG54 :**  Un vol a un jour et une heure d'arrivée
-- **RG55 :**  Un vol est ouvert à la réservation jusqu'à sa fermeture par une compagnie aérienne
+- **RG55 :**  Un vol est ouvert à la réservation par une compagnie aérienne
+- **RG55 :**  Un vol est fermé à la réservation par une compagnie aérienne
 
 
 -------------------------------------------------------------------------------------------
@@ -111,6 +118,9 @@
 - **RG56 :**  Une escale possède un identifiant unique 
 - **RG57 :**  Une escale possède un type (Technique, Commerciale).
 (si l’escale est commerciale, un nouveau vol doit être assigné après l’escale)
+
+---
+
 - **RG58 :**  Une escale technique ne nécessite pas de changement d’avion.
 - **RG59 :** Une escale commerciale peut impliquer un changement d’avion et/ou de compagnie
 - **RG60 :** Une escale peut être annulée ou modifiée, entraînant un rebooking des passagers
