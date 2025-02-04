@@ -2,26 +2,6 @@
 -------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------
 
-## Client 
-- **RG1 :**  Un client possède un identifiant unique
-- **RG2 :**  Un client possède un nom
-- **RG3 :**  Un client possède un prenom
-- **RG4 :**  Un client possède un email
-- **RG5 :**  Un client possède un numéro de téléphone
-- **RG6 :**  Un client possède une adresse 
-
-----
-- **RG7 :** Un client choisit son aéroport de départ et d'arrivée lors de la réservation
-- **RG8 :**  Un client est celui qui effectue la réservation 
-- **RG9 :**  Un client peut réserver un ou plusieurs vols pour lui même
-- **RG10 :**  Un client peut réserver un ou plusieurs vols pour d'autres personnes *** 
-- **RG11 :**  Un client peut annuler une réservation
-- **RG12 :**  Une client n'est pas obligatoirement un passager 
-
-
--------------------------------------------------------------------------------------------
--------------------------------------------------------------------------------------------
-
 ## Personne 
 - **RG13 :**  Un personne possède un identifiant unique
 - **RG14 :**  Une personne possède un nom
@@ -52,20 +32,25 @@
 - **RG19 :** Un passager doit avoir une nationalité valide pour le vol
 
 
+
 -------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------
 
 ## Reservation 
 
-- **RG32 :**  Une réservation possède un identifiant unique
-- **RG33 :**  Une réservation possède une date de réservation
-- **RG34 :**  Une réservation possède un statut ( en cours, annulé, validé )
+- **RG20 :**  Une réservation possède un identifiant unique
+- **RG21 :**  Une réservation possède une date de réservation
+- **RG22 :**  Une réservation possède une date limite de paiement
+- **RG23 :**  Une réservation possède un statut (en cours, confirmée, annulée)
 ----
 
-- **RG35 :**  Une réservation se valide au payement 
-- **RG36 :**  Une réservation peut concerner une ou plusieurs personnes 
-- **RG37 :**  Une réservation peut etre annulée
-- **RG38 :**  Une réservation peut contenir un ou plusieurs vols (vols avec escales).
+- **RG24 :**  Une réservation se valide au paiement complet
+- **RG25 :**  Une réservation peut concerner une ou plusieurs personnes 
+- **RG26 :**  Une réservation peut être annulée selon les conditions suivantes:
+              - Avant paiement : sans frais
+              - Après paiement : selon les conditions de la compagnie
+- **RG27 :**  Une réservation peut contenir un ou plusieurs vols
+- **RG28 :**  Une réservation non payée expire après 24h
 
 -------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------
@@ -89,19 +74,18 @@
 -------------------------------------------------------------------------------------------
 
 ## Vol  
-- **RG48 :** Un vol possède un identifiant unique
-- **RG49 :** Un vol possède un numéro de vol
-- **RG50 :** Un vol possède un statut ( comme les compagnies se donnent le droit d'annuler des vols; En cours, Retardé, Annulé, Terminé )
+- **RG29 :** Un vol possède un identifiant unique
+- **RG30 :** Un vol possède un numéro de vol
+- **RG31 :** Un vol possède un statut (Programmé, En cours, Retardé, Annulé, Terminé)
 ---
-
-- **RG51 :**  Un vol a une capacité maximale de passagers,
-- **RG52 :** Un vol est proposé par une seule compagnie aérienne
-- **RG53 :**  Un vol peut comporter des escales techniques 
-
-- **RG54 :**  Un vol a un aéroport de départ
-- **RG55 :** Un vol possède un aéroport d'arrivée
-- **RG56 :**  Un vol a un jour et une heure de départ
-- **RG57 :**  Un vol a un jour et une heure d'arrivée
+- **RG32 :** Un vol peut être récurrent (même numéro pour différentes dates)
+- **RG33 :** Un vol a une capacité maximale de passagers
+- **RG34 :** Un vol est proposé par une seule compagnie aérienne
+- **RG35 :** Un vol peut comporter des escales (techniques ou commerciales)
+- **RG36 :** Un vol a un aéroport de départ
+- **RG37 :** Un vol possède un aéroport d'arrivée
+- **RG38 :** Un vol a un jour et une heure de départ
+- **RG39 :** Un vol a un jour et une heure d'arrivée
 
 
 
