@@ -12,8 +12,16 @@
 ----
 - **RG5 :**  Un client est celui qui effectue la réservation 
 - **RG5 :**  Un client peut réserver un ou plusieurs vols pour lui même
-- **RG6 :**  Un client peut réserver un ou plusieurs vols pour d'autres passagers *** 
+- **RG6 :**  Un client peut réserver un ou plusieurs vols pour d'autres personnes *** 
 - **RG8 :**  Un client peut annuler une réservation
+
+## Personne ( heritage avec passager)
+ **RG9 :**  Un passager possède un identifiant unique
+- **RG10 :**  Un passager possède un nom
+- **RG11 :**  Un passager possède un prenom
+- **RG11 :**  Un passager possède une date de naissance 
+- **RG11 :**  Un passager possède une nationalité 
+
 
 
 ## Passager
@@ -22,9 +30,6 @@
 - **RG11 :**  Un passager possède un prenom
 - **RG11 :**  Un passager possède une date de naissance 
 - **RG11 :**  Un passager possède une nationalité 
-
-
-
 ---- 
 
 - **RG12 :** Un passager peut etre associé à plusieurs réservation
@@ -102,11 +107,6 @@
 - **RG43 :**   Une compagnie aériennes peut proposer différents vols
 - **RG44 :**   Une compagnie aériennes peut annuler un vol 
 - **RG45 :**  Une compagnie aerienne peut fermer la reservation d'un vol ( avant son départ ?)
-
-
-
-
-
 ------------------------
 
 - **RG17 NOPE :**  Une réservation peut etre confirmée*** - **RG17 NOPE :** via payement ? 
@@ -124,3 +124,7 @@ idées :
 - **RG34 :**  Une escale peut être technique ou commerciale.
 - **RG29 :** Si l’escale est technique, les passagers peuvent rester dans l’avion ou être obligés de débarquer pour un contrôle.
 - **RG29 :** Une escale peut être effectuée par la même compagnie aérienne ou par une compagnie partenaire.
+
+----- 
+
+Créer une entité personne qui devient passager uniquement si elle est enregistrée sur une reservation 
