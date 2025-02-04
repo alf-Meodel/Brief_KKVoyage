@@ -16,11 +16,12 @@
 - **RG8 :**  Un client peut annuler une réservation
 
 ## Personne ( heritage avec passager)
- **RG9 :**  Un passager possède un identifiant unique
-- **RG10 :**  Un passager possède un nom
-- **RG11 :**  Un passager possède un prenom
-- **RG11 :**  Un passager possède une date de naissance 
-- **RG11 :**  Un passager possède une nationalité 
+ **RG9 :**  Un personne possède un identifiant unique
+- **RG10 :**  Une personne possède un nom
+- **RG11 :**  Une personne possède un prenom
+- **RG11 :**  Une personne possède une date de naissance 
+- **RG11 :**  Une personne possède une nationalité 
+- **RG11 :**  Une personne possède une adresse
 
 
 
@@ -30,6 +31,7 @@
 - **RG11 :**  Un passager possède un prenom
 - **RG11 :**  Un passager possède une date de naissance 
 - **RG11 :**  Un passager possède une nationalité 
+- **RG11 :**  Un passager possède une adresse
 ---- 
 
 - **RG12 :** Un passager peut etre associé à plusieurs réservation
