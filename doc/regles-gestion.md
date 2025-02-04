@@ -81,8 +81,8 @@
 
 ## Vol  
 - **RG19 :** Un vol possède un identifiant unique
-- **RG19 :** Un vol possède un numéro de vol 
-- **RG19 :** Un vol possède un statut
+- **RG19 :** Un vol possède un numéro de vol
+- **RG19 :** Un vol possède un statut ( comme les compagnies se donnent le droit d'annuler des vols )
 ---
 
 - **RG20 ADD:**:  Un vol a une capacité maximale de passagers,
