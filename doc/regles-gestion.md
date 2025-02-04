@@ -9,6 +9,7 @@
 - **RG3 :**  Un client possède un prenom
 - **RG4 :**  Un client possède un email
 - **RG4 :**  Un client possède un numéro de téléphone
+- **RG11 :**  Un passager possède une nationalité 
 - **RG4 :**  Un client possède une adresse 
 
 ----
@@ -73,7 +74,7 @@
 - **RG14 :**  Une payement possède une date de paiement
 (
 - **RG14 :**  Une payement possède un statut
-- **RG14 :**  Une payement possède un moyen paiement ( paypal etc...)) 
+- **RG14 :**  Une payement possède un moyen paiement ( paypal stripe cb)) 
 
 -------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------
