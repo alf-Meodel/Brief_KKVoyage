@@ -33,7 +33,7 @@
 - RG012 : Un Vol est représenté par le nom de sa compagnie 
 - RG13 : Un Vol est représenté par le modèle de son avion
 
-- RG14 : Un Vol possède un nombre de place max
+- RG14 : Un Vol possède un nombre de places MAX
 ```
 
 ---
@@ -58,11 +58,10 @@ d'arrivée.
 ```
 - RG01 : Une compagnie aérienne est représenté par un id unique 
 - RG01 : Une compagnie aérienne est représenté par son nom
-
 ```
 
 
-- **RG12 :**  Une compagnie aérienne doit posséder au moins un vol
+- **RG12 :**  Une compagnie aérienne doit posséder un vol
 - **RG12 :**  Une compagnie aérienne peut avoir plusieurs vols 
 
 ---
@@ -70,8 +69,8 @@ d'arrivée.
 - **RG12 :**  Une compagnie aérienne peut arréter les réservations de place sur un vol
 ---
 
-- **RG12 :** Une compagnie aérienne propose des vols
-- **RG12 :** Une compagnie aérienne peut annuler des vols
+- **RG12 :** Une compagnie aérienne peut proposer des vols
+- **RG12 :** Une compagnie aérienne peut supprimer des vols ( annuler) 
 
 
 
