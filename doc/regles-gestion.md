@@ -74,35 +74,36 @@
 
 ## Payement
 
-- **RG39 :**  Une payement possède un identifiant unique
-- **RG40 :**  Une payement possède un montant 
-- **RG41 :**  Une payement possède une devise 
-- **RG42 :**  Une payement possède une date de paiement
-- **RG43 :**  Une payement possède un moyen paiement ( paypal stripe cb)
-- **RG44 :**  Une payement possède un statut ( en attente validé échoué)
+- **RG39 :**  Une paiement possède un identifiant unique
+- **RG40 :**  Une paiement possède un montant 
+- **RG41 :**  Une paiement possède une devise 
+- **RG42 :**  Une paiement possède une date de paiement
+- **RG43 :**  Une paiement possède un moyen paiement ( paypal stripe cb)
+- **RG44 :**  Une paiement possède un statut ( en attente validé échoué)
 ----
 
 - **RG45 :**  Un paiement concerne une seule réservation
 - **RG46 :**  un paiement doit etre effectué par un client
+- **RG47 :**  un paiement est oligatoire pour valider une reservation 
 
 
 -------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------
 
 ## Vol  
-- **RG47 :** Un vol possède un identifiant unique
-- **RG48 :** Un vol possède un numéro de vol
-- **RG49 :** Un vol possède un statut ( comme les compagnies se donnent le droit d'annuler des vols; En cours, Retardé, Annulé, Terminé )
+- **RG48 :** Un vol possède un identifiant unique
+- **RG49 :** Un vol possède un numéro de vol
+- **RG50 :** Un vol possède un statut ( comme les compagnies se donnent le droit d'annuler des vols; En cours, Retardé, Annulé, Terminé )
 ---
 
-- **RG50:**:  Un vol a une capacité maximale de passagers,
-- **RG51 :** Un vol est proposé par une seule compagnie aérienne
-- **RG52 :**  Un vol peut comporter des escales techniques 
+- **RG51 :**  Un vol a une capacité maximale de passagers,
+- **RG52 :** Un vol est proposé par une seule compagnie aérienne
+- **RG53 :**  Un vol peut comporter des escales techniques 
 
-- **RG53 :**  Un vol a un aéroport de départ
-- **RG54 :** Un vol possède un aéroport d'arrivée
-- **RG55 :**  Un vol a un jour et une heure de départ
-- **RG56 :**  Un vol a un jour et une heure d'arrivée
+- **RG54 :**  Un vol a un aéroport de départ
+- **RG55 :** Un vol possède un aéroport d'arrivée
+- **RG56 :**  Un vol a un jour et une heure de départ
+- **RG57 :**  Un vol a un jour et une heure d'arrivée
 
 
 
@@ -110,32 +111,32 @@
 -------------------------------------------------------------------------------------------
 
 ## Escale
-- **RG57 :**  Une escale possède un identifiant unique 
-- **RG58 :**  Une escale possède un type (Technique, Commerciale).
+- **RG58 :**  Une escale possède un identifiant unique 
+- **RG59 :**  Une escale possède un type (Technique, Commerciale).
 (si l'escale est commerciale, un nouveau vol doit être assigné après l'escale)
 
 ---
 
-- **RG59 :**  Une escale technique ne nécessite pas de changement d'avion.
-- **RG60 :** Une escale commerciale peut impliquer un changement d'avion et/ou de compagnie
-- **RG61 :** Une escale peut être annulée ou modifiée, entraînant un rebooking des passagers
-- **RG62 :**  Une escale a une heure de départ
-- **RG63 :**  Une escale a une heure d'arrivée
-- **RG64 :**  Une escale a une durée estimé 
-- **RG65 :**  Une escale s'effectue dans un aéroport
-- **RG66 :**  Si une escale est annulée, la réservation des passagers peut être reprogrammée sur un autre vol
+- **RG60 :**  Une escale technique ne nécessite pas de changement d'avion.
+- **RG61 :** Une escale commerciale peut impliquer un changement d'avion et/ou de compagnie
+- **RG62 :** Une escale peut être annulée ou modifiée, entraînant un rebooking des passagers
+- **RG63 :**  Une escale a une heure de départ
+- **RG64 :**  Une escale a une heure d'arrivée
+- **RG65 :**  Une escale a une durée estimé 
+- **RG66 :**  Une escale s'effectue dans un aéroport
+- **RG67 :**  Si une escale est annulée, la réservation des passagers peut être reprogrammée sur un autre vol
 
 -------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------
 
 ## Aeroport 
-- **RG67 :**  Un aéroport possède un identiffiant unique 
-- **RG68 :**  Un aéroport possède un nom
-- **RG69 :**  Un aéroport se trouve dans une ville
+- **RG68 :**  Un aéroport possède un identiffiant unique 
+- **RG69 :**  Un aéroport possède un nom
+- **RG70 :**  Un aéroport se trouve dans une ville
 
 ---
 
-- **RG70 :**  Un aéroport peut être desservi par plusieurs compagnies aériennes.
+- **RG71 :**  Un aéroport peut être desservi par plusieurs compagnies aériennes.
 
 
 -------------------------------------------------------------------------------------------
@@ -143,29 +144,29 @@
 
 
 ## Ville 
-- **RG71 :**  Une ville possède un id
-- **RG72 :**  Une ville possède un nom
-- **RG73 :**  Une ville peut posséder un code postal
-- **RG74 :**  Une ville possède un pays
+- **RG72 :**  Une ville possède un id
+- **RG73 :**  Une ville possède un nom
+- **RG74 :**  Une ville peut posséder un code postal
+- **RG75 :**  Une ville possède un pays
 ----
-- **RG75 :**  Une ville peut contenir un ou plusieurs aéroports
+- **RG76 :**  Une ville peut contenir un ou plusieurs aéroports
 
 -------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------
 
 ## Compagnie aérienne
-- **RG76 :**   Une compagnie aériennes possède un id
-- **RG77 :**   Une compagnie aériennes possède une nom
+- **RG77 :**   Une compagnie aériennes possède un id
+- **RG78 :**   Une compagnie aériennes possède une nom
 ----
 Une compagnie aérienne peut modifier la date et l'horaire d'un vol 
 
-- **RG78 :**   Une compagnie aériennes peut proposer différents vols
-- **RG79 :**   Une compagnie aériennes peut annuler un vol 
+- **RG79 :**   Une compagnie aériennes peut proposer différents vols
+- **RG80 :**   Une compagnie aériennes peut annuler un vol 
 
-- **RG80 :** une compagnie aerienne peut ouvrir la reservation d'un vol 
-- **RG81 :** une compagnie aerienne peut fermer la reservation d'un vol 
+- **RG81 :** une compagnie aerienne peut ouvrir la reservation d'un vol 
+- **RG82 :** une compagnie aerienne peut fermer la reservation d'un vol 
 
-- **RG82 :** Une compagnie aérienne peut desservir plusieurs aéroports.
+- **RG83 :** Une compagnie aérienne peut desservir plusieurs aéroports.
 
 ------------------------
 
