@@ -6,6 +6,9 @@
 - **RG2 :**  Un client possède un nom
 - **RG3 :**  Un client possède un prenom
 - **RG4 :**  Un client possède un email
+- **RG4 :**  Un client possède un numéro de téléphone
+- **RG4 :**  Un client possède une adresse 
+
 ----
 - **RG5 :**  Un client est celui qui effectue la réservation 
 - **RG5 :**  Un client peut réserver un ou plusieurs vols pour lui même
