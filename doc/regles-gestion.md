@@ -115,6 +115,8 @@ d'arrivée.
 ```
 
 - **RG45 :**  Une escale est associé à une ville 
+- **RG45 :**  Une escale est associé à un aéroport 
+
 
 
 ---
