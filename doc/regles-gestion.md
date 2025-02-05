@@ -7,14 +7,13 @@
 ```
 - RG01 : Un client est représenté par un identifiant unique 
 - RG02 : Un client est représenté par son nom
-- RG03 : Un client est représenté par son prenom
 - RG04 : Un client est identifié par son mail 
 ```
 
-- **RG05 :** Un client peut réserver **pour lui** et **pour plusieurs personnes (invités)**
+- **RG05 :** Un client peut réserver une place **pour lui** même 
+- **RG05 :** Un client peut inviter d'autres personnes **( invités)**
 - **RG06 :** Un client peut effectuer **une** ou **plusieurs reservations**
-- **RG05 :** Un client peut inclure des **invités** à chaque reservation
-- **RG07 :** Un client peut annuler ses reservations 
+- **RG07 :** Un client peut annuler ses propres reservations 
  <!-- ( CONFIRMER = paiement) -->
 ---
 
@@ -27,9 +26,10 @@
 - RG10 : Un invité peut etre représenté par son mail ????
 ```
 
-- **RG11 :** Un invité n'est pas obligatoirement un client 
-- **RG11 :** Un invité est associé à un siège dans un avion
-- **RG11 :** Un invité dépend d'une reservation
+- **RG11 :** Un invité **n'est pas obligatoirement un client**
+<!-- - **RG11 :** Un invité est **associé à un siège dans un avion** -->
+- **RG11 :** Un invité est **associé à un siège réservé**
+- **RG11 :** Un invité est **associé à une reservation**
 ---
 
 ## Reservation 
@@ -74,9 +74,9 @@
 - **RG29 :**  Un avion est associé à **une seule compagnie aérienne**
 - **RG30 :**  Un avion est associé à **une ou plusieurs réservations**
 - **RG31 :**  Un avion est associé à **un ou plusieurs aéroports**
-- **RG32 :** Un avion est associé à **un aéroport de départ** 
-- **RG33 :** Un avion est associé à **un aéroport d'arrivée**
-- **RG34 :** un avion peut comporter **aucune ou plusieurs escales**
+- **RG32 :**  Un avion est associé à **un aéroport de départ** 
+- **RG33 :**  Un avion est associé à **un aéroport d'arrivée**
+- **RG34 :**  un avion peut comporter **aucune ou plusieurs escales**
 ---
 
 
@@ -155,3 +155,18 @@ d'arrivée.
 - **RG65 :**  Une ville est composé d'un ou plusieurs aéroports
 ---
 ---
+
+- Un vol est ouvert à la réservation et refermé sur ordre de la compagnie.
+- Un vol peut être annulé par la compagnie
+- Un vol a un aéroport de départ et un aéroport d'arrivée.
+- Un vol a un jour et une heure de départ, et un jour et une heure d'arrivée.
+- Un vol peut comporter des escales dans des aéroports.
+
+
+- Une réservation concerne un seul vol et un seul passager.
+
+- Une réservation peut être annulée ou confirmée.
+- Un client peut réserver un ou plusieurs vols, pour des passagers différents.
+- Une escale a une heure d'arrivée et une heure de départ.
+- Chaque aéroport dessert une ou plusieurs villes.
+- Des compagnies aériennes proposent différents vols.
