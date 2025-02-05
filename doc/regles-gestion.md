@@ -17,7 +17,6 @@
 - **RG07 :** Un client peut effectuer **une reservation** 
 - **RG08 :** Un client peut effectuer **plusieurs reservation**
 <!-- - **RG07 :** Un client peut annuler ses reservations  -->
-
 ---
 
 
@@ -64,11 +63,7 @@
 - **RG25 :**  Un avion est associé à une ou plusieurs réservations
 ---
 - **RG25 :**  Un avion est associé à un ou plusieurs aéroports
----
-- **RG26 :** Un avion doit avoir un jour et une heure de départ,
- - **RG27 :** Un avion doit avoir un jour et une heure 
-d'arrivée.
----
+
 - **RG28 :** Un avion est associé à un aéroport de départ 
 - **RG29 :** Un avion est associé à un aéroport d'arrivée 
 ---
@@ -94,13 +89,10 @@ d'arrivée.
 - **RG25 :**  Un Vol est associé à un ou plusieurs aéroports
 ---
 
-
 ---
 - **RG30 :** un vol peut comporter aucune escales???
 - **RG31 :** un vol peut comporter plusieurs escales???
 ---
-
-
 
 
 ## Compagnie Aérienne 
