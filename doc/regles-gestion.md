@@ -7,29 +7,28 @@
 ```
 - RG01 : Un client est représenté par un identifiant unique 
 - RG02 : Un client est représenté par son nom
+- RG03 : Un client est représenté par son prenom
 - RG04 : Un client est identifié par son mail 
 ```
-
-
+- **RG11 :** Un client est **associé à une reservation**
+- **RG11 :** Un client peut reserver un  **un siège**
 - **RG05 :** Un client peut effectuer **une ou plusieurs réservation** 
-- **RG07 :** Un client peut annuler ses propres reservations
-- **RG07 :** Un client peut ajouter un ou plusieurs invités à une reservation
+- **RG07 :** Un client peut ajouter **un ou plusieurs invités** à une reservation
+- **RG07 :** Un client peut annuler ses reservations
  <!-- ( CONFIRMER = paiement) -->
 ---
 
-## Invité
+## Passager
 ---
 ```
-- RG07 : Un invité est représenté par un identifiant unique 
-- RG08 : Un invité est représenté par son nom
-- RG09 : Un invité est représenté par son prenom
-- RG10 : Un invité peut etre représenté par son mail ????
+- RG07 : Un Passager est représenté par un identifiant unique 
+- RG08 : Un Passager est représenté par son nom
+- RG09 : Un Passager est représenté par son prenom
+- RG10 : Un Passager peut etre représenté par son mail
 ```
+- **RG11 :** Un Passager est **associé à un siège (réservé)**
 
-- **RG11 :** Un invité **n'est pas obligatoirement un client**
-<!-- - **RG11 :** Un invité est **associé à un siège dans un avion** -->
-- **RG11 :** Un invité est **associé à un siège réservé**
-- **RG11 :** Un invité est **associé à une reservation**
+- **RG11 :** Un Passager est **associé à une reservation**
 ---
 
 ## Reservation 
@@ -45,11 +44,12 @@
 
 <!-- - **RG13 :** Une réservation concerne un seul passager REGLE FAUSSE CAR ON PEUT AJOUTER PLUSIEURS PASSAGERS ?  -->
 
-<!-- - **RG05 :** Un client peut inviter d'autres personnes **( invités)** -->
+
+----
+<!-- - **RG28 :**  Un avion est composé d'**un nombre de sièges max** -->
 
 
-
-
+- **RG14 :** Une réservation est limitée à un nombre maximum de sièges
 - **RG14 :** Une réservation concerne un ou plusieurs sièges 
 - **RG15 :** Une réservation est associée à un ou plusieurs avions 
 - **RG16 :** Une réservation est associée à une ou plusieurs compagnie aérienne
@@ -81,7 +81,6 @@
 
 ```
 - **RG27 :**  Un avion est composé d'**au moins un siège**
-- **RG28 :**  Un avion est composé d'**un nombre de sièges max**
 - **RG29 :**  Un avion est associé à **une seule compagnie aérienne**
 - **RG30 :**  Un avion est associé à **une ou plusieurs réservations**
 - **RG31 :**  Un avion est associé à **un ou plusieurs aéroports**
@@ -107,8 +106,7 @@ d'arrivée.
 ---
 
 ---
-- **RG42 :** un vol peut comporter aucune escales???
-- **RG43 :** un vol peut comporter plusieurs escales???
+- **RG42 :** un vol peut comporter aucune à plusieurs escales
 ---
 
 
@@ -132,6 +130,7 @@ d'arrivée.
 ```
 - RG50 :  Un aéroport possède est représenté par un identifiant unique 
 - RG51 :  Un aéroport possède est représenté par son nom
+- RG51 :  Un aéroport possède est représenté par son ville
 
 ```
 
@@ -166,6 +165,14 @@ d'arrivée.
 - **RG65 :**  Une ville est composé d'un ou plusieurs aéroports
 ---
 ---
+
+
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
 
 - Un vol est ouvert à la réservation et refermé sur ordre de la compagnie.
 - Un vol peut être annulé par la compagnie
