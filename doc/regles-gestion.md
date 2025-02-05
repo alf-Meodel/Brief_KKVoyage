@@ -18,8 +18,8 @@
 - **RG08 :** Un client peut réserver **plusieurs sièges** sur un vol
 ---
 
-- **RG07 :** Un client peut réserver **un siège** sur **un vol différents**
-- **RG07 :** Un client peut réserver **plusieurs sièges** sur **un vol différents**
+- **RG09 :** Un client peut réserver **un siège** sur **un vol différents**
+- **RG10 :** Un client peut réserver **plusieurs sièges** sur **un vol différents**
 
 ---
 
