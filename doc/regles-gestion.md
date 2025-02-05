@@ -41,12 +41,13 @@
 ## Siège
 ---
 ```
-- RG17 : Un Billet est représenté par son id
-- RG18 : Un Billet est représenté par son numéro de siège
-- RG19 : Un Billet est représenté par son prix
+- RG17 : Un Siège est représenté par son id
+- RG18 : Un Siège est représenté par un numéro de siège unique 
+- RG19 : Un Siège est représenté par son prix
 ```
 
 - **RG20 :** Un siège est attribué à un seul client.
+- **RG20 :** Un siège est appartient à un avion 
 
 ## Vol
 ---
