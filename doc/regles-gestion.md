@@ -11,8 +11,9 @@
 - RG04 : Un client est identifié par son mail 
 ```
 
-- **RG05 :** Un client peut réserver **pour lui** et **pour plusieurs personnes**
+- **RG05 :** Un client peut réserver **pour lui** et **pour plusieurs personnes (invités)**
 - **RG06 :** Un client peut effectuer **une** ou **plusieurs reservations**
+
 <!-- - **RG07 :** Un client peut annuler ses reservations  ( CONFIRMER = paiement) -->
 ---
 
