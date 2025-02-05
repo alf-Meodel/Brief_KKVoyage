@@ -132,8 +132,8 @@ d'arrivée.
 
 ```
 <!-- - RG45 :  Une escale est définie par une durée modulable  -->
-- **RG45 :**  Une escale est associé à une ville 
-- **RG45 :**  Une escale est associé à un aéroport 
+- **RG45 :**  Une escale est associée à une ville 
+- **RG45 :**  Une escale est associée à un aéroport 
 ---
 
 - **RG46 :**  Une escale peut etre associé à un changement d'avion ???
@@ -144,6 +144,7 @@ d'arrivée.
 ```
 - RG48 :  Une ville possède un id
 - RG49 :  Une ville possède un nom
+- RG49 :  Une ville possède un pays
 ```
 
 - **RG50 :**  Une ville est composé d'un ou plusieurs aéroports
