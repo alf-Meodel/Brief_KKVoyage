@@ -25,6 +25,29 @@
 ---
 
 
+## Reservation 
+---
+```
+- RG01 : Une Reservation est représenté par un identifiant unique 
+- RG01 : Une Reservation possède une date de réservation
+```
+
+- **RG13 :** Une réservation concerne un siège
+- **RG13 :** Une réservation concerne un seul passager
+
+<!-- - **RG01 :** Une réservation peut être annulée ou confirmée. -->
+
+
+## Billet ? (siège)
+---
+```
+- RG03 : Un Billet est représenté par son id
+- RG03 : Un Billet est représenté par son numéro
+- RG03 : Un Billet est représenté par son prix
+```
+- **RG13 :** Un Billet concerne un seul vol et un seul passager.
+- **RG01 :** Un Billet peut être annulée ou confirmée.
+
 
 ## Vol
 ---
@@ -53,6 +76,11 @@ d'arrivée.
 
 ---
 
+
+
+
+
+
 ## Compagnie Aérienne 
 ---
 ```
@@ -79,26 +107,55 @@ d'arrivée.
 <!-- - **RG09 :** Une compagnie aérienne peut annuler un vol -->
 
 
+---
 
-## Reservation 
+
+## Aeroport 
 ---
 ```
-- RG01 :
+- RG32 :  Un aéroport possède un identifiant unique
+- RG33 :  Un aéroport possède un nom
+- RG34 :  Un aéroport se trouve dans une ville
 ```
-- **RG13 :** Une réservation concerne un seul vol et un seul passager.
-- **RG01 :** Une réservation peut être annulée ou confirmée.
+- **RG35 :**  Un aéroport acceuille une ou plusieurs compagnies aériennes
+
+
+
+
+---
 
 ## Escale 
 ---
 ```
-- RG01 :
+- RG01 : Une escale est définie par une heure de départ
+- RG01 :  Une escale est définie par heure d'arrivée
+
 ```
-- **RG01 :** Une escale a une heure d'arrivée et une heure de départ.
+
+- **RG31 :**  Une escale peut avoir lieu dans une ville 
+- **RG31 :**  Une escale peut avoir lieu dans dans plusieurs villes
+
+---
+
+- **RG31 :**  Une escale peut laisser aux clients le même vol
+- **RG31 :**  Une escale peut donner aux clients un nouveau vol
+
+
+
 
 ## Villes
 ---
 ```
-- RG01 :
+- RG01 :  Une ville possède un id
+- RG37 :  Une ville possède un nom
 ```
+
+- **RG40 :**  Une ville peut contenir un ou plusieurs aéroports
+
+---
+---
+
+
+
 - **RG01 :** Chaque aéroport dessert une ou plusieurs villes.
 - **RG01 :** Des compagnies aériennes proposent différents vols.
