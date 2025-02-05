@@ -44,6 +44,7 @@
 ```
 
 - **RG19 :** Un siège est associé à un seul client.
+- **RG19 :** Un siège est associé à un seul avion.
 <!-- - **RG20 :** Un siège appartient à un avion  -->
 
 ## Avion
