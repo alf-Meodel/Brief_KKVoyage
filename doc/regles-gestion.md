@@ -114,12 +114,10 @@ d'arrivée.
 - RG45 : Une compagnie aérienne est représenté par son nom
 ```
 ---
-- **RG46 :**  Une compagnie aérienne peut ajouter un ou plusieurs vols 
-- **RG47 :**  Une compagnie aérienne peut annuler un ou plusieurs vols
-
----
-- **RG48 :**  Une compagnie aérienne peut proposer des réservations sur un ou plusieurs vol 
-- **RG49 :**  Une compagnie aérienne peut arréter les réservations sur un ou plusieurs vol
+- **RG46 :**  Une compagnie aérienne peut **ajouter un ou plusieurs vols** 
+- **RG47 :**  Une compagnie aérienne peut **annuler un ou plusieurs vols**
+- **RG48 :**  Une compagnie aérienne peut **proposer des réservations sur un ou plusieurs vol** 
+- **RG49 :**  Une compagnie aérienne peut arréter **les réservations sur un ou plusieurs vol**
 ---
 
 ## Aeroport 
@@ -128,12 +126,13 @@ d'arrivée.
 - RG50 :  Un aéroport possède est représenté par un identifiant unique 
 - RG51 :  Un aéroport possède est représenté par son nom
 - RG51 :  Un aéroport possède est représenté par son ville
+- RG51 :  Un aéroport possède est représenté par son pays
 
 ```
 
-- **RG52 :**  Un ou plusieurs aéroports peuvent se trouver dans une même ville
-- **RG53 :**  Un aéroport est associé à une ou plusieurs compagnies aériennes
-- **RG54 :**  Un aéroport est composé de plusieurs vols
+- **RG52 :**  Un ou plusieurs aéroports peuvent se trouver **dans une même ville**
+- **RG53 :**  Un aéroport est associé à **une ou plusieurs compagnies aériennes**
+- **RG54 :**  Un aéroport est composé de **plusieurs vols**
 
 ---
 
@@ -146,7 +145,6 @@ d'arrivée.
 - RG57 :  Une escale est définie par heure d'arrivée
 
 ```
-<!-- - RG45 :  Une escale est définie par une durée modulable  -->
 - **RG58 :**  Une escale est associée à une ville 
 - **RG59 :**  Une escale est associée à un aéroport 
 - **RG60 :**  Une escale peut etre associé à un changement d'avion
