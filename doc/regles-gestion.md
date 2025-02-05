@@ -13,8 +13,9 @@
 
 - **RG05 :** Un client peut réserver **pour lui** et **pour plusieurs personnes (invités)**
 - **RG06 :** Un client peut effectuer **une** ou **plusieurs reservations**
-
-<!-- - **RG07 :** Un client peut annuler ses reservations  ( CONFIRMER = paiement) -->
+- **RG05 :** Un client peut inclure des **invités** à chaque reservation
+- **RG07 :** Un client peut annuler ses reservations 
+ <!-- ( CONFIRMER = paiement) -->
 ---
 
 ## Invité
@@ -28,7 +29,7 @@
 
 - **RG11 :** Un invité n'est pas obligatoirement un client 
 - **RG11 :** Un invité est associé à un siège dans un avion
-- **RG11 :** Un invité possède une reservation ??
+- **RG11 :** Un invité dépend d'une reservation
 ---
 
 ## Reservation 
@@ -68,19 +69,14 @@
 - RG26 : Un avion est représenté par le modèle de son avion
 
 ```
-- **RG27 :**  Un avion est composé d'au moins un siège
-- **RG28 :**  Un avion est composé d'un nombre de sièges max
----
-- **RG29 :**  Un avion est associé à une seule compagnie aérienne
-- **RG30 :**  Un avion est associé à une ou plusieurs réservations
----
-- **RG31 :**  Un avion est associé à un ou plusieurs aéroports
-
-- **RG32 :** Un avion est associé à un aéroport de départ 
-- **RG33 :** Un avion est associé à un aéroport d'arrivée 
----
-- **RG34 :** un avion peut comporter aucune escales
-- **RG35 :** un avion peut comporter plusieurs escales
+- **RG27 :**  Un avion est composé d'**au moins un siège**
+- **RG28 :**  Un avion est composé d'**un nombre de sièges max**
+- **RG29 :**  Un avion est associé à **une seule compagnie aérienne**
+- **RG30 :**  Un avion est associé à **une ou plusieurs réservations**
+- **RG31 :**  Un avion est associé à **un ou plusieurs aéroports**
+- **RG32 :** Un avion est associé à **un aéroport de départ** 
+- **RG33 :** Un avion est associé à **un aéroport d'arrivée**
+- **RG34 :** un avion peut comporter **aucune ou plusieurs escales**
 ---
 
 
