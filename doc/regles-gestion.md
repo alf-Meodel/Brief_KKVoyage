@@ -36,14 +36,14 @@
 ## Reservation 
 ---
 ```
-- RG01 : Une Reservation est représenté par un identifiant unique 
-- RG01 : Une Reservation possède une date de réservation
+- RG11 : Une Reservation est représenté par un identifiant unique 
+- RG12 : Une Reservation possède une date de réservation
 ```
 
 - **RG13 :** Une réservation concerne un siège
-- **RG13 :** Une réservation concerne un seul passager
-- **RG13 :** Une réservation concerne un ou plusieurs vols
-- **RG13 :** Une réservation concerne un ou plusieurs vols
+- **RG14 :** Une réservation concerne un seul passager
+- **RG15 :** Une réservation concerne un ou plusieurs vols
+- **RG16 :** Une réservation concerne un ou plusieurs vols
 
 <!-- - **RG01 :** Une réservation peut être annulée ou confirmée. -->
 
@@ -51,55 +51,54 @@
 ## Siège
 ---
 ```
-- RG03 : Un Billet est représenté par son id
-- RG03 : Un Billet est représenté par son numéro
-- RG03 : Un Billet est représenté par son prix
+- RG17 : Un Billet est représenté par son id
+- RG18 : Un Billet est représenté par son numéro
+- RG19 : Un Billet est représenté par son prix
 ```
 
-- **RG01 :** Un siège est attribué à un seul client.
-
+- **RG20 :** Un siège est attribué à un seul client.
 
 ## Vol
 ---
 ```
-- RG011 : Un Vol est représenté par un id unique 
-- RG012 : Un Vol est représenté par le nom de sa compagnie 
-- RG13 : Un Vol est représenté par le modèle de son avion
+- RG21 : Un Vol est représenté par un id unique 
+- RG022 : Un Vol est représenté par le nom de sa compagnie 
+- RG23 : Un Vol est représenté par le modèle de son avion
 
 ```
-- **RG15 :**  Un Vol est composé d'au moins un siège
-- **RG15 :**  Un Vol est composé d'un nombre de sièges MAX
+- **RG24 :**  Un Vol est composé d'au moins un siège
+- **RG25 :**  Un Vol est composé d'un nombre de sièges MAX
 ---
 
-- **RG15 :** Un vol doit avoir un jour et une heure de départ,
- - **RG16 :** Un vol doit avoir un jour et une heure 
+- **RG26 :** Un vol doit avoir un jour et une heure de départ,
+ - **RG27 :** Un vol doit avoir un jour et une heure 
 d'arrivée.
 ---
 
-- **RG17 :** Un vol est associé à un aéroport de départ 
-- **RG18 :** Un vol est associé à un aéroport d'arrivée 
+- **RG28 :** Un vol est associé à un aéroport de départ 
+- **RG29 :** Un vol est associé à un aéroport d'arrivée 
 ---
-- **RG19 :** un vol peut comporter aucune escales
-- **RG20 :** un vol peut comporter plusieurs escales
+- **RG30 :** un vol peut comporter aucune escales
+- **RG31 :** un vol peut comporter plusieurs escales
 ---
 
 
 ## Compagnie Aérienne 
 ---
 ```
-- RG01 : Une compagnie aérienne est représenté par un id unique 
-- RG01 : Une compagnie aérienne est représenté par son nom
+- RG32 : Une compagnie aérienne est représenté par un id unique 
+- RG33 : Une compagnie aérienne est représenté par son nom
 ```
-- **RG12 :**  Une compagnie aérienne doit avoir au moins un vol
-- **RG12 :**  Une compagnie aérienne peut avoir plusieurs vols 
+- **RG34 :**  Une compagnie aérienne doit avoir au moins un vol
+- **RG35 :**  Une compagnie aérienne peut avoir plusieurs vols 
 
 ---
-- **RG12 :**  Une compagnie aérienne peut proposer des réservations de siège sur une vol 
-- **RG12 :**  Une compagnie aérienne peut arréter les réservations de siège sur un vol
+- **RG36 :**  Une compagnie aérienne peut proposer des réservations de siège sur une vol 
+- **RG37 :**  Une compagnie aérienne peut arréter les réservations de siège sur un vol
 ---
 
-- **RG12 :** Une compagnie aérienne peut proposer des vols
-- **RG12 :** Une compagnie aérienne peut supprimer des vols ( annuler) 
+- **RG38 :** Une compagnie aérienne peut proposer des vols
+- **RG39 :** Une compagnie aérienne peut supprimer des vols ( annuler) 
 
 <!-- - **RG12 :**  Une compagnie aérienne ouvre la réservation d'un de ces vol -->
 <!-- - **RG12 :**  Une compagnie aérienne ferme les reservations d'un vol. -->
@@ -110,46 +109,40 @@ d'arrivée.
 ## Aeroport 
 ---
 ```
-- RG32 :  Un aéroport possède un identifiant unique
-- RG33 :  Un aéroport possède un nom
-- RG34 :  Un aéroport se trouve dans une ville
+- RG40 :  Un aéroport possède un identifiant unique
+- RG41 :  Un aéroport possède un nom
+- RG42 :  Un aéroport se trouve dans une ville
 ```
-- **RG35 :**  Un aéroport acceuille une ou plusieurs compagnies aériennes
-
-
-
-
+- **RG43 :**  Un aéroport acceuille une ou plusieurs compagnies aériennes
 ---
 
 ## Escale 
 ---
 ```
-- RG01 : Une escale est définie par une heure de départ
-- RG01 :  Une escale est définie par heure d'arrivée
+- RG44 : Une escale est définie par une heure de départ
+- RG45 :  Une escale est définie par heure d'arrivée
 
 ```
 
-- **RG31 :**  Une escale peut avoir lieu dans une ville 
-- **RG31 :**  Une escale peut avoir lieu dans dans plusieurs villes
+- **RG45 :**  Une escale peut avoir lieu dans une ville 
+- **RG46 :**  Une escale peut avoir lieu dans dans plusieurs villes
 
 ---
 
-- **RG31 :**  Une escale peut laisser aux clients le même vol
-- **RG31 :**  Une escale peut donner aux clients un nouveau vol
+- **RG46 :**  Une escale peut laisser aux clients le même vol
+- **RG47 :**  Une escale peut donner aux clients un nouveau vol
 
 ## Villes
 ---
 ```
-- RG01 :  Une ville possède un id
-- RG37 :  Une ville possède un nom
+- RG48 :  Une ville possède un id
+- RG49 :  Une ville possède un nom
 ```
 
-- **RG40 :**  Une ville peut contenir un ou plusieurs aéroports
+- **RG50 :**  Une ville peut contenir un ou plusieurs aéroports
 
 ---
 ---
 
-
-
-- **RG01 :** Chaque aéroport dessert une ou plusieurs villes.
-- **RG01 :** Des compagnies aériennes proposent différents vols.
+- **RG51 :** Chaque aéroport dessert une ou plusieurs villes.
+- **RG52 :** Des compagnies aériennes proposent différents vols.
