@@ -55,6 +55,7 @@
 - RG19 : Un siège est représenté par un identifiant unique 
 - RG20 : Un siège est représenté par son numéro d'emplacement
 - RG21 : Un siège est représenté par son prix
+- RG21 : Un siège est représenté par son statut ( libre réservé)
 ```
 
 - **RG22 :** Un siège est associé à un seul passager.
