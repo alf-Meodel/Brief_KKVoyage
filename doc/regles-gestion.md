@@ -14,13 +14,9 @@
 - **RG05 :** Un client peut réserver **pour lui** même
 - **RG06 :** Un client peut réserver **pour plusieurs personnes**
 ---
-- **RG07 :** Un client peut réserver **un siège** sur un vol,
-- **RG08 :** Un client peut réserver **plusieurs sièges** sur un vol
 ---
-
-- **RG09 :** Un client peut réserver **un siège** sur **un vol différents**
-- **RG10 :** Un client peut réserver **plusieurs sièges** sur **un vol différents**
-
+- **RG07 :** Un client peut effectuer **une reservation** 
+- **RG07 :** Un client peut effectuer **plusieurs reservation**
 ---
 
 
@@ -42,38 +38,73 @@
 ---
 ```
 - RG17 : Un Siège est représenté par son id
-- RG18 : Un Siège est représenté par un numéro de siège unique 
+- RG18 : Un Siège est représenté par son numéro d'emplacement
 - RG19 : Un Siège est représenté par son prix
 ```
 
 - **RG20 :** Un siège est associé à un seul client.
 <!-- - **RG20 :** Un siège appartient à un avion  -->
 
-## Vol
+
+
+## Avion
 ---
 ```
-- RG21 : Un Vol est représenté par un id unique 
-- RG022 : Un Vol est représenté par le nom de sa compagnie 
-- RG23 : Un Vol est représenté par le modèle de son avion
+- RG21 : Un avion est représenté par un id unique 
+- RG022 : Un avion est représenté par le nom de sa compagnie 
+- RG23 : Un avion est représenté par le modèle de son avion
 
 ```
-- **RG24 :**  Un Vol est composé d'au moins un siège
-- **RG25 :**  Un Vol est composé d'un nombre de sièges max
+- **RG24 :**  Un avion est composé d'au moins un siège
+- **RG25 :**  Un avion est composé d'un nombre de sièges max
 ---
-- **RG25 :**  Un Vol est associé à une seule compagnie aérienne
-- **RG25 :**  Un Vol est associé à un ou plusieurs aéroports
+- **RG25 :**  Un avion est associé à une seule compagnie aérienne
+- **RG25 :**  Un avion est associé à une ou plusieurs réservations??
 ---
-- **RG26 :** Un vol doit avoir un jour et une heure de départ,
- - **RG27 :** Un vol doit avoir un jour et une heure 
+- **RG25 :**  Un avion est associé à un ou plusieurs aéroports
+---
+- **RG26 :** Un avion doit avoir un jour et une heure de départ,
+ - **RG27 :** Un avion doit avoir un jour et une heure 
 d'arrivée.
 ---
-
 - **RG28 :** Un vol est associé à un aéroport de départ 
 - **RG29 :** Un vol est associé à un aéroport d'arrivée 
 ---
 - **RG30 :** un vol peut comporter aucune escales
 - **RG31 :** un vol peut comporter plusieurs escales
 ---
+
+
+
+
+
+
+## Vol
+---
+```
+- RG21 : Un Vol est représenté par un id unique 
+
+- RG28 : Un vol est associé à un aéroport de départ 
+- RG29 : Un vol est associé à un aéroport d'arrivée 
+
+- RG26 : Un vol doit avoir un jour et une heure de départ,
+- RG27 : Un vol doit avoir un jour et une heure 
+d'arrivée.
+```
+
+---
+- **RG25 :**  Un Vol est associé à un ou plusieurs aéroports
+---
+
+---
+
+
+---
+- **RG30 :** un vol peut comporter aucune escales???
+- **RG31 :** un vol peut comporter plusieurs escales???
+---
+
+
 
 
 ## Compagnie Aérienne 
@@ -129,15 +160,3 @@ d'arrivée.
 - **RG50 :**  Une ville est composé d'un ou plusieurs aéroports
 ---
 ---
-
-Un vol est ouvert à la réservation et refermé sur ordre de la compagnie.
-Un vol peut être annulé par la compagnie
-Un client peut réserver un ou plusieurs vols, pour des passagers différents.
-Une réservation concerne un seul vol et un seul passager.
-Une réservation peut être annulée ou confirmée.
-Un vol a un aéroport de départ et un aéroport d'arrivée.
-Un vol a un jour et une heure de départ, et un jour et une heure d'arrivée.
-Un vol peut comporter des escales dans des aéroports.
-Une escale a une heure d'arrivée et une heure de départ.
-Chaque aéroport dessert une ou plusieurs villes.
-Des compagnies aériennes proposent différents vols.
