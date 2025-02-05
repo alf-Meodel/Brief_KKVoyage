@@ -10,11 +10,11 @@
 - RG03 : Un client est représenté par son prenom
 - RG04 : Un client est identifié par son mail 
 ```
-- **RG11 :** Un client est **associé à une reservation**
-- **RG11 :** Un client peut reserver un  **un siège**
-- **RG05 :** Un client peut effectuer **une ou plusieurs réservation** 
-- **RG07 :** Un client peut ajouter **un ou plusieurs invités** à une reservation
-- **RG07 :** Un client peut annuler ses reservations
+- **RG05 :** Un client peut reserver  **un siège**
+- **RG06 :** Un client est **associé à une reservation**
+- **RG07 :** Un client peut effectuer **une ou plusieurs réservation** 
+- **RG08 :** Un client peut ajouter **un ou plusieurs passager** à une reservation
+- **RG09 :** Un client peut annuler ses reservations
  <!-- ( CONFIRMER = paiement) -->
 ---
 
@@ -49,13 +49,13 @@
 <!-- - **RG28 :**  Un avion est composé d'**un nombre de sièges max** -->
 
 
-- **RG14 :** Une réservation est limitée à un nombre maximum de sièges
-- **RG14 :** Une réservation concerne un ou plusieurs sièges 
-- **RG15 :** Une réservation est associée à un ou plusieurs avions 
-- **RG16 :** Une réservation est associée à une ou plusieurs compagnie aérienne
+- **RG14 :** Une réservation concerne **un ou plusieurs sièges** 
+- **RG14 :** Une réservation est **limitée à un nombre maximum de sièges**
+- **RG15 :** Une réservation est associée à **un ou plusieurs avions** 
+- **RG16 :** Une réservation est associée à **une ou plusieurs compagnie aérienne**
 
-- **RG17 :** Une réservation est associée à un aeroport de départ 
-- **RG18 :** Une réservation est associée à un aéroport d'arrivée
+- **RG17 :** Une réservation est associée à un **aeroport de départ** 
+- **RG18 :** Une réservation est associée à un **aéroport d'arrivée**
 
 
 
@@ -68,8 +68,8 @@
 - RG21 : Un siège est représenté par son statut ( libre réservé)
 ```
 
-- **RG22 :** Un siège est associé à un seul passager.
-- **RG23 :** Un siège est associé à un seul avion.
+- **RG22 :** Un siège est associé à **un seul passager**.
+- **RG23 :** Un siège est associé à **un seul avion**.
 <!-- - **RG20 :** Un siège appartient à un avion  -->
 
 ## Avion
@@ -82,11 +82,11 @@
 ```
 - **RG27 :**  Un avion est composé d'**au moins un siège**
 - **RG29 :**  Un avion est associé à **une seule compagnie aérienne**
-- **RG30 :**  Un avion est associé à **une ou plusieurs réservations**
+<!-- - **RG30 :**  Un avion est associé à **une ou plusieurs réservations** -->
 - **RG31 :**  Un avion est associé à **un ou plusieurs aéroports**
 - **RG32 :**  Un avion est associé à **un aéroport de départ** 
 - **RG33 :**  Un avion est associé à **un aéroport d'arrivée**
-- **RG34 :**  un avion peut comporter **aucune ou plusieurs escales**
+<!-- - **RG34 :**  un avion peut comporter **aucune ou plusieurs escales** -->
 ---
 
 
@@ -102,11 +102,8 @@ d'arrivée.
 ```
 
 ---
-- **RG41 :**  Un Vol est associé à un ou plusieurs aéroports
----
-
----
-- **RG42 :** un vol peut comporter aucune à plusieurs escales
+- **RG41 :**  Un vol est associé à un ou plusieurs aéroports
+- **RG42 :** un vol peut etre associé à une escale 
 ---
 
 
