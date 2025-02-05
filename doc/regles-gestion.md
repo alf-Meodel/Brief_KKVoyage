@@ -38,7 +38,7 @@
 ## Siège
 ---
 ```
-- RG16 : Un siège est représenté par son id
+- RG16 : Un siège est représenté par un identifiant unique 
 - RG17 : Un siège est représenté par son numéro d'emplacement
 - RG18 : Un siège est représenté par son prix
 ```
@@ -49,7 +49,7 @@
 ## Avion
 ---
 ```
-- RG20 : Un avion est représenté par un id unique 
+- RG20 : Un avion est représenté par un identifiant unique 
 - RG021 : Un avion est représenté par le nom de sa compagnie 
 - RG22 : Un avion est représenté par le modèle de son avion
 
@@ -73,7 +73,7 @@
 ## Vol
 ---
 ```
-- RG21 : Un Vol est représenté par un id unique 
+- RG21 : Un Vol est représenté par un identifiant unique 
 
 - RG28 : Un vol est associé à un aéroport de départ 
 - RG29 : Un vol est associé à un aéroport d'arrivée 
@@ -96,7 +96,7 @@ d'arrivée.
 ## Compagnie Aérienne 
 ---
 ```
-- RG32 : Une compagnie aérienne est représenté par un id unique 
+- RG32 : Une compagnie aérienne est représenté par un identifiant unique 
 - RG33 : Une compagnie aérienne est représenté par son nom
 ```
 ---
@@ -111,8 +111,8 @@ d'arrivée.
 ## Aeroport 
 ---
 ```
-- RG40 :  Un aéroport possède un identifiant unique
-- RG41 :  Un aéroport possède un nom
+- RG40 :  Un aéroport possède est représenté par un identifiant unique 
+- RG41 :  Un aéroport possède est représenté par son nom
 
 ```
 
