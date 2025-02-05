@@ -16,19 +16,22 @@
 <!-- - **RG07 :** Un client peut annuler ses reservations  -->
 ---
 
-## Passager
+## Invité
 ---
 ```
-- RG07 : Un passager est représenté par un identifiant unique 
-- RG08 : Un passager est représenté par son nom
-- RG09 : Un passager est représenté par son prenom
-- RG10 : Un passager peut etre représenté par son mail ????
+- RG07 : Un invité est représenté par un identifiant unique 
+- RG08 : Un invité est représenté par son nom
+- RG09 : Un invité est représenté par son prenom
+- RG10 : Un invité peut etre représenté par son mail ????
 ```
 
-- **RG11 :** Un passager n'est pas obligatoirement un client 
+- **RG11 :** Un invité n'est pas obligatoirement un client 
+- **RG11 :** Un invité est associé à un siège dans un avion
+- **RG11 :** Un invité possède une reservation ??
 ---
 
 ## Reservation 
+- Une réservation peut être annulée ou confirmée ???? 
 ---
 ```
 - RG11 : Une réservation est représenté par un identifiant unique 
@@ -83,11 +86,9 @@
 ## Vol
 ---
 ```
-- RG36 : Un Vol est représenté par un identifiant unique 
-
+- RG36 : Un vol est représenté par un identifiant unique 
 - RG37 : Un vol est associé à un aéroport de départ 
 - RG38 : Un vol est associé à un aéroport d'arrivée 
-
 - RG39 : Un vol doit avoir un jour et une heure de départ,
 - RG40 : Un vol doit avoir un jour et une heure 
 d'arrivée.
