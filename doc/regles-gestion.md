@@ -11,17 +11,25 @@
 - RG04 : Un client est représenté par son mail 
 ```
 
-- **RG05 :** Un client peut réserver une place sur un vol,
-- **RG06 :** Un client peut réserver une place sur plusieurs vols differents,
----
-- **RG07 :** Un client peut réserver plusieurs place sur un vol,
-- **RG08 :** Un client peut réserver plusieurs places sur plusieurs vols differents,
+- **RG05 :** Un client peut réserver pour lui même
+- **RG06 :** Un client peut réserver pour plusieurs personnes
 
 ---
 
+- **RG07 :** Un client peut réserver **un siège** pour un vol,
+- **RG08 :** Un client peut réserver **plusieurs sièges** pour un vol
+
+---
+- **RG09 :** Un client peut réserver des sièges **sur un vol,**
+- **RG10 :** Un client peut réserver des sièges sur **plusieurs vol different,** 
+
+---
+<!-- ---
+- **RG07 :** Un client peut réserver plusieurs siège sur un vol,
+- **RG08 :** Un client peut réserver plusieurs sièges sur plusieurs vols differents,
+---
 - **RG09 :** Un client peut réserver une palce pour lui même
-- **RG10 :** Un client peut réserver une place pour d'autres passagers
-
+- **RG10 :** Un client peut réserver une siège pour d'autres passagers -->
 ---
 
 
@@ -34,6 +42,8 @@
 
 - **RG13 :** Une réservation concerne un siège
 - **RG13 :** Une réservation concerne un seul passager
+- **RG13 :** Une réservation concerne un ou plusieurs vols
+- **RG13 :** Une réservation concerne un ou plusieurs vols
 
 <!-- - **RG01 :** Une réservation peut être annulée ou confirmée. -->
 
@@ -45,8 +55,8 @@
 - RG03 : Un Billet est représenté par son numéro
 - RG03 : Un Billet est représenté par son prix
 ```
-- **RG13 :** Un Billet concerne un seul vol et un seul passager.
-- **RG01 :** Un Billet peut être annulée ou confirmée.
+
+- **RG01 :** Un siège est attribué à un seul client.
 
 
 ## Vol
@@ -56,9 +66,9 @@
 - RG012 : Un Vol est représenté par le nom de sa compagnie 
 - RG13 : Un Vol est représenté par le modèle de son avion
 
-- RG14 : Un Vol possède un nombre de places MAX
 ```
-
+- **RG15 :**  Un Vol est composé d'au moins un siège
+- **RG15 :**  Un Vol est composé d'un nombre de sièges MAX
 ---
 
 - **RG15 :** Un vol doit avoir un jour et une heure de départ,
@@ -68,17 +78,10 @@ d'arrivée.
 
 - **RG17 :** Un vol est associé à un aéroport de départ 
 - **RG18 :** Un vol est associé à un aéroport d'arrivée 
-
 ---
-
 - **RG19 :** un vol peut comporter aucune escales
 - **RG20 :** un vol peut comporter plusieurs escales
-
 ---
-
-
-
-
 
 
 ## Compagnie Aérienne 
@@ -87,26 +90,20 @@ d'arrivée.
 - RG01 : Une compagnie aérienne est représenté par un id unique 
 - RG01 : Une compagnie aérienne est représenté par son nom
 ```
-
-
-- **RG12 :**  Une compagnie aérienne doit posséder un vol
+- **RG12 :**  Une compagnie aérienne doit avoir au moins un vol
 - **RG12 :**  Une compagnie aérienne peut avoir plusieurs vols 
 
 ---
-- **RG12 :**  Une compagnie aérienne peut proposer des réservations de place sur une vol 
-- **RG12 :**  Une compagnie aérienne peut arréter les réservations de place sur un vol
+- **RG12 :**  Une compagnie aérienne peut proposer des réservations de siège sur une vol 
+- **RG12 :**  Une compagnie aérienne peut arréter les réservations de siège sur un vol
 ---
 
 - **RG12 :** Une compagnie aérienne peut proposer des vols
 - **RG12 :** Une compagnie aérienne peut supprimer des vols ( annuler) 
 
-
-
 <!-- - **RG12 :**  Une compagnie aérienne ouvre la réservation d'un de ces vol -->
 <!-- - **RG12 :**  Une compagnie aérienne ferme les reservations d'un vol. -->
 <!-- - **RG09 :** Une compagnie aérienne peut annuler un vol -->
-
-
 ---
 
 
@@ -139,9 +136,6 @@ d'arrivée.
 
 - **RG31 :**  Une escale peut laisser aux clients le même vol
 - **RG31 :**  Une escale peut donner aux clients un nouveau vol
-
-
-
 
 ## Villes
 ---
