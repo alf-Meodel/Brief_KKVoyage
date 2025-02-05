@@ -10,10 +10,10 @@
 - RG04 : Un client est identifié par son mail 
 ```
 
-- **RG05 :** Un client peut réserver une place **pour lui** même 
-- **RG05 :** Un client peut ajouter d'autres personnes a chaque reservation **( invités)**
-- **RG06 :** Un client peut effectuer **une** ou **plusieurs reservations**
-- **RG07 :** Un client peut annuler ses propres reservations 
+
+- **RG05 :** Un client peut effectuer **une ou plusieurs réservation** 
+- **RG07 :** Un client peut annuler ses propres reservations
+- **RG07 :** Un client peut ajouter un ou plusieurs invités à une reservation
  <!-- ( CONFIRMER = paiement) -->
 ---
 
@@ -39,14 +39,24 @@
 - RG11 : Une réservation est représenté par un identifiant unique 
 - RG12 : Une réservation possède une date de réservation
 ```
+
+
 <!-- - **RG14 :** Une réservation concerne un seul vol ( règle d'origine fausse) car une réservation peut concerner deux vols si l'avion fait escale -->
 
-- **RG13 :** Une réservation concerne un seul passager
+<!-- - **RG13 :** Une réservation concerne un seul passager REGLE FAUSSE CAR ON PEUT AJOUTER PLUSIEURS PASSAGERS ?  -->
+
+<!-- - **RG05 :** Un client peut inviter d'autres personnes **( invités)** -->
+
+
+
+
 - **RG14 :** Une réservation concerne un ou plusieurs sièges 
 - **RG15 :** Une réservation est associée à un ou plusieurs avions 
 - **RG16 :** Une réservation est associée à une ou plusieurs compagnie aérienne
+
 - **RG17 :** Une réservation est associée à un aeroport de départ 
 - **RG18 :** Une réservation est associée à un aéroport d'arrivée
+
 
 
 ## Siège
