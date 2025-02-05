@@ -126,10 +126,12 @@ d'arrivée.
 ---
 ```
 - RG44 : Une escale est définie par un identifiant unique ???????
+
 - RG44 : Une escale est définie par une heure de départ
 - RG45 :  Une escale est définie par heure d'arrivée
 
 ```
+<!-- - RG45 :  Une escale est définie par une durée modulable  -->
 - **RG45 :**  Une escale est associé à une ville 
 - **RG45 :**  Une escale est associé à un aéroport 
 ---
