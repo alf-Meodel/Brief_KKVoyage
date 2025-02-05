@@ -11,7 +11,7 @@
 ```
 
 - **RG05 :** Un client peut réserver une place **pour lui** même 
-- **RG05 :** Un client peut inviter d'autres personnes **( invités)**
+- **RG05 :** Un client peut ajouter d'autres personnes a chaque reservation **( invités)**
 - **RG06 :** Un client peut effectuer **une** ou **plusieurs reservations**
 - **RG07 :** Un client peut annuler ses propres reservations 
  <!-- ( CONFIRMER = paiement) -->
