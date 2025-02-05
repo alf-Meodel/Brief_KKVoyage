@@ -16,9 +16,7 @@
 
 - **RG07 :** Un client peut effectuer **une reservation** 
 - **RG07 :** Un client peut effectuer **plusieurs reservation**
-
 <!-- - **RG07 :** Un client peut annuler ses reservations  -->
-
 
 ---
 
@@ -30,11 +28,14 @@
 - RG12 : Une Reservation possède une date de réservation
 ```
 
+- **RG15 :** Une réservation concerne une ville de départ 
+- **RG15 :** Une réservation concerne une ville d'arrivée
+
+---
 - **RG14 :** Une réservation concerne un seul passager
 - **RG13 :** Une réservation concerne un ou plusieurs sièges
 - **RG15 :** Une réservation concerne un ou plusieurs vols
 - **RG16 :** Une réservation concerne une ou plusieurs compagnie aérienne
-<!-- - **RG01 :** Une réservation peut être annulée ou confirmée. -->
 
 
 ## Siège
