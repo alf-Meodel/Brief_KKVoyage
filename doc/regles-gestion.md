@@ -11,25 +11,19 @@
 - RG04 : Un client est représenté par son mail 
 ```
 
-- **RG05 :** Un client peut réserver pour lui même
-- **RG06 :** Un client peut réserver pour plusieurs personnes
 
+
+- **RG05 :** Un client peut réserver **pour lui** même
+- **RG06 :** Un client peut réserver **pour plusieurs personnes**
+---
+- **RG07 :** Un client peut réserver **un siège** sur un vol,
+- **RG08 :** Un client peut réserver **plusieurs sièges** sur un vol
 ---
 
-- **RG07 :** Un client peut réserver **un siège** pour un vol,
-- **RG08 :** Un client peut réserver **plusieurs sièges** pour un vol
+- **RG07 :** Un client peut réserver **un siège** pour **plusieurs vol différents,**
+- **RG08 :** Un client peut réserver **plusieurs sièges** pour **plusieurs vol différents**
+---
 
----
-- **RG09 :** Un client peut réserver des sièges **sur un vol,**
-- **RG10 :** Un client peut réserver des sièges sur **plusieurs vol different,** 
-
----
-<!-- ---
-- **RG07 :** Un client peut réserver plusieurs siège sur un vol,
-- **RG08 :** Un client peut réserver plusieurs sièges sur plusieurs vols differents,
----
-- **RG09 :** Un client peut réserver une palce pour lui même
-- **RG10 :** Un client peut réserver une siège pour d'autres passagers -->
 ---
 
 
@@ -43,7 +37,7 @@
 - **RG13 :** Une réservation concerne un siège
 - **RG14 :** Une réservation concerne un seul passager
 - **RG15 :** Une réservation concerne un ou plusieurs vols
-- **RG16 :** Une réservation concerne un ou plusieurs vols
+- **RG16 :** Une réservation concerne une ou plusieurs compagnie aérienne
 
 <!-- - **RG01 :** Une réservation peut être annulée ou confirmée. -->
 
@@ -52,7 +46,7 @@
 ---
 ```
 - RG17 : Un Billet est représenté par son id
-- RG18 : Un Billet est représenté par son numéro
+- RG18 : Un Billet est représenté par son numéro de siège
 - RG19 : Un Billet est représenté par son prix
 ```
 
@@ -67,7 +61,13 @@
 
 ```
 - **RG24 :**  Un Vol est composé d'au moins un siège
-- **RG25 :**  Un Vol est composé d'un nombre de sièges MAX
+- **RG25 :**  Un Vol est composé d'un nombre de sièges max
+
+---
+- **RG25 :**  Un Vol appartient à une seule compagnie aérienne
+- **RG25 :**  Un Vol est associé à un ou plusieurs aéroports
+
+
 ---
 
 - **RG26 :** Un vol doit avoir un jour et une heure de départ,
