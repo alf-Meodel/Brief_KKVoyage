@@ -97,9 +97,13 @@ d'arrivée.
 ```
 - RG40 :  Un aéroport possède un identifiant unique
 - RG41 :  Un aéroport possède un nom
-- RG42 :  Un aéroport se trouve dans une ville
+
 ```
-- **RG43 :**  Un aéroport acceuille une ou plusieurs compagnies aériennes
+
+- **RG43 :**  Un ou plusieurs aéroports peuvent se trouver dans une même ville
+- **RG43 :**  Un aéroport est associé à une ou plusieurs compagnies aériennes
+- **RG43 :**  Un aéroport est composé de plusieurs vols
+
 ---
 
 ## Escale 
