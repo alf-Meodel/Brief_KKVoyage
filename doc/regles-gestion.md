@@ -47,7 +47,7 @@
 ```
 
 - **RG20 :** Un siège est attribué à un seul client.
-- **RG20 :** Un siège est appartient à un avion 
+- **RG20 :** Un siège appartient à un avion 
 
 ## Vol
 ---
