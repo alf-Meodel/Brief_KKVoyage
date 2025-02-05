@@ -12,7 +12,7 @@
 ```
 
 - **RG05 :** Un client peut réserver **pour lui** et **pour plusieurs personnes**
-- **RG06 :** Un client peut effectuer **une** ou **plusieurs reservation**
+- **RG06 :** Un client peut effectuer **une** ou **plusieurs reservations**
 <!-- - **RG07 :** Un client peut annuler ses reservations  -->
 ---
 
@@ -26,12 +26,12 @@
 
 <!-- - **RG14 :** Une réservation concerne un seul vol ( règle d'origine fausse) car une réservation peut concerner deux vols si l'avion fait escale -->
 
-- **RG12 :** Une réservation concerne un seul passager
-- **RG12 :** Une réservation concerne un seul vol
-- **RG10 :** Une réservation est associée à un aeroport de départ 
-- **RG11 :** Une réservation est associée à un aéroport d'arrivée
-- **RG15 :** Une réservation concerne une ou plusieurs compagnie aérienne
-- **RG13 :** Une réservation concerne un ou plusieurs sièges 
+- **RG10 :** Une réservation concerne un seul passager
+- **RG11 :** Une réservation concerne un seul vol
+- **RG12 :** Une réservation est associée à un aeroport de départ 
+- **RG13 :** Une réservation est associée à un aéroport d'arrivée
+- **RG14 :** Une réservation concerne une ou plusieurs compagnie aérienne
+- **RG15 :** Une réservation concerne un ou plusieurs sièges 
 
 
 ## Siège
