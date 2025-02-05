@@ -8,7 +8,7 @@
 - RG01 : Un client est représenté par un identifiant unique 
 - RG02 : Un client est représenté par son nom
 - RG03 : Un client est représenté par son prenom
-- RG04 : Un client est représenté par son mail 
+- RG04 : Un client est identifié par son mail 
 ```
 
 - **RG05 :** Un client peut réserver **pour lui** même
