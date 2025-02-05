@@ -10,8 +10,11 @@
 - RG03 : Un client est représenté par son prenom
 - RG04 : Un client est identifié par son mail 
 - RG04 : Un client est identifié par son adresse
+- RG04 : Un client est identifié par son numéro de téléphone
 ```
 - **RG05 :** Un client peut reserver  **un siège**
+- **RG05 :** Un client peut devenir **un passager**
+- **RG05 :** Un client peut ajouter d'autres **passagers**
 - **RG06 :** Un client est **associé à une reservation**
 - **RG07 :** Un client peut effectuer **une ou plusieurs réservation** 
 - **RG08 :** Un client peut ajouter **un ou plusieurs passager** à une reservation
@@ -23,11 +26,11 @@
 ---
 ```
 - RG07 : Un Passager est représenté par un identifiant unique 
-- RG08 : Un Passager est représenté par son nom
-- RG09 : Un Passager est représenté par son prenom
-- RG04 : Un client est identifié par son adresse
+- RG08 : Un Passager est authentifié par son nom
+- RG09 : Un Passager est authentifié par son prenom
+- RG04 : Un client est authentifié par son adresse
+
 ```
-- **RG10 :** Un Passager peut etre représenté par son mail
 - **RG11 :** Un Passager est **associé à un siège (réservé)**
 
 - **RG11 :** Un Passager est **associé à une reservation**
