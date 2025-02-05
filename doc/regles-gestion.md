@@ -11,8 +11,6 @@
 - RG04 : Un client est représenté par son mail 
 ```
 
-
-
 - **RG05 :** Un client peut réserver **pour lui** même
 - **RG06 :** Un client peut réserver **pour plusieurs personnes**
 ---
@@ -20,9 +18,8 @@
 - **RG08 :** Un client peut réserver **plusieurs sièges** sur un vol
 ---
 
-- **RG07 :** Un client peut réserver **un siège** pour **plusieurs vol différents,**
-- **RG08 :** Un client peut réserver **plusieurs sièges** pour **plusieurs vol différents**
----
+- **RG07 :** Un client peut réserver **un siège** sur **un vol différents**
+- **RG07 :** Un client peut réserver **plusieurs sièges** sur **un vol différents**
 
 ---
 
