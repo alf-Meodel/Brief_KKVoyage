@@ -16,6 +16,21 @@
 <!-- - **RG07 :** Un client peut annuler ses reservations  -->
 ---
 
+## Passager
+---
+```
+- RG01 : Un passager est représenté par un identifiant unique 
+- RG02 : Un passager est représenté par son nom
+- RG03 : Un passager est représenté par son prenom
+- RG04 : Un passager peut etre représenté par son mail ????
+```
+
+
+- **RG05 :** Un passager n'est pas obligatoirement un client 
+
+
+---
+
 
 ## Reservation 
 ---
@@ -42,7 +57,7 @@
 - RG18 : Un siège est représenté par son prix
 ```
 
-- **RG19 :** Un siège est associé à un seul client.
+- **RG19 :** Un siège est associé à un seul passager.
 - **RG19 :** Un siège est associé à un seul avion.
 <!-- - **RG20 :** Un siège appartient à un avion  -->
 
