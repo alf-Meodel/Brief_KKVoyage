@@ -13,7 +13,7 @@
 
 - **RG05 :** Un client peut réserver **pour lui** et **pour plusieurs personnes**
 - **RG06 :** Un client peut effectuer **une** ou **plusieurs reservations**
-<!-- - **RG07 :** Un client peut annuler ses reservations  -->
+<!-- - **RG07 :** Un client peut annuler ses reservations  ( CONFIRMER = paiement) -->
 ---
 
 ## Invité
@@ -31,7 +31,7 @@
 ---
 
 ## Reservation 
-- Une réservation peut être annulée ou confirmée ???? 
+
 ---
 ```
 - RG11 : Une réservation est représenté par un identifiant unique 
