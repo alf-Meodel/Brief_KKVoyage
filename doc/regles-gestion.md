@@ -46,8 +46,8 @@
 - RG19 : Un Siège est représenté par son prix
 ```
 
-- **RG20 :** Un siège est attribué à un seul client.
-- **RG20 :** Un siège appartient à un avion 
+- **RG20 :** Un siège est associé à un seul client.
+<!-- - **RG20 :** Un siège appartient à un avion  -->
 
 ## Vol
 ---
@@ -59,14 +59,10 @@
 ```
 - **RG24 :**  Un Vol est composé d'au moins un siège
 - **RG25 :**  Un Vol est composé d'un nombre de sièges max
-
 ---
 - **RG25 :**  Un Vol appartient à une seule compagnie aérienne
 - **RG25 :**  Un Vol est associé à un ou plusieurs aéroports
-
-
 ---
-
 - **RG26 :** Un vol doit avoir un jour et une heure de départ,
  - **RG27 :** Un vol doit avoir un jour et une heure 
 d'arrivée.
@@ -86,20 +82,13 @@ d'arrivée.
 - RG32 : Une compagnie aérienne est représenté par un id unique 
 - RG33 : Une compagnie aérienne est représenté par son nom
 ```
-- **RG34 :**  Une compagnie aérienne doit avoir au moins un vol
-- **RG35 :**  Une compagnie aérienne peut avoir plusieurs vols 
+---
+- **RG34 :**  Une compagnie aérienne peut ajouter un ou plusieurs vols 
+- **RG34 :**  Une compagnie aérienne peut annuler un ou plusieurs vols
 
 ---
-- **RG36 :**  Une compagnie aérienne peut proposer des réservations de siège sur une vol 
-- **RG37 :**  Une compagnie aérienne peut arréter les réservations de siège sur un vol
----
-
-- **RG38 :** Une compagnie aérienne peut proposer des vols
-- **RG39 :** Une compagnie aérienne peut supprimer des vols ( annuler) 
-
-<!-- - **RG12 :**  Une compagnie aérienne ouvre la réservation d'un de ces vol -->
-<!-- - **RG12 :**  Une compagnie aérienne ferme les reservations d'un vol. -->
-<!-- - **RG09 :** Une compagnie aérienne peut annuler un vol -->
+- **RG36 :**  Une compagnie aérienne peut proposer des réservations sur un ou plusieurs vol 
+- **RG37 :**  Une compagnie aérienne peut arréter les réservations sur un ou plusieurs vol
 ---
 
 
