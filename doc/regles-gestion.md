@@ -16,6 +16,10 @@
 
 - **RG07 :** Un client peut effectuer **une reservation** 
 - **RG07 :** Un client peut effectuer **plusieurs reservation**
+
+<!-- - **RG07 :** Un client peut annuler ses reservations  -->
+
+
 ---
 
 
