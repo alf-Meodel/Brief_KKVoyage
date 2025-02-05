@@ -60,7 +60,7 @@
 - **RG24 :**  Un Vol est composé d'au moins un siège
 - **RG25 :**  Un Vol est composé d'un nombre de sièges max
 ---
-- **RG25 :**  Un Vol appartient à une seule compagnie aérienne
+- **RG25 :**  Un Vol est associé à une seule compagnie aérienne
 - **RG25 :**  Un Vol est associé à un ou plusieurs aéroports
 ---
 - **RG26 :** Un vol doit avoir un jour et une heure de départ,
@@ -90,7 +90,6 @@ d'arrivée.
 - **RG36 :**  Une compagnie aérienne peut proposer des réservations sur un ou plusieurs vol 
 - **RG37 :**  Une compagnie aérienne peut arréter les réservations sur un ou plusieurs vol
 ---
-
 
 ## Aeroport 
 ---
@@ -131,3 +130,14 @@ d'arrivée.
 ---
 ---
 
+Un vol est ouvert à la réservation et refermé sur ordre de la compagnie.
+Un vol peut être annulé par la compagnie
+Un client peut réserver un ou plusieurs vols, pour des passagers différents.
+Une réservation concerne un seul vol et un seul passager.
+Une réservation peut être annulée ou confirmée.
+Un vol a un aéroport de départ et un aéroport d'arrivée.
+Un vol a un jour et une heure de départ, et un jour et une heure d'arrivée.
+Un vol peut comporter des escales dans des aéroports.
+Une escale a une heure d'arrivée et une heure de départ.
+Chaque aéroport dessert une ou plusieurs villes.
+Des compagnies aériennes proposent différents vols.
