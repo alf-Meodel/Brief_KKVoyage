@@ -25,12 +25,8 @@
 - RG04 : Un passager peut etre représenté par son mail ????
 ```
 
-
 - **RG05 :** Un passager n'est pas obligatoirement un client 
-
-
 ---
-
 
 ## Reservation 
 ---
@@ -38,15 +34,14 @@
 - RG08 : Une réservation est représenté par un identifiant unique 
 - RG09 : Une réservation possède une date de réservation
 ```
-
 <!-- - **RG14 :** Une réservation concerne un seul vol ( règle d'origine fausse) car une réservation peut concerner deux vols si l'avion fait escale -->
 
 - **RG10 :** Une réservation concerne un seul passager
-- **RG11 :** Une réservation concerne un seul vol
+- **RG15 :** Une réservation concerne un ou plusieurs sièges 
+- **RG13 :** Une réservation est associée à un ou plusieurs avions 
+- **RG14 :** Une réservation est associée à une ou plusieurs compagnie aérienne
 - **RG12 :** Une réservation est associée à un aeroport de départ 
 - **RG13 :** Une réservation est associée à un aéroport d'arrivée
-- **RG14 :** Une réservation concerne une ou plusieurs compagnie aérienne
-- **RG15 :** Une réservation concerne un ou plusieurs sièges 
 
 
 ## Siège
