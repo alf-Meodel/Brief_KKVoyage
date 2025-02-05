@@ -125,6 +125,7 @@ d'arrivée.
 ## Escale 
 ---
 ```
+- RG44 : Une escale est définie par un identifiant unique ???????
 - RG44 : Une escale est définie par une heure de départ
 - RG45 :  Une escale est définie par heure d'arrivée
 
@@ -133,8 +134,8 @@ d'arrivée.
 - **RG45 :**  Une escale est associé à un aéroport 
 ---
 
-- **RG46 :**  Une escale peut laisser aux clients le même vol
-- **RG47 :**  Une escale peut donner aux clients un nouveau vol
+- **RG46 :**  Une escale peut etre associé à un changement d'avion ???
+- **RG46 :**  Une escale peut s'effectuer sans changement d'avion ???
 
 ## Villes
 ---
