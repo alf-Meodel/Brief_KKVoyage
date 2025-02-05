@@ -136,8 +136,7 @@ d'arrivée.
 
 ---
 ```
-- RG55 : Une escale est définie par un identifiant unique ???????
-
+- RG55 : Une escale est définie par un identifiant unique
 - RG56 : Une escale est définie par une heure de départ
 - RG57 :  Une escale est définie par heure d'arrivée
 
@@ -145,17 +144,14 @@ d'arrivée.
 <!-- - RG45 :  Une escale est définie par une durée modulable  -->
 - **RG58 :**  Une escale est associée à une ville 
 - **RG59 :**  Une escale est associée à un aéroport 
----
-
 - **RG60 :**  Une escale peut etre associé à un changement d'avion
-- **RG61 :**  Une escale peut s'effectuer sans changement d'avion
 
 ## Villes
 ---
 ```
-- RG62 :  Une ville possède un id
-- RG63 :  Une ville possède un nom
-- RG64 :  Une ville possède un pays
+- RG62 :  Une ville est définie par un identifiant unique
+- RG63 :  Une ville est définie par son nom
+- RG64 :  Une ville est définie par son pays
 ```
 
 - **RG65 :**  Une ville est composé d'un ou plusieurs aéroports
