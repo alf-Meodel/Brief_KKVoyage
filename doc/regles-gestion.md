@@ -114,8 +114,8 @@ d'arrivée.
 
 ```
 
-- **RG45 :**  Une escale peut avoir lieu dans une ville 
-- **RG46 :**  Une escale peut avoir lieu dans dans plusieurs villes
+- **RG45 :**  Une escale est associé à une ville 
+
 
 ---
 
