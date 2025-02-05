@@ -12,8 +12,7 @@
 ```
 
 - **RG05 :** Un client peut réserver **pour lui** et **pour plusieurs personnes**
-- **RG06 :** Un client peut effectuer **une reservation** 
-- **RG07 :** Un client peut effectuer **plusieurs reservation**
+- **RG06 :** Un client peut effectuer **une** ou **plusieurs reservation**
 <!-- - **RG07 :** Un client peut annuler ses reservations  -->
 ---
 
@@ -21,14 +20,12 @@
 ## Reservation 
 ---
 ```
-- RG08 : Une Reservation est représenté par un identifiant unique 
-- RG09 : Une Reservation possède une date de réservation
+- RG08 : Une réservation est représenté par un identifiant unique 
+- RG09 : Une réservation possède une date de réservation
 ```
 
-- **RG10 :** Une réservation concerne une ville de départ 
-- **RG11 :** Une réservation concerne une ville d'arrivée
-
----
+- **RG10 :** Une réservation est associé à une aeroport de départ 
+- **RG11 :** Une réservation est associé à un aéroport d'arrivée
 - **RG12 :** Une réservation concerne un seul passager
 - **RG13 :** Une réservation concerne un ou plusieurs sièges
 - **RG14 :** Une réservation concerne un ou plusieurs vols
@@ -124,6 +121,7 @@ d'arrivée.
 ---
 
 ## Escale 
+
 ---
 ```
 - RG44 : Une escale est définie par un identifiant unique ???????
@@ -137,8 +135,8 @@ d'arrivée.
 - **RG45 :**  Une escale est associée à un aéroport 
 ---
 
-- **RG46 :**  Une escale peut etre associé à un changement d'avion ???
-- **RG46 :**  Une escale peut s'effectuer sans changement d'avion ???
+- **RG46 :**  Une escale peut etre associé à un changement d'avion
+- **RG46 :**  Une escale peut s'effectuer sans changement d'avion
 
 ## Villes
 ---
