@@ -9,6 +9,7 @@
 - RG02 : Un client est représenté par son nom
 - RG03 : Un client est représenté par son prenom
 - RG04 : Un client est identifié par son mail 
+- RG04 : Un client est identifié par son adresse
 ```
 - **RG05 :** Un client peut reserver  **un siège**
 - **RG06 :** Un client est **associé à une reservation**
@@ -24,8 +25,9 @@
 - RG07 : Un Passager est représenté par un identifiant unique 
 - RG08 : Un Passager est représenté par son nom
 - RG09 : Un Passager est représenté par son prenom
-- RG10 : Un Passager peut etre représenté par son mail
+- RG04 : Un client est identifié par son adresse
 ```
+- **RG10 :** Un Passager peut etre représenté par son mail
 - **RG11 :** Un Passager est **associé à un siège (réservé)**
 
 - **RG11 :** Un Passager est **associé à une reservation**
@@ -145,10 +147,9 @@ d'arrivée.
 - RG57 :  Une escale est définie par heure d'arrivée
 
 ```
-- **RG58 :**  Une escale est associée à une ville 
-- **RG59 :**  Une escale est associée à un aéroport 
-- **RG60 :**  Une escale peut etre associé à un changement d'avion
-
+- **RG58 :**  Une escale est **associée à une ville** 
+- **RG59 :**  Une escale est **associée à un aéroport **
+- **RG60 :**  Une escale peut etre **associé à un changement d'avion**
 ## Villes
 ---
 ```
@@ -157,7 +158,7 @@ d'arrivée.
 - RG64 :  Une ville est définie par son pays
 ```
 
-- **RG65 :**  Une ville est composé d'un ou plusieurs aéroports
+- **RG65 :**  Une ville est composé **d'un ou plusieurs aéroports**
 ---
 ---
 
