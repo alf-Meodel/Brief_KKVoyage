@@ -38,7 +38,7 @@
 <!-- - **RG01 :** Une réservation peut être annulée ou confirmée. -->
 
 
-## Billet ? (siège)
+## Siège
 ---
 ```
 - RG03 : Un Billet est représenté par son id
