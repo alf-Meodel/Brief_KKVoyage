@@ -41,15 +41,13 @@
 ## Siège
 ---
 ```
-- RG17 : Un Siège est représenté par son id
-- RG18 : Un Siège est représenté par son numéro d'emplacement
-- RG19 : Un Siège est représenté par son prix
+- RG17 : Un siège est représenté par son id
+- RG18 : Un siège est représenté par son numéro d'emplacement
+- RG19 : Un siège est représenté par son prix
 ```
 
 - **RG20 :** Un siège est associé à un seul client.
 <!-- - **RG20 :** Un siège appartient à un avion  -->
-
-
 
 ## Avion
 ---
@@ -63,7 +61,7 @@
 - **RG25 :**  Un avion est composé d'un nombre de sièges max
 ---
 - **RG25 :**  Un avion est associé à une seule compagnie aérienne
-- **RG25 :**  Un avion est associé à une ou plusieurs réservations??
+- **RG25 :**  Un avion est associé à une ou plusieurs réservations
 ---
 - **RG25 :**  Un avion est associé à un ou plusieurs aéroports
 ---
@@ -71,11 +69,11 @@
  - **RG27 :** Un avion doit avoir un jour et une heure 
 d'arrivée.
 ---
-- **RG28 :** Un vol est associé à un aéroport de départ 
-- **RG29 :** Un vol est associé à un aéroport d'arrivée 
+- **RG28 :** Un avion est associé à un aéroport de départ 
+- **RG29 :** Un avion est associé à un aéroport d'arrivée 
 ---
-- **RG30 :** un vol peut comporter aucune escales
-- **RG31 :** un vol peut comporter plusieurs escales
+- **RG30 :** un avion peut comporter aucune escales
+- **RG31 :** un avion peut comporter plusieurs escales
 ---
 
 
