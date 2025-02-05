@@ -113,12 +113,8 @@ d'arrivée.
 - RG45 :  Une escale est définie par heure d'arrivée
 
 ```
-
 - **RG45 :**  Une escale est associé à une ville 
 - **RG45 :**  Une escale est associé à un aéroport 
-
-
-
 ---
 
 - **RG46 :**  Une escale peut laisser aux clients le même vol
@@ -131,10 +127,7 @@ d'arrivée.
 - RG49 :  Une ville possède un nom
 ```
 
-- **RG50 :**  Une ville peut contenir un ou plusieurs aéroports
-
+- **RG50 :**  Une ville est composé d'un ou plusieurs aéroports
 ---
 ---
 
-- **RG51 :** Chaque aéroport dessert une ou plusieurs villes.
-- **RG52 :** Des compagnies aériennes proposent différents vols.
