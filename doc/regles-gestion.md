@@ -31,11 +31,10 @@
 - RG12 : Une Reservation possède une date de réservation
 ```
 
-- **RG13 :** Une réservation concerne un siège
 - **RG14 :** Une réservation concerne un seul passager
+- **RG13 :** Une réservation concerne un ou plusieurs sièges
 - **RG15 :** Une réservation concerne un ou plusieurs vols
 - **RG16 :** Une réservation concerne une ou plusieurs compagnie aérienne
-
 <!-- - **RG01 :** Une réservation peut être annulée ou confirmée. -->
 
 
