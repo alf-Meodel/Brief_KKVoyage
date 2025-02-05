@@ -15,7 +15,7 @@
 - **RG06 :** Un client peut réserver **pour plusieurs personnes**
 
 - **RG07 :** Un client peut effectuer **une reservation** 
-- **RG07 :** Un client peut effectuer **plusieurs reservation**
+- **RG08 :** Un client peut effectuer **plusieurs reservation**
 <!-- - **RG07 :** Un client peut annuler ses reservations  -->
 
 ---
@@ -24,16 +24,16 @@
 ## Reservation 
 ---
 ```
-- RG11 : Une Reservation est représenté par un identifiant unique 
-- RG12 : Une Reservation possède une date de réservation
+- RG09 : Une Reservation est représenté par un identifiant unique 
+- RG10 : Une Reservation possède une date de réservation
 ```
 
-- **RG15 :** Une réservation concerne une ville de départ 
-- **RG15 :** Une réservation concerne une ville d'arrivée
+- **RG11 :** Une réservation concerne une ville de départ 
+- **RG12 :** Une réservation concerne une ville d'arrivée
 
 ---
-- **RG14 :** Une réservation concerne un seul passager
-- **RG13 :** Une réservation concerne un ou plusieurs sièges
+- **RG13 :** Une réservation concerne un seul passager
+- **RG14 :** Une réservation concerne un ou plusieurs sièges
 - **RG15 :** Une réservation concerne un ou plusieurs vols
 - **RG16 :** Une réservation concerne une ou plusieurs compagnie aérienne
 
