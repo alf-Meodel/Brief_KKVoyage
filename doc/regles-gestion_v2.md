@@ -30,11 +30,12 @@
 ```
 
 ----
+**- RG11 :** Une réservation est associé à **un client**
 **- RG11 :** Une réservation est associé à **un seul voyage**
 **- RG12 :** Une réservation est associé à **un ou plusieurs passager**
 **- RG13 :** Une réservation est associé à **une seule compagnie aerienne**
 
-## voyage 
+## voyage (vol)
 ---
 ```
 - RG14 : Un voyage est représenté par un identifiant unique 
@@ -52,14 +53,14 @@
 ---
 
 ## Escale 
----
+--- 
 ```
 - RG23 : Une escale est définie par un identifiant unique
 - RG24 :  Une escale est définie par une heure d'arrivée
 - RG25 : Une escale est définie par une heure de départ
 ```
 
-- **RG26 :**  une escale peut être **associée à aucun voyage**
+- **RG26 :**  une escale est associé **associée à un voyage**
 - **RG26 :**  une escale peut être **associée à plusieurs voyage**
 - **RG26 :**  une escale peut être **associée à aucun avion**
 - **RG26 :**  une escale peut être **associée à un avion**
@@ -74,7 +75,9 @@
 - RG30 : Un client est authentifié par son adresse
 
 ```
-- **RG31 :** Un Passager est **associé à un seul siège** 
+
+
+- **RG31 :** Un Passager doit avoir **un siège** 
 - **RG32 :** Un Passager est **associé à une seule reservation**
 ---
 
@@ -88,7 +91,8 @@
 - RG36 : Un siège est représenté par son statut ( libre réservé)
 ```
 
-- **RG37 :** Un siège est associé à **un seul passager**.
+- **RG37 :** Un siège peut contenir **aucun passager**.
+- **RG37 :** Un siège peut contenir **un seul passager**.
 - **RG37 :** Un siège est associé à **un avion**.
 
 ## Avion
@@ -102,7 +106,7 @@
 - **RG42 :**  Un avion est composé d'**un ou plusieurs sièges**
 - **RG43 :**  Un avion est associé à **un ou plusieurs aéroports**
 - **RG44 :**  Un avion est associé à **une seule compagnie aériennes**
-
+<!-- - **RG44 :**  Un avion est associé à **une aucune compagnie aériennes**  ??????? -->
 - **RG44 :**  Un avion peut est associé à **aucune escales**
 - **RG44 :**  Un avion peut est associé à **une escale**
 ---
@@ -120,6 +124,9 @@
 - **RG49 :**  Une compagnie aérienne peut **proposer des réservations sur un ou plusieurs voyage qu'elle propose** 
 - **RG50 :**  Une compagnie aérienne peut arréter **les réservations sur un ou plusieurs voyage qu'elle propose**
 - **RG50 :**  Une compagnie aérienne est composée d'**un ou plusieurs avions**
+<!-- - **RG50 :**  Une compagnie aérienne est composée **d'aucun avion** ???????????????  -->
+- **RG50 :**  Une compagnie aérienne est associé a **un ou plusieurs aeroports**
+
 ---
 
 ## Aeroport 
@@ -131,11 +138,9 @@
 - RG54 :  Un aéroport est représenté par son pays
 ```
 
-- **RG55 :**  Un aéroport est associé **à une ville**??
-
+- **RG55 :**  Un aéroport est associé **à une seule ville**??
 - **RG56 :**  Un aéroport peut etre associé à **aucune compagnies aériennes**
 - **RG56 :**  Un aéroport peut etre associé à **plusieurs compagnies aériennes**
-
 - **RG57 :**  Un aéroport peut etre associé à **aucun voyages**
 - **RG57 :**  Un aéroport peut etre associé à **plusieurs voyages**
 
