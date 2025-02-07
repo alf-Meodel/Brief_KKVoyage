@@ -139,24 +139,6 @@
 -----------------------------------------
 -----------------------------------------
 
-
-<!-- ## Villes
----
-```
-- RG58 :  Une ville est définie par un identifiant unique
-- RG59 :  Une ville est définie par son nom
-- RG60 :  Une ville est définie par son pays
-```
-
-- **RG61 :**  Une ville est composé **d'un ou plusieurs aéroports**
-
-
-
------------------------
------------------------
------------------------ -->
-
-
 ```
 - Un voyage est ouvert à la réservation et refermé sur ordre de la compagnie.
 - Un voyage peut être annulé par la compagnie
