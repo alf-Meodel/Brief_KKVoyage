@@ -14,7 +14,7 @@
 - RG06 : Un client est identifié par son numéro de téléphone
 ```
 
-- **RG07 :** Un client **peut n'avoir aucune reservation**
+- **RG07 :** Un client **peut avoir aucune reservation**
 - **RG07 :** Un client **peut passer plusieurs reservation**
 - **RG08 :** Un client **peut annuler ses reservations**
 ---
@@ -45,9 +45,8 @@
 ---
 - **RG19 :** Un voyage est associé à une reservation
 - **RG20 :** un voyage est associé à plusieurs aeroports 
-
-- **RG21 :** un voyage peut etre associé à aucune escales
-- **RG21 :** un voyage peut etre associé à plusieurs escales
+- **RG21 :** un voyage peut avoir aucune escales
+- **RG21 :** un voyage peut avoir plusieurs escales
 - **RG22 :** un voyage est associé à une ou plusieurs compagnies aérienne
 ---
 
@@ -58,7 +57,8 @@
 - RG24 :  Une escale est définie par une heure d'arrivée
 - RG25 : Une escale est définie par une heure de départ
 ```
-- **RG26 :**  Aucune escales peuvent etre **associée à un voyage**
+
+- **RG26 :**  il se peut qu'aucune escale soit **associée à un voyage**
 - **RG26 :**  plusieurs escale peuvent etre **associée à un voyage**
 
 ## Passager
