@@ -28,7 +28,6 @@
 **- RG21 :** Une réservation est associé à **un unique voyage**
 **- RG21 :** Une réservation est associé à **un ou plusieurs passager**
 
-
 ## voyage 
 ---
 ```
@@ -40,7 +39,8 @@
 ```
 ---
 - **RG41 :**  Un voyage est associé à une reservation
-- **RG42 :** un voyage peut etre associé à plusieurs aeroports 
+- **RG42 :** un voyage est associé à plusieurs aeroports 
+- **RG42 :** un voyage peut etre associé à zero ou plusieurs escales
 ---
 
 ## Escale 
@@ -51,7 +51,7 @@
 - RG57 :  Une escale est définie par heure d'arrivée
 
 ```
-- **RG59 :**  Une escale peut etre **associée à zero ou plusieurs voyage **
+- **RG59 :**  Une escale peut etre **associée à zero ou un voyage**
 
 ## Passager
 ---
@@ -93,7 +93,7 @@
 ---
 
 
-## Compagnie Aérienne 
+## Compagnie Aérienne ???
 ---
 ```
 - RG44 : Une compagnie aérienne est représenté par un identifiant unique 
