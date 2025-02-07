@@ -125,7 +125,7 @@
 - RG54 :  Un aéroport est représenté par son pays
 ```
 
-- **RG55 :**  Un aéroport est associé à une ville
+- **RG55 :**  Un aéroport est associé **à une ville**??
 
 - **RG56 :**  Un aéroport peut etre associé à **aucune compagnies aériennes**
 - **RG56 :**  Un aéroport peut etre associé à **plusieurs compagnies aériennes**
@@ -133,7 +133,7 @@
 - **RG57 :**  Un aéroport peut etre associé à **aucun voyages**
 - **RG57 :**  Un aéroport peut etre associé à **plusieurs voyages**
 
-## Ville
+## Ville??
 ---
 ```
 - RG51 :  Un aéroport possède est représenté par un identifiant unique 
