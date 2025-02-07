@@ -14,7 +14,7 @@
 - RG06 : Un client est identifié par son numéro de téléphone
 ```
 
-- **RG07 :** Un client **peut avoir aucune reservation**
+- **RG07 :** Un client **peut faire aucune reservation**
 - **RG07 :** Un client **peut passer plusieurs reservation**
 - **RG08 :** Un client **peut annuler ses reservations**
 ---
