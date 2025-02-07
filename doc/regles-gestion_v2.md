@@ -43,11 +43,11 @@
 - RG18 : Un voyage doit avoir un jour et une heure d'arrivée.
 ```
 ---
-- **RG19 :** Un voyage est associé à une reservation
-- **RG20 :** un voyage est associé à plusieurs aeroports 
-- **RG21 :** un voyage peut avoir aucune escales
-- **RG21 :** un voyage peut avoir plusieurs escales
-- **RG22 :** un voyage est associé à une ou plusieurs compagnies aérienne
+- **RG19 :** Un voyage est associé à **une reservation**
+- **RG20 :** un voyage est associé à **plusieurs aeroports** 
+- **RG21 :** un voyage peut contenir **aucune escales**
+- **RG21 :** un voyage peut contenir **plusieurs escales**
+- **RG22 :** un voyage est associé à **une ou plusieurs compagnies aérienne**
 ---
 
 ## Escale 
@@ -58,8 +58,9 @@
 - RG25 : Une escale est définie par une heure de départ
 ```
 
-- **RG26 :**  aucune escale peut être **associée à un voyage**
-- **RG26 :**  plusieurs escale peuvent etre **associée à un voyage**
+- **RG26 :**  une escale peut être **associée à aucun voyage**
+- **RG26 :**  une escale peut être **associée à plusieurs voyage**
+
 
 ## Passager
 ---
@@ -85,7 +86,7 @@
 ```
 
 - **RG37 :** Un siège est associé à **un seul passager**.
-- **RG38 :** Un ou plusieurs sièges sont associés à un avion.
+- **RG37 :** Un siège est associé à **un avion**.
 
 ## Avion
 ---
@@ -97,7 +98,7 @@
 ```
 - **RG42 :**  Un avion est composé d'**un ou plusieurs sièges**
 - **RG43 :**  Un avion est associé à **un ou plusieurs aéroports**
-- **RG44 :**  Un avion est associé à **une seule ou plusieurs compagnies aériennes**
+- **RG44 :**  Un avion est associé à **une seule compagnie aériennes**
 ---
 
 
