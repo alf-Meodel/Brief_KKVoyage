@@ -25,7 +25,7 @@
 
 ```
 - RG09 : Une réservation est représenté par un identifiant unique 
-- RG10 : Une réservation génère un numéro unique de réservation
+- RG10 : Une réservation est identifié par un numéro unique de réservation
 - RG10 : Une réservation est représenté par une date de réservation
 ```
 
@@ -46,7 +46,7 @@
 ```
 ---
 - **RG19 :** Un voyage est associé à **une reservation**
-- **RG20 :** un voyage est associé à **plusieurs aeroports** 
+- **RG20 :** un voyage est associé à **ou ou plusieurs aeroports** ( on peut decoller d'un aeroport faire un tour et revenir dans le même aeroport) 
 - **RG21 :** un voyage peut contenir **aucune escales**
 - **RG21 :** un voyage peut contenir **plusieurs escales**
 - **RG22 :** un voyage est associé à **une ou plusieurs compagnies aérienne**
@@ -55,13 +55,14 @@
 ## Escale 
 --- 
 ```
-- RG23 : Une escale est définie par un identifiant unique
+- RG23 : Une escale est définie par un identifiant uniqueX
 - RG24 :  Une escale est définie par une heure d'arrivée
 - RG25 : Une escale est définie par une heure de départ
+- RG25 : Une escale est définie par une ville 
 ```
 
-- **RG26 :**  une escale est associé **associée à un voyage**
-- **RG26 :**  une escale peut être **associée à plusieurs voyage**
+- **RG26 :**  une escale est **associée à un voyage**
+<!-- - **RG26 :**  une escale peut être **associée à plusieurs voyage** -->
 - **RG26 :**  une escale peut être **associée à aucun avion**
 - **RG26 :**  une escale peut être **associée à un avion**
 
