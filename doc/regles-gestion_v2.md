@@ -118,10 +118,10 @@
 ## Aeroport 
 ---
 ```
-- RG51 :  Un aéroport possède est représenté par un identifiant unique 
-- RG52 :  Un aéroport possède est représenté par son nom
-- RG53 :  Un aéroport possède est représenté par son ville
-- RG54 :  Un aéroport possède est représenté par son pays
+- RG51 :  Un aéroport est représenté par un identifiant unique 
+- RG52 :  Un aéroport est représenté par son nom
+- RG53 :  Un aéroport est représenté par son ville
+- RG54 :  Un aéroport est représenté par son pays
 ```
 
 - **RG55 :**  Il peut y avoir aucun aeroport **dans une ville**
@@ -134,7 +134,7 @@
 - **RG57 :**  Un aéroport peut etre associé à **plusieurs voyages**
 
 
-<!-- 
+
 ## Ville
 ---
 ```
@@ -142,9 +142,9 @@
 - RG52 :  Un aéroport possède est représenté par son nom
 ```
 
+- **RG55 :**  aucun peuvent se trouver une ville
 - **RG55 :**  Plusieurs aéroports peuvent se trouver dans la même ville
-- **RG55 :**  Plusieurs aéroports peuvent se trouver dans la même ville
- -->
+
 
 
 
