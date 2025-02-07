@@ -25,7 +25,8 @@
 
 ```
 - RG09 : Une réservation est représenté par un identifiant unique 
-- RG10 : Une réservation possède une date de réservation
+- RG10 : Une réservation génère un numéro unique de réservation
+- RG10 : Une réservation est représenté par une date de réservation
 ```
 
 ----
@@ -60,6 +61,8 @@
 
 - **RG26 :**  une escale peut être **associée à aucun voyage**
 - **RG26 :**  une escale peut être **associée à plusieurs voyage**
+- **RG26 :**  une escale peut être **associée à aucun avion**
+- **RG26 :**  une escale peut être **associée à un avion**
 
 
 ## Passager
