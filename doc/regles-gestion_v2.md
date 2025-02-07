@@ -58,7 +58,7 @@
 - RG25 : Une escale est définie par une heure de départ
 ```
 
-- **RG26 :**  il se peut qu'aucune escale soit **associée à un voyage**
+- **RG26 :**  aucune escale peut être **associée à un voyage**
 - **RG26 :**  plusieurs escale peuvent etre **associée à un voyage**
 
 ## Passager
@@ -124,15 +124,28 @@
 - RG54 :  Un aéroport possède est représenté par son pays
 ```
 
-- **RG55 :**  Il peut n'y avoir aucun aeroport **dans une ville**
+- **RG55 :**  Il peut y avoir aucun aeroport **dans une ville**
 - **RG55 :**  Plusieurs aéroports peuvent se trouver **dans une même ville**
 
 - **RG56 :**  Un aéroport peut etre associé à **aucune compagnies aériennes**
 - **RG56 :**  Un aéroport peut etre associé à **plusieurs compagnies aériennes**
 
+- **RG57 :**  Un aéroport peut etre associé à **aucun voyages**
+- **RG57 :**  Un aéroport peut etre associé à **plusieurs voyages**
 
-- **RG57 :**  Un aéroport peut proposer **aucun voyages**
-- **RG57 :**  Un aéroport peut proposer **plusieurs voyages**
+
+<!-- 
+## Ville
+---
+```
+- RG51 :  Un aéroport possède est représenté par un identifiant unique 
+- RG52 :  Un aéroport possède est représenté par son nom
+```
+
+- **RG55 :**  Plusieurs aéroports peuvent se trouver dans la même ville
+- **RG55 :**  Plusieurs aéroports peuvent se trouver dans la même ville
+ -->
+
 
 
 -----------------------------------------
