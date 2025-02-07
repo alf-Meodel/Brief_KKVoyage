@@ -13,114 +13,113 @@
 - RG06 : Un client est identifié par son numéro de téléphone
 ```
 
-- **RG10 :** Un client est **associé à une ou plusieurs reservation**
-- **RG13 :** Un client **peut annuler ses reservations**
+- **RG07 :** Un client est **peut passer une ou plusieurs reservation**
+- **RG08 :** Un client **peut annuler ses reservations**
 ---
 
 ## Reservation 
 ---
 ```
-- RG20 : Une réservation est représenté par un identifiant unique 
-- RG21 : Une réservation possède une date de réservation
+- RG09 : Une réservation est représenté par un identifiant unique 
+- RG10 : Une réservation possède une date de réservation
 ```
 
 ----
-**- RG21 :** Une réservation est associé à **un unique voyage**
-**- RG21 :** Une réservation est associé à **un ou plusieurs passager**
-**- RG21 :** Une réservation est associé à **une seule compagnie aerienne**
+**- RG11 :** Une réservation est associé à **un unique voyage**
+**- RG12 :** Une réservation est associé à **un ou plusieurs passager**
+**- RG13 :** Une réservation est associé à **une seule compagnie aerienne**
 
 ## voyage 
 ---
 ```
-- RG42 : Un voyage est représenté par un identifiant unique 
-- RG37 : Un voyage est associé à un aéroport de départ 
-- RG38 : Un voyage est associé à un aéroport d'arrivée 
-- RG39 : Un voyage doit avoir un jour et une heure de départ,
-- RG40 : Un voyage doit avoir un jour et une heure d'arrivée.
+- RG14 : Un voyage est représenté par un identifiant unique 
+- RG15 : Un voyage est associé à un aéroport de départ 
+- RG16 : Un voyage est associé à un aéroport d'arrivée 
+- RG17 : Un voyage doit avoir un jour et une heure de départ,
+- RG18 : Un voyage doit avoir un jour et une heure d'arrivée.
 ```
 ---
-- **RG41 :**  Un voyage est associé à une reservation
-- **RG42 :** un voyage est associé à plusieurs aeroports 
-- **RG42 :** un voyage peut etre associé à zero ou plusieurs escales
-- **RG42 :** un voyage est associé à une ou plusieurs compagnies aérienne
+- **RG19 :**  Un voyage est associé à une reservation
+- **RG20 :** un voyage est associé à plusieurs aeroports 
+- **RG21 :** un voyage peut etre associé à zero ou plusieurs escales
+- **RG22 :** un voyage est associé à une ou plusieurs compagnies aérienne
 ---
 
 ## Escale 
 ---
 ```
-- RG55 : Une escale est définie par un identifiant unique
-- RG56 : Une escale est définie par une heure de départ
-- RG57 :  Une escale est définie par heure d'arrivée
-
+- RG23 : Une escale est définie par un identifiant unique
+- RG24 :  Une escale est définie par une heure d'arrivée
+- RG25 : Une escale est définie par une heure de départ
 ```
-- **RG59 :**  Une escale peut etre **associée à zero ou un voyage**
+- **RG26 :**  Des escale peuvent etre **associée à un voyage**
 
 ## Passager
 ---
 ```
-- RG14 : Un Passager est représenté par un identifiant unique 
-- RG15 : Un Passager est authentifié par son nom
-- RG16 : Un Passager est authentifié par son prenom
-- RG17 : Un client est authentifié par son adresse
+- RG27 : Un Passager est représenté par un identifiant unique 
+- RG28 : Un Passager est authentifié par son nom
+- RG29 : Un Passager est authentifié par son prenom
+- RG30 : Un client est authentifié par son adresse
 
 ```
-- **RG18 :** Un Passager est **associé à un siège** unique
-- **RG19 :** Un Passager est **associé à une reservation**
+- **RG31 :** Un Passager est **associé à un siège** unique
+- **RG32 :** Un Passager est **associé à une reservation**
 ---
 
 
 ## Siège
 ---
 ```
-- RG28 : Un siège est représenté par un identifiant unique 
-- RG29 : Un siège est représenté par son numéro d'emplacement
-- RG30 : Un siège est représenté par son prix
-- RG31 : Un siège est représenté par son statut ( libre réservé)
+- RG33 : Un siège est représenté par un identifiant unique 
+- RG34 : Un siège est représenté par son numéro d'emplacement
+- RG35 : Un siège est représenté par son prix
+- RG36 : Un siège est représenté par son statut ( libre réservé)
 ```
 
-- **RG32 :** Un siège est associé à **un seul passager**.
-- **RG32 :** Un ou plusieurs sièges sont associés à un avion.
+- **RG37 :** Un siège est associé à **un seul passager**.
+- **RG38 :** Un ou plusieurs sièges sont associés à un avion.
 
 ## Avion
 ---
 ```
-- RG34 : Un avion est représenté par un identifiant unique 
-- RG35 : Un avion est représenté par le nom de sa compagnie 
-- RG36 : Un avion est représenté par le modèle de son avion
+- RG39 : Un avion est représenté par un identifiant unique 
+- RG40 : Un avion est représenté par le nom de sa compagnie 
+- RG41 : Un avion est représenté par le modèle de son avion
 
 ```
-- **RG37 :**  Un avion est composé d'**un ou plusieurs sièges**
-- **RG39 :**  Un avion est associé à **un ou plusieurs aéroports**
-- **RG38 :**  Un avion est associé à **une seule ou plusieurs compagnies aériennes**
+- **RG42 :**  Un avion est composé d'**un ou plusieurs sièges**
+- **RG43 :**  Un avion est associé à **un ou plusieurs aéroports**
+- **RG44 :**  Un avion est associé à **une seule ou plusieurs compagnies aériennes**
 ---
 
 
 ## Compagnie Aérienne ???
 ---
 ```
-- RG44 : Une compagnie aérienne est représenté par un identifiant unique 
-- RG45 : Une compagnie aérienne est représenté par son nom
+- RG45 : Une compagnie aérienne est représenté par un identifiant unique 
+- RG46 : Une compagnie aérienne est représenté par son nom
 ```
 ---
-- **RG46 :**  Une compagnie aérienne peut **ajouter un ou plusieurs voyages** 
-- **RG47 :**  Une compagnie aérienne peut **annuler un ou plusieurs voyages**
-- **RG48 :**  Une compagnie aérienne peut **proposer des réservations sur un ou plusieurs voyage** 
-- **RG49 :**  Une compagnie aérienne peut arréter **les réservations sur un ou plusieurs voyage**
+- **RG47 :**  Une compagnie aérienne peut **ajouter un ou plusieurs voyages** 
+- **RG48 :**  Une compagnie aérienne peut **annuler un ou plusieurs voyages**
+- **RG49 :**  Une compagnie aérienne peut **proposer des réservations sur un ou plusieurs voyage** 
+- **RG50 :**  Une compagnie aérienne peut arréter **les réservations sur un ou plusieurs voyage**
 ---
 
 ## Aeroport 
 ---
 ```
-- RG50 :  Un aéroport possède est représenté par un identifiant unique 
-- RG51 :  Un aéroport possède est représenté par son nom
-- RG51 :  Un aéroport possède est représenté par son ville
-- RG51 :  Un aéroport possède est représenté par son pays
+- RG51 :  Un aéroport possède est représenté par un identifiant unique 
+- RG52 :  Un aéroport possède est représenté par son nom
+- RG53 :  Un aéroport possède est représenté par son ville
+- RG54 :  Un aéroport possède est représenté par son pays
 
 ```
 
-- **RG52 :**  Un ou plusieurs aéroports peuvent se trouver **dans une même ville**
-- **RG53 :**  Un aéroport est associé à **une ou plusieurs compagnies aériennes**
-- **RG54 :**  Un aéroport est composé de **plusieurs voyages**
+- **RG55 :**  Un ou plusieurs aéroports peuvent se trouver **dans une même ville**
+- **RG56 :**  Un aéroport est associé à **une ou plusieurs compagnies aériennes**
+- **RG57 :**  Un aéroport est composé de **plusieurs voyages**
 
 -----------------------------------------
 -----------------------------------------
@@ -130,12 +129,12 @@
 ## Villes
 ---
 ```
-- RG62 :  Une ville est définie par un identifiant unique
-- RG63 :  Une ville est définie par son nom
-- RG64 :  Une ville est définie par son pays
+- RG58 :  Une ville est définie par un identifiant unique
+- RG59 :  Une ville est définie par son nom
+- RG60 :  Une ville est définie par son pays
 ```
 
-- **RG65 :**  Une ville est composé **d'un ou plusieurs aéroports**
+- **RG61 :**  Une ville est composé **d'un ou plusieurs aéroports**
 ---
 ---
 
