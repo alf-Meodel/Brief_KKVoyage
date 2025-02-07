@@ -95,10 +95,10 @@
 ---
 ```
 - RG39 : Un avion est représenté par un identifiant unique 
-- RG40 : Un avion est représenté par le nom de sa compagnie 
-- RG41 : Un avion est représenté par le modèle de son avion
+- RG41 : Un avion est représenté par le modèle de son avion(nom)
 
 ```
+<!-- - RG40 : Un avion est représenté par le nom de sa compagnie  -->
 - **RG42 :**  Un avion est composé d'**un ou plusieurs sièges**
 - **RG43 :**  Un avion est associé à **un ou plusieurs aéroports**
 - **RG44 :**  Un avion est associé à **une seule compagnie aériennes**
@@ -142,8 +142,11 @@
 ## Ville??
 ---
 ```
-- RG51 :  Un aéroport possède est représenté par un identifiant unique 
-- RG52 :  Un aéroport possède est représenté par son nom
+- RG51 :  Une ville est représenté par un identifiant unique 
+- RG51 :  Une ville est représenté par son nom
+- RG51 :  Une ville est représenté par sa région
+- RG51 :  Une ville est représenté par son pays
+
 ```
 
 - **RG55 :**  Une ville peut avoir aucun aeroport
