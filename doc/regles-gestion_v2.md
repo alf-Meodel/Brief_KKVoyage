@@ -95,7 +95,7 @@
 ---
 
 
-## Compagnie Aérienne ???
+## Compagnie Aérienne
 ---
 ```
 - RG45 : Une compagnie aérienne est représenté par un identifiant unique 
@@ -103,9 +103,9 @@
 ```
 ---
 - **RG47 :**  Une compagnie aérienne peut **ajouter un ou plusieurs voyages** 
-- **RG48 :**  Une compagnie aérienne peut **annuler un ou plusieurs voyages**
-- **RG49 :**  Une compagnie aérienne peut **proposer des réservations sur un ou plusieurs voyage** 
-- **RG50 :**  Une compagnie aérienne peut arréter **les réservations sur un ou plusieurs voyage**
+- **RG48 :**  Une compagnie aérienne peut **annuler un ou plusieurs voyages qu'elle propose**
+- **RG49 :**  Une compagnie aérienne peut **proposer des réservations sur un ou plusieurs voyage qu'elle propose** 
+- **RG50 :**  Une compagnie aérienne peut arréter **les réservations sur un ou plusieurs voyage qu'elle propose**
 - **RG50 :**  Une compagnie aérienne est composée d'un ou plusieurs avions 
 ---
 
