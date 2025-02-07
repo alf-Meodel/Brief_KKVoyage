@@ -102,6 +102,9 @@
 - **RG42 :**  Un avion est composé d'**un ou plusieurs sièges**
 - **RG43 :**  Un avion est associé à **un ou plusieurs aéroports**
 - **RG44 :**  Un avion est associé à **une seule compagnie aériennes**
+
+- **RG44 :**  Un avion peut est associé à **aucune escales**
+- **RG44 :**  Un avion peut est associé à **une escale**
 ---
 
 
