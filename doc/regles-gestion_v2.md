@@ -2,6 +2,7 @@
 ----------------------REGLES DE GESTION----------------------
 -------------------------------------------------------------
 
+
 ## Client 
 ---
 ```
@@ -13,7 +14,7 @@
 - RG06 : Un client est identifié par son numéro de téléphone
 ```
 
-- **RG07 :** Un client est **peut passer une ou plusieurs reservation**
+- **RG07 :** Un client **peut passer une ou plusieurs reservation**
 - **RG08 :** Un client **peut annuler ses reservations**
 ---
 
@@ -105,6 +106,7 @@
 - **RG48 :**  Une compagnie aérienne peut **annuler un ou plusieurs voyages**
 - **RG49 :**  Une compagnie aérienne peut **proposer des réservations sur un ou plusieurs voyage** 
 - **RG50 :**  Une compagnie aérienne peut arréter **les réservations sur un ou plusieurs voyage**
+- **RG50 :**  Une compagnie aérienne est composée d'un ou plusieurs avions 
 ---
 
 ## Aeroport 
@@ -114,19 +116,18 @@
 - RG52 :  Un aéroport possède est représenté par son nom
 - RG53 :  Un aéroport possède est représenté par son ville
 - RG54 :  Un aéroport possède est représenté par son pays
-
 ```
 
-- **RG55 :**  Un ou plusieurs aéroports peuvent se trouver **dans une même ville**
+- **RG55 :**  Plusieurs aéroports peuvent se trouver **dans une même ville**
 - **RG56 :**  Un aéroport est associé à **une ou plusieurs compagnies aériennes**
-- **RG57 :**  Un aéroport est composé de **plusieurs voyages**
+- **RG57 :**  Un aéroport peut proposer plusieurs **plusieurs voyages**
 
 -----------------------------------------
 -----------------------------------------
 -----------------------------------------
 
 
-## Villes
+<!-- ## Villes
 ---
 ```
 - RG58 :  Une ville est définie par un identifiant unique
@@ -135,28 +136,24 @@
 ```
 
 - **RG61 :**  Une ville est composé **d'un ou plusieurs aéroports**
----
----
 
 
------------------------
------------------------
------------------------
------------------------
------------------------
------------------------
 
+-----------------------
+-----------------------
+----------------------- -->
+
+
+```
 - Un voyage est ouvert à la réservation et refermé sur ordre de la compagnie.
 - Un voyage peut être annulé par la compagnie
 - Un voyage a un aéroport de départ et un aéroport d'arrivée.
 - Un voyage a un jour et une heure de départ, et un jour et une heure d'arrivée.
 - Un voyage peut comporter des escales dans des aéroports.
-
-
 - Une réservation concerne un seul voyage et un seul passager.
-
 - Une réservation peut être annulée ou confirmée.
 - Un client peut réserver un ou plusieurs voyages, pour des passagers différents.
 - Une escale a une heure d'arrivée et une heure de départ.
 - Chaque aéroport dessert une ou plusieurs villes.
 - Des compagnies aériennes proposent différents voyages.
+```
