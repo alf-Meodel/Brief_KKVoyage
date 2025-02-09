@@ -29,25 +29,25 @@
 ```
 
 ----
-**- RG21 :** Une réservation est associé à **un unique voyage**
+**- RG21 :** Une réservation est associé à **un unique vol**
 **- RG21 :** Une réservation est associé à **un ou plusieurs passager**
 **- RG21 :** Une réservation est associé à **une seule compagnie aerienne**
 
-## voyage (vol)
+## vol (vol)
 ---
 ```
-- RG14 : Un voyage est représenté par un identifiant unique 
-- RG15 : Un voyage est associé à un aéroport de départ 
-- RG16 : Un voyage est associé à un aéroport d'arrivée 
-- RG17 : Un voyage doit avoir un jour et une heure de départ,
-- RG18 : Un voyage doit avoir un jour et une heure d'arrivée.
+- RG14 : Un vol est représenté par un identifiant unique 
+- RG15 : Un vol est associé à un aéroport de départ 
+- RG16 : Un vol est associé à un aéroport d'arrivée 
+- RG17 : Un vol doit avoir un jour et une heure de départ,
+- RG18 : Un vol doit avoir un jour et une heure d'arrivée.
 ```
 ---
-- **RG19 :** Un voyage est associé à **une reservation**
-- **RG20 :** un voyage est associé à **ou ou plusieurs aeroports** ( on peut decoller d'un aeroport faire un tour et revenir dans le même aeroport) 
-- **RG21 :** un voyage peut contenir **aucune escales**
-- **RG21 :** un voyage peut contenir **plusieurs escales**
-- **RG22 :** un voyage est associé à **une ou plusieurs compagnies aérienne**
+- **RG19 :** Un vol est associé à **une reservation**
+- **RG20 :** un vol est associé à **ou ou plusieurs aeroports** ( on peut decoller d'un aeroport faire un tour et revenir dans le même aeroport) 
+- **RG21 :** un vol peut contenir **aucune escales**
+- **RG21 :** un vol peut contenir **plusieurs escales**
+- **RG22 :** un vol est associé à **une ou plusieurs compagnies aérienne**
 ---
 
 ## Escale 
@@ -59,8 +59,8 @@
 - RG25 : Une escale est définie par une ville 
 ```
 
-- **RG26 :**  une escale est **associée à un voyage**
-<!-- - **RG26 :**  une escale peut être **associée à plusieurs voyage** -->
+- **RG26 :**  une escale est **associée à un vol**
+<!-- - **RG26 :**  une escale peut être **associée à plusieurs vol** -->
 - **RG26 :**  une escale peut être **associée à aucun avion**
 - **RG26 :**  une escale peut être **associée à un avion**
 
@@ -113,10 +113,10 @@
 - RG46 : Une compagnie aérienne est représenté par son nom
 ```
 ---
-- **RG47 :**  Une compagnie aérienne peut **ajouter un ou plusieurs voyages** 
-- **RG48 :**  Une compagnie aérienne peut **annuler un ou plusieurs voyages qu'elle propose**
-- **RG49 :**  Une compagnie aérienne peut **proposer des réservations sur un ou plusieurs voyage qu'elle propose** 
-- **RG50 :**  Une compagnie aérienne peut arréter **les réservations sur un ou plusieurs voyage qu'elle propose**
+- **RG47 :**  Une compagnie aérienne peut **ajouter un ou plusieurs vols** 
+- **RG48 :**  Une compagnie aérienne peut **annuler un ou plusieurs vols qu'elle propose**
+- **RG49 :**  Une compagnie aérienne peut **proposer des réservations sur un ou plusieurs vol qu'elle propose** 
+- **RG50 :**  Une compagnie aérienne peut arréter **les réservations sur un ou plusieurs vol qu'elle propose**
 - **RG50 :**  Une compagnie aérienne est composée d'**un ou plusieurs avions**
 <!-- - **RG50 :**  Une compagnie aérienne est composée **d'aucun avion** ???????????????  -->
 - **RG50 :**  Une compagnie aérienne est associé a **un ou plusieurs aeroports**
@@ -138,8 +138,8 @@ Un aéroport peut être le point de départ ou d’arrivée de plusieurs vols.
 - **RG55 :**  Un aéroport est associé **à une seule ville**??
 - **RG56 :**  Un aéroport peut etre associé à **aucune compagnies aériennes**
 - **RG56 :**  Un aéroport peut etre associé à **plusieurs compagnies aériennes**
-- **RG57 :**  Un aéroport peut etre associé à **aucun voyages**
-- **RG57 :**  Un aéroport peut etre associé à **plusieurs voyages**
+- **RG57 :**  Un aéroport peut etre associé à **aucun vols**
+- **RG57 :**  Un aéroport peut etre associé à **plusieurs vols**
 
 ## Ville??
 ---
@@ -159,14 +159,14 @@ Un aéroport peut être le point de départ ou d’arrivée de plusieurs vols.
 -----------------------------------------
 
 ```
-- Un voyage est ouvert à la réservation et refermé sur ordre de la compagnie.
-- Un voyage peut être annulé par la compagnie
-- Un voyage a un aéroport de départ et un aéroport d'arrivée.
-- Un voyage a un jour et une heure de départ, et un jour et une heure d'arrivée.
-- Un voyage peut comporter des escales dans des aéroports.
-- Une réservation concerne un seul voyage et un seul passager.
+- Un vol est ouvert à la réservation et refermé sur ordre de la compagnie.
+- Un vol peut être annulé par la compagnie
+- Un vol a un aéroport de départ et un aéroport d'arrivée.
+- Un vol a un jour et une heure de départ, et un jour et une heure d'arrivée.
+- Un vol peut comporter des escales dans des aéroports.
+- Une réservation concerne un seul vol et un seul passager.
 - Une réservation peut être annulée ou confirmée.
-- Un client peut réserver un ou plusieurs voyages, pour des passagers différents.
+- Un client peut réserver un ou plusieurs vols, pour des passagers différents.
 - Une escale a une heure d'arrivée et une heure de départ.
 - Chaque aéroport dessert une ou plusieurs villes.
-- Des compagnies aériennes proposent différents voyages.
+- Des compagnies aériennes proposent différents vols.
