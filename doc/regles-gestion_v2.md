@@ -22,11 +22,16 @@
 ```
 - RG20 : Une réservation est représenté par un identifiant unique 
 - RG21 : Une réservation possède une date de réservation
+- RG21 : Une réservation possède un numéro de réservation
+
 ```
 
 ----
-**- RG21 :** Une réservation est associé à **un unique voyage**
+**- RG21 :** Une réservation est associé à **un ou plusieurs vol** ??????
+
 **- RG21 :** Une réservation est associé à **un ou plusieurs passager**
+**- RG21 :** Une réservation est associé à **un aeroport de depart**
+**- RG21 :** Une réservation est associé à **un aeroport d'arrivé**
 **- RG21 :** Une réservation est associé à **une seule compagnie aerienne**
 
 ## voyage 
@@ -65,6 +70,7 @@
 
 ```
 - **RG18 :** Un Passager est **associé à un siège** unique
+- **RG18 :** Un Passager peut avoir **0 ou n bagages**
 - **RG19 :** Un Passager est **associé à une reservation**
 ---
 
@@ -81,18 +87,20 @@
 - **RG32 :** Un siège est associé à **un seul passager**.
 - **RG32 :** Un ou plusieurs sièges sont associés à un avion.
 
-## Avion
+## Bagage
 ---
 ```
-- RG34 : Un avion est représenté par un identifiant unique 
-- RG35 : Un avion est représenté par le nom de sa compagnie 
-- RG36 : Un avion est représenté par le modèle de son avion
+- RG28 : Un bagage est représenté par un identifiant unique 
+- RG29 : Un bagage est représenté par son numéro de bagage
+- RG30 : Un bagage est représenté par son prix
+- RG31 : Un bagage est représenté par son statut ( libre réservé)
+```
 
-```
-- **RG37 :**  Un avion est composé d'**un ou plusieurs sièges**
-- **RG39 :**  Un avion est associé à **un ou plusieurs aéroports**
-- **RG38 :**  Un avion est associé à **une seule ou plusieurs compagnies aériennes**
----
+- **RG32 :** Un bagage est associé à **un seul passager**.
+- **RG32 :** Un ou plusieurs bagage sont associés à un avion.
+- **RG32 :** Un bagage est associé à un ou plusieurs vols.
+
+
 
 
 ## Compagnie Aérienne ???
@@ -117,6 +125,9 @@
 - RG51 :  Un aéroport possède est représenté par son pays
 
 ```
+---
+Un aéroport peut être le point de départ ou d’arrivée de plusieurs vols.
+
 
 - **RG52 :**  Un ou plusieurs aéroports peuvent se trouver **dans une même ville**
 - **RG53 :**  Un aéroport est associé à **une ou plusieurs compagnies aériennes**
@@ -161,3 +172,19 @@
 - Une escale a une heure d'arrivée et une heure de départ.
 - Chaque aéroport dessert une ou plusieurs villes.
 - Des compagnies aériennes proposent différents voyages.
+
+
+-------
+
+## Avion
+---
+```
+- RG34 : Un avion est représenté par un identifiant unique 
+- RG35 : Un avion est représenté par le nom de sa compagnie 
+- RG36 : Un avion est représenté par le modèle de son avion
+
+```
+- **RG37 :**  Un avion est composé d'**un ou plusieurs sièges**
+- **RG39 :**  Un avion est associé à **un ou plusieurs aéroports**
+- **RG38 :**  Un avion est associé à **une seule ou plusieurs compagnies aériennes**
+---
