@@ -25,13 +25,14 @@
 
 ```
 - RG20 : Une réservation est représenté par un identifiant unique 
+- RG21 : Une réservation possède une numéro de réservation unique
 - RG21 : Une réservation possède une date de réservation
 ```
 
 ----
-**- RG21 :** Une réservation est associé à **un unique vol**
-**- RG21 :** Une réservation est associé à **un ou plusieurs passager**
-**- RG21 :** Une réservation est associé à **une seule compagnie aerienne**
+- **RG21 :** Une réservation est associé à **1 ou n vol** 
+- **RG21 :** Une réservation est associé à **un ou plusieurs passager**
+<!-- - **RG21 :** Une réservation est associé à **une seule compagnie aerienne** -->
 
 ## vol (vol)
 ---
@@ -75,6 +76,7 @@
 
 ```
 - **RG18 :** Un Passager est **associé à un siège** unique
+- **RG18 :** Un Passager est **associé à 0 ou n bagages**
 - **RG19 :** Un Passager est **associé à une reservation**
 ---
 
