@@ -90,21 +90,21 @@
 - RG36 : Un siège est représenté par son statut ( libre réservé)
 ```
 
-- **RG37 :** Un siège peut contenir **aucun passager**.
-- **RG37 :** Un siège peut contenir **un seul passager**.
-- **RG37 :** Un siège est associé à **un avion**.
+- **RG37 :** Un siège peut contenir **0 ou 1 passager**.
+- **RG37 :** Un siège est associé à **un vol**. ??? 
 
 ## Bagage
 ---
 ```
-- RG34 : Un avion est représenté par un identifiant unique 
-- RG35 : Un avion est représenté par le nom de sa compagnie 
-- RG36 : Un avion est représenté par le modèle de son avion
+- RG34 : Un Bagage est représenté par un identifiant unique 
+- RG35 : Un Bagage est représenté par son numéro de bagage
+- RG36 : Un Bagage est représenté par ses dimensions
+- RG36 : Un Bagage est représenté par son poids
+- RG36 : Un Bagage est représenté par son type ( bagage à main ou soute )
 
 ```
-- **RG37 :**  Un avion est composé d'**un ou plusieurs sièges**
-- **RG39 :**  Un avion est associé à **un ou plusieurs aéroports**
-- **RG38 :**  Un avion est associé à **une seule ou plusieurs compagnies aériennes**
+- **RG37 :**  Un Bagage est lié  à **un passager**
+- **RG39 :**  Un Bagage est enregistré pour **un ou plusieurs vols**
 ---
 
 
