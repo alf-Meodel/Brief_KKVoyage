@@ -31,6 +31,7 @@
 ----
 - **RG21 :** Une réservation est associé à **1 ou n vol** 
 - **RG21 :** Une réservation est associé à **un ou plusieurs passager**
+- **RG21 :** Une réservation est associé à **uen ou plusieurs compagnies aérienens**
 <!-- - **RG21 :** Une réservation est associé à **une seule compagnie aerienne** -->
 
 ## Vol
@@ -130,10 +131,10 @@
 ---
 - **RG47 :**  Une compagnie aérienne peut **ajouter un ou plusieurs vols** 
 - **RG48 :**  Une compagnie aérienne peut **annuler un ou plusieurs vols qu'elle propose**
+
 - **RG49 :**  Une compagnie aérienne peut **proposer des réservations sur un ou plusieurs vol qu'elle propose** 
 - **RG50 :**  Une compagnie aérienne peut arréter **les réservations sur un ou plusieurs vol qu'elle propose**
 - **RG50 :**  Une compagnie aérienne est composée d'**un ou plusieurs avions**
-<!-- - **RG50 :**  Une compagnie aérienne est composée **d'aucun avion** ???????????????  -->
 - **RG50 :**  Une compagnie aérienne est associé a **un ou plusieurs aeroports**
 
 ---
