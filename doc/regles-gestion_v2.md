@@ -144,10 +144,11 @@
 ## Escale 
 --- 
 ```
-- RG64 : Une escale est définie par un identifiant uniqueX
 - RG65 :  Une escale est définie par une heure d'arrivée
 - RG66 : Une escale est définie par une heure de départ 
+- RG66 : Une escale est définie par sa durée 
 - RG67 : Une escale est définie par une ville 
+- RG67 : Une escale est définie par son type 
 ```
 
 - **RG68 :**  une escale est **associée à un vol**
