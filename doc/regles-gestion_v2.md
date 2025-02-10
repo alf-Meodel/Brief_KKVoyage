@@ -33,7 +33,7 @@
 - **RG21 :** Une réservation est associé à **un ou plusieurs passager**
 <!-- - **RG21 :** Une réservation est associé à **une seule compagnie aerienne** -->
 
-## vol (vol)
+## vol (vol) 
 ---
 ```
 - RG14 : Un vol est représenté par un identifiant unique 
@@ -49,6 +49,21 @@
 - **RG21 :** un vol peut contenir **plusieurs escales**
 - **RG22 :** un vol est associé à **une ou plusieurs compagnies aérienne**
 ---
+
+## Avion 
+
+---
+
+```
+- RG20 : Un Avion est représenté par un identifiant unique 
+- RG21 : Un Avion possède une numéro de réservation unique
+- RG21 : Un Avion possède une date de réservation
+```
+
+----
+- **RG21 :** Un Avion est associé à **1 ou n sièges** 
+- **RG21 :** Un Avion est associé à **0 ou n vols** ( il se peut qu'un avio nne vol pas ou qu'il participe à plusieurs vols )
+
 
 ## Escale 
 --- 
@@ -74,9 +89,9 @@
 - RG30 : Un client est authentifié par son adresse
 
 ```
+- **RG19 :** Un Passager est **associé à une ou n reservation**
 - **RG18 :** Un Passager est **associé à un siège** unique
 - **RG18 :** Un Passager est **associé à 0 ou n bagages**
-- **RG19 :** Un Passager est **associé à une ou n reservation**
 ---
 
 
