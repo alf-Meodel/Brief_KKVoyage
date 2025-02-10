@@ -38,7 +38,6 @@
 ---
 ```
 - RG27 : Un Passager est représenté par un identifiant unique 
-- RG27 : Un Passager est représenté par un numéro de passager 
 - RG28 : Un Passager est authentifié par son nom
 - RG29 : Un Passager est authentifié par son prenom
 - RG30 : Un client est authentifié par son adresse
@@ -127,7 +126,6 @@
 - **RG48 :**  Une compagnie aérienne peut **proposer 0 ou n reservations**
 - **RG48 :**  Une compagnie aérienne peut **arreter 0 ou n reservations**   
 - **RG50 :**  Une compagnie aérienne est composée de**0 ou n avions**
-<!-- - **RG50 :**  Une compagnie aérienne est associé a **un ou plusieurs aeroports** -->
 
 ---
 
@@ -142,7 +140,6 @@
 - RG54 :  Un aéroport est représenté par son pays
 ```
 ---
-Un aéroport peut être le point de départ ou d’arrivée de plusieurs vols.
 
 - **RG55 :**  Un aéroport est associé **à une seule ville**??
 - **RG56 :**  Un aéroport peut etre associé à **0 ou n vols**
@@ -170,7 +167,7 @@ Un aéroport peut être le point de départ ou d’arrivée de plusieurs vols.
 
 ```
 
-- **RG55 :**  Une ville peut avoir 0 ou n aeroports
+- **RG55 :**  Une ville peut avoir **0 ou n aeroports**
 
 
 -----------------------------------------
