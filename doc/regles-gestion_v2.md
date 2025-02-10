@@ -14,8 +14,7 @@
 - RG06 : Un client est identifié par son numéro de téléphone
 ```
 
-- **RG07 :** Un client **peut effectuer aucune reservation**
-- **RG07 :** Un client **peut effectuer plusieurs reservation**
+- **RG07 :** Un client **peut effectuer 0 ou n reservation**
 - **RG08 :** Un client **peut annuler ses reservations**
 ---
 
@@ -44,7 +43,7 @@
 - RG18 : Un vol doit avoir un jour et une heure d'arrivée.
 ```
 ---
-- **RG19 :** Un vol est associé à **une reservation**
+- **RG19 :** Un vol est associé à **0 ou n reservation**
 - **RG20 :** un vol est associé à **ou ou plusieurs aeroports** ( on peut decoller d'un aeroport faire un tour et revenir dans le même aeroport) 
 - **RG21 :** un vol peut contenir **aucune escales**
 - **RG21 :** un vol peut contenir **plusieurs escales**
