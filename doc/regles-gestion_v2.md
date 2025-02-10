@@ -76,7 +76,7 @@
 ```
 - **RG18 :** Un Passager est **associé à un siège** unique
 - **RG18 :** Un Passager est **associé à 0 ou n bagages**
-- **RG19 :** Un Passager est **associé à une reservation**
+- **RG19 :** Un Passager est **associé à une ou n reservation**
 ---
 
 
@@ -91,6 +91,7 @@
 
 - **RG37 :** Un siège peut contenir **0 ou 1 passager**.
 - **RG37 :** Un siège est associé à **un vol**. ??? 
+- **RG37 :** Un siège est associé à **un seul avion**. 
 
 ## Bagage
 ---
