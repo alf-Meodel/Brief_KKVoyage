@@ -25,7 +25,7 @@
 ```
 - RG09 : Une réservation est représenté par un identifiant unique 
 - RG10 : Une réservation possède une numéro de réservation unique (Le PNR Passenger Name Record) 
-- RG11 : Une réservation possède une date de réservation    
+- RG11 : Une réservation possède une date de réservation
 ```
 
 ----
@@ -77,8 +77,6 @@
 - **RG40 :** Un Avion est associé à **0 ou n vols** 
 ( il se peut qu'un avion ne vol pas ou qu'il participe à plusieurs vols )
 - **RG39 :** Un Avion peut avoir **0 ou n escales**
-
-
 
 
 ## Vol
@@ -134,7 +132,7 @@
 - RG65 :  Une escale est définie par une heure d'arrivée
 - RG66 : Une escale est définie par une heure de départ 
 - RG66 : Une escale est définie par sa durée 
-- RG67 : Une escale est définie par une ville 
+- RG67 : Une escale est définie par un aeroport
 - RG67 : Une escale est définie par son type (l'escale technique, l'escale avec changement d'avion et l'escale longue.)
 ```
 
