@@ -103,7 +103,7 @@
 ```
 
 - **RG37 :** Un siège peut contenir **0 ou 1 passager**.
-- **RG37 :** Un siège est associé à **un vol**. ??? 
+- **RG37 :** Un siège est associé à **un vol**. ( siège unique dans un vol unique)
 - **RG37 :** Un siège est associé à **un seul avion**. 
 
 ## Bagage
