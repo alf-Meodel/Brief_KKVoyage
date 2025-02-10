@@ -44,9 +44,10 @@
 ```
 ---
 - **RG19 :** Un vol est associé à **0 ou n reservation**
-- **RG20 :** un vol est associé à **ou ou plusieurs aeroports** ( on peut decoller d'un aeroport faire un tour et revenir dans le même aeroport) 
+- **RG20 :** un vol est associé à **1 ou n aeroports** ( on peut decoller d'un aeroport faire un tour et revenir dans le même aeroport) 
 - **RG21 :** un vol peut contenir **0 ou n escales**
-- **RG22 :** un vol est associé à **une ou plusieurs compagnies aérienne**
+- **RG22 :** un vol est associé à **une compagnies aérienne**
+- **RG22 :** un vol est associé à **un unique avion**
 ---
 
 ## Avion 
