@@ -131,7 +131,7 @@
 ---
 - **RG47 :**  Une compagnie aérienne peut **ajouter un ou plusieurs vols** 
 - **RG48 :**  Une compagnie aérienne peut **annuler un ou plusieurs vols qu'elle propose**
-- **RG48 :**  Une compagnie aérienne peut **proposer 0 ou n reservations**
+- **RG48 :**  Une compagnie aérienne peut **proposer 1 ou n reservations**
 - **RG48 :**  Une compagnie aérienne peut **arreter 0 ou n reservations**
 - **RG50 :**  Une compagnie aérienne est composée d'**un ou plusieurs avions**
 - **RG50 :**  Une compagnie aérienne est associé a **un ou plusieurs aeroports**
