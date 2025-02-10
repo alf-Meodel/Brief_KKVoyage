@@ -33,7 +33,7 @@
 - **RG21 :** Une réservation est associé à **un ou plusieurs passager**
 <!-- - **RG21 :** Une réservation est associé à **une seule compagnie aerienne** -->
 
-## vol (vol) 
+## Vol
 ---
 ```
 - RG14 : Un vol est représenté par un identifiant unique 
@@ -45,8 +45,7 @@
 ---
 - **RG19 :** Un vol est associé à **0 ou n reservation**
 - **RG20 :** un vol est associé à **ou ou plusieurs aeroports** ( on peut decoller d'un aeroport faire un tour et revenir dans le même aeroport) 
-- **RG21 :** un vol peut contenir **aucune escales**
-- **RG21 :** un vol peut contenir **plusieurs escales**
+- **RG21 :** un vol peut contenir **0 ou n escales**
 - **RG22 :** un vol est associé à **une ou plusieurs compagnies aérienne**
 ---
 
@@ -74,7 +73,7 @@
 - RG25 : Une escale est définie par une ville 
 ```
 
-- **RG26 :**  une escale est **associée à 0 ou n vols**
+- **RG26 :**  une escale est **associée à un vol**
 
 
 
