@@ -24,8 +24,8 @@
 
 ```
 - RG20 : Une réservation est représenté par un identifiant unique 
-- RG21 : Une réservation possède une numéro de réservation unique
-- RG21 : Une réservation possède une date de réservation
+- RG21 : Une réservation possède une numéro de réservation unique (Le PNR Passenger Name Record) 
+- RG21 : Une réservation possède une date de réservation    
 ```
 
 ----
@@ -38,6 +38,7 @@
 ---
 ```
 - RG27 : Un Passager est représenté par un identifiant unique 
+- RG27 : Un Passager est représenté par un numéro de passager 
 - RG28 : Un Passager est authentifié par son nom
 - RG29 : Un Passager est authentifié par son prenom
 - RG30 : Un client est authentifié par son adresse
@@ -121,12 +122,12 @@
 - RG46 : Une compagnie aérienne est représenté par son nom
 ```
 ---
-- **RG47 :**  Une compagnie aérienne peut **ajouter un ou plusieurs vols** 
+- **RG47 :**  Une compagnie aérienne peut **ajouter 0 ou n vols** 
 - **RG48 :**  Une compagnie aérienne peut **annuler un ou plusieurs vols qu'elle propose**
-- **RG48 :**  Une compagnie aérienne peut **proposer 1 ou n reservations**
-- **RG48 :**  Une compagnie aérienne peut **arreter 0 ou n reservations**
-- **RG50 :**  Une compagnie aérienne est composée d'**un ou plusieurs avions**
-- **RG50 :**  Une compagnie aérienne est associé a **un ou plusieurs aeroports**
+- **RG48 :**  Une compagnie aérienne peut **proposer 0 ou n reservations**
+- **RG48 :**  Une compagnie aérienne peut **arreter 0 ou n reservations**   
+- **RG50 :**  Une compagnie aérienne est composée de**0 ou n avions**
+<!-- - **RG50 :**  Une compagnie aérienne est associé a **un ou plusieurs aeroports** -->
 
 ---
 
@@ -152,17 +153,14 @@ Un aéroport peut être le point de départ ou d’arrivée de plusieurs vols.
 ```
 - RG23 : Une escale est définie par un identifiant uniqueX
 - RG24 :  Une escale est définie par une heure d'arrivée
-- RG25 : Une escale est définie par une heure de départ
+- RG25 : Une escale est définie par une heure de départ 
 - RG25 : Une escale est définie par une ville 
 ```
 
 - **RG26 :**  une escale est **associée à un vol**
 
 
-
-
-
-## Ville??
+## Ville
 ---
 ```
 - RG51 :  Une ville est représenté par un identifiant unique 
