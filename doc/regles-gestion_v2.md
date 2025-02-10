@@ -62,7 +62,7 @@
 
 ----
 - **RG21 :** Un Avion est associé à **1 ou n sièges** 
-- **RG21 :** Un Avion est associé à **0 ou n vols** ( il se peut qu'un avio nne vol pas ou qu'il participe à plusieurs vols )
+- **RG21 :** Un Avion est associé à **0 ou n vols** ( il se peut qu'un avion ne vol pas ou qu'il participe à plusieurs vols )
 
 
 ## Escale 
