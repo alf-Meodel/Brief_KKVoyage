@@ -74,10 +74,8 @@
 - RG25 : Une escale est définie par une ville 
 ```
 
-- **RG26 :**  une escale est **associée à un vol**
-<!-- - **RG26 :**  une escale peut être **associée à plusieurs vol** -->
-- **RG26 :**  une escale peut être **associée à aucun avion**
-- **RG26 :**  une escale peut être **associée à un avion**
+- **RG26 :**  une escale est **associée à 0 ou n vols**
+
 
 
 ## Passager
