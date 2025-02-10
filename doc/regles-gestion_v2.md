@@ -41,26 +41,14 @@
 - RG16 : Un Passager est authentifié par son nom
 - RG17 : Un Passager est authentifié par son prenom
 - RG18 : Un Passager est authentifié par son adresse
+- RG18 : Un Passager est authentifié par un document d'identitée
 
 ```
+<!-- - RG18 : Un Passager doit posséder des documents d'identitée  -->
 - **RG19 :** Un Passager est **associé à une ou n reservation**
 - **RG20 :** Un Passager est **associé à un siège** unique
 - **RG21 :** Un Passager est **associé à 0 ou n bagages**
 ---
-
-<!-- ## Bagage
----
-```
-- RG22 : Un Bagage est représenté par un identifiant unique 
-- RG23 : Un Bagage est représenté par son numéro de bagage
-- RG24 : Un Bagage est représenté par ses dimensions
-- RG25 : Un Bagage est représenté par son poids
-- RG26 : Un Bagage est représenté par son type ( bagage à main ou soute )
-
-```
-- **RG27 :**  Un Bagage est lié  à **un passager**
-- **RG28 :**  Un Bagage est enregistré pour **un ou n vols**
---- -->
 
 
 ## Siège
@@ -78,20 +66,17 @@
 
 
 ## Avion 
-
 ---
-
 ```
 - RG36 : Un Avion est représenté par un identifiant unique 
 - RG36 : Un Avion est représenté par un modèle
-
-
 ```
 
 ----
 - **RG39 :** Un Avion est associé à **n ou m sièges**
 - **RG40 :** Un Avion est associé à **0 ou n vols** 
 ( il se peut qu'un avion ne vol pas ou qu'il participe à plusieurs vols )
+- **RG39 :** Un Avion peut avoir **0 ou n escales**
 
 
 
@@ -107,10 +92,11 @@
 ```
 ---
 - **RG46 :** Un vol est associé à **0 ou n reservation**
-- **RG47 :** un vol doit avoir  **0 ou n aeroports** ( no : on peut decoller d'un aeroport faire un tour et revenir dans le même aeroport) 
+- **RG47 :** un vol doit avoir  **0 ou n aeroports** 
+( decoller d'un aeroport faire un tour et revenir dans le même aeroport ne compte pas) 
 - **RG48 :** un vol peut contenir **0 ou n escales**
 - **RG49 :** un vol est associé à **une compagnies aérienne**
-- **RG50 :** un vol est associé à **un unique avion**
+- **RG50 :** un vol est associé à **un avion unique**
 ---
 
 
@@ -151,7 +137,10 @@
 - RG67 : Une escale est définie par son type (l'escale technique, l'escale avec changement d'avion et l'escale longue.)
 ```
 
+- **RG68 :**  une escale est **associée à un aeroport** ???
 - **RG68 :**  une escale est **associée à un vol**
+- **RG68 :**  une escale peut inclure 0 ou 1 changement d'avion 
+
 
 
 ## Ville
@@ -168,6 +157,26 @@
 
 
 -----------------------------------------
+-----------------------------------------
+
+
+
+<!-- ## Bagage
+---
+```
+- RG22 : Un Bagage est représenté par un identifiant unique 
+- RG23 : Un Bagage est représenté par son numéro de bagage
+- RG24 : Un Bagage est représenté par ses dimensions
+- RG25 : Un Bagage est représenté par son poids
+- RG26 : Un Bagage est représenté par son type ( bagage à main ou soute )
+
+```
+- **RG27 :**  Un Bagage est lié  à **un passager**
+- **RG28 :**  Un Bagage est enregistré pour **un ou n vols**
+--- -->
+
+
+
 -----------------------------------------
 -----------------------------------------
 
