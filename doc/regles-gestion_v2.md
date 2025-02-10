@@ -40,7 +40,7 @@
 - RG15 : Un Passager est représenté par un identifiant unique 
 - RG16 : Un Passager est authentifié par son nom
 - RG17 : Un Passager est authentifié par son prenom
-- RG18 : Un client est authentifié par son adresse
+- RG18 : Un Passager est authentifié par son adresse
 
 ```
 - **RG19 :** Un Passager est **associé à une ou n reservation**
@@ -148,7 +148,7 @@
 - RG66 : Une escale est définie par une heure de départ 
 - RG66 : Une escale est définie par sa durée 
 - RG67 : Une escale est définie par une ville 
-- RG67 : Une escale est définie par son type 
+- RG67 : Une escale est définie par son type (l'escale technique, l'escale avec changement d'avion et l'escale longue.)
 ```
 
 - **RG68 :**  une escale est **associée à un vol**
