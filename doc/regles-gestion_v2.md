@@ -164,8 +164,8 @@ Un aéroport peut être le point de départ ou d’arrivée de plusieurs vols.
 
 ```
 
-- **RG55 :**  Une ville peut avoir aucun aeroport
-- **RG55 :**  Une ville peut avoir plusieurs aeroports
+- **RG55 :**  Une ville peut avoir 0 ou n aeroports
+
 
 -----------------------------------------
 -----------------------------------------
