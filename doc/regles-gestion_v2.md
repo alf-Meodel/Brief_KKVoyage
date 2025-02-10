@@ -151,13 +151,8 @@
 ---
 Un aéroport peut être le point de départ ou d’arrivée de plusieurs vols.
 
-
 - **RG55 :**  Un aéroport est associé **à une seule ville**??
 - **RG56 :**  Un aéroport peut etre associé à **0 ou n vols**
-
-
-<!-- - **RG57 :**  Un aéroport peut etre associé à **aucun vols**
-- **RG57 :**  Un aéroport peut etre associé à **plusieurs vols** -->
 
 ## Ville??
 ---
