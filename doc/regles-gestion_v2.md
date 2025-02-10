@@ -30,9 +30,8 @@
 
 ----
 - **RG21 :** Une réservation est associé à **1 ou n vol** 
-- **RG21 :** Une réservation est associé à **un ou plusieurs passager**
+- **RG21 :** Une réservation est associé à **un unique passager**
 - **RG21 :** Une réservation est associé à **une compagnie aerienne**
-<!-- - **RG21 :** Une réservation est associé à **une seule compagnie aerienne** -->
 
 
 ## Passager
