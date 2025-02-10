@@ -129,12 +129,17 @@
 --- 
 
 ```
-- RG65 :  Une escale est définie par une heure d'arrivée
-- RG66 : Une escale est définie par une heure de départ 
+nosu allons utilsier une clé composé 
+```
+ 
+```
+- RG65 :  Une escale est définie par une heure d'arrivée ( combinaison 1) 
+- RG66 : Une escale est définie par une heure de départ ( combinaison 2)
 - RG66 : Une escale est définie par sa durée 
-- RG67 : Une escale est définie par un aeroport
+- RG67 : Une escale est définie par un aeroport 
 - RG67 : Une escale est définie par son type (l'escale technique, l'escale avec changement d'avion et l'escale longue.)
 ```
+- RG67 : Une escale est définie l'id vol et id aeroprt ( pour PK composé robuste  )
 
 - **RG68 :**  une escale est **associée à un unique aeroport** 
 - **RG68 :**  une escale est **associée à un vol**
