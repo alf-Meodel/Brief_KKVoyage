@@ -72,7 +72,7 @@
 - RG36 : Un Avion est représenté par un modèle
 ```
 
-----
+
 - **RG39 :** Un Avion est associé à **n ou m sièges**
 - **RG40 :** Un Avion est associé à **0 ou n vols** 
 ( il se peut qu'un avion ne vol pas ou qu'il participe à plusieurs vols )
@@ -90,7 +90,6 @@
 - RG44 : Un vol doit avoir un jour et une heure de départ,
 - RG45 : Un vol doit avoir un jour et une heure d'arrivée.
 ```
----
 - **RG46 :** Un vol est associé à **0 ou n reservation**
 - **RG47 :** un vol doit avoir  **0 ou n aeroports** 
 ( decoller d'un aeroport faire un tour et revenir dans le même aeroport ne compte pas) 
@@ -106,7 +105,7 @@
 - RG51 : Une compagnie aérienne est représenté par un identifiant unique 
 - RG52 : Une compagnie aérienne est représenté par son nom
 ```
----
+
 - **RG53 :**  Une compagnie aérienne peut **ajouter 1 ou n vols** 
 - **RG54 :**  Une compagnie aérienne peut **annuler un ou n vols qu'elle propose**
 - **RG55 :**  Une compagnie aérienne peut **proposer 0 ou n reservations**
@@ -122,13 +121,15 @@
 - RG60 :  Un aéroport est représenté par son ville
 - RG61 :  Un aéroport est représenté par son pays
 ```
----
+
 - **RG62 :**  Un aéroport est associé **à une seule ville**
 - **RG63 :**  Un aéroport peut etre associé à **0 ou n vols**
+- **RG63 :**  Un aéroport peut peut accueillir **0 ou n escales**???
 
 
 ## Escale 
 --- 
+
 ```
 - RG65 :  Une escale est définie par une heure d'arrivée
 - RG66 : Une escale est définie par une heure de départ 
@@ -137,7 +138,7 @@
 - RG67 : Une escale est définie par son type (l'escale technique, l'escale avec changement d'avion et l'escale longue.)
 ```
 
-- **RG68 :**  une escale est **associée à un aeroport** ???
+- **RG68 :**  une escale est **associée à un unique aeroport** 
 - **RG68 :**  une escale est **associée à un vol**
 - **RG68 :**  une escale peut inclure 0 ou 1 changement d'avion 
 
@@ -154,12 +155,6 @@
 ```
 
 - **RG73 :**  Une ville peut avoir **1 ou n aeroports**
-
-
------------------------------------------
------------------------------------------
-
-
 
 <!-- ## Bagage
 ---
@@ -179,6 +174,8 @@
 
 -----------------------------------------
 -----------------------------------------
+# ╭─━━━━━─╯ Brief ╰─━━━━━─╮ 
+
 
 ```
 - Un vol est ouvert à la réservation et refermé sur ordre de la compagnie.
