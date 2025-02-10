@@ -34,6 +34,67 @@
 - **RG21 :** Une réservation est associé à **une compagnie aerienne**
 <!-- - **RG21 :** Une réservation est associé à **une seule compagnie aerienne** -->
 
+
+## Passager
+---
+```
+- RG27 : Un Passager est représenté par un identifiant unique 
+- RG28 : Un Passager est authentifié par son nom
+- RG29 : Un Passager est authentifié par son prenom
+- RG30 : Un client est authentifié par son adresse
+
+```
+- **RG19 :** Un Passager est **associé à une ou n reservation**
+- **RG18 :** Un Passager est **associé à un siège** unique
+- **RG18 :** Un Passager est **associé à 0 ou n bagages**
+---
+
+## Bagage
+---
+```
+- RG34 : Un Bagage est représenté par un identifiant unique 
+- RG35 : Un Bagage est représenté par son numéro de bagage
+- RG36 : Un Bagage est représenté par ses dimensions
+- RG36 : Un Bagage est représenté par son poids
+- RG36 : Un Bagage est représenté par son type ( bagage à main ou soute )
+
+```
+- **RG37 :**  Un Bagage est lié  à **un passager**
+- **RG39 :**  Un Bagage est enregistré pour **un ou plusieurs vols**
+---
+
+
+## Siège
+---
+```
+- RG33 : Un siège est représenté par un identifiant unique 
+- RG34 : Un siège est représenté par son numéro d'emplacement
+- RG35 : Un siège est représenté par son prix
+- RG36 : Un siège est représenté par son statut ( libre réservé)
+```
+
+- **RG37 :** Un siège peut contenir **0 ou 1 passager**.
+- **RG37 :** Un siège est associé à **un vol**. ( siège unique dans un vol unique)
+- **RG37 :** Un siège est associé à **un seul avion**. 
+
+
+## Avion 
+
+---
+
+```
+- RG20 : Un Avion est représenté par un identifiant unique 
+- RG21 : Un Avion possède une numéro de réservation unique
+- RG21 : Un Avion possède une date de réservation
+```
+
+----
+- **RG21 :** Un Avion est associé à **1 ou n sièges** 
+- **RG21 :** Un Avion est associé à **0 ou n vols** ( il se peut qu'un avion ne vol pas ou qu'il participe à plusieurs vols )
+
+
+
+
 ## Vol
 ---
 ```
@@ -51,75 +112,7 @@
 - **RG22 :** un vol est associé à **un unique avion**
 ---
 
-## Avion 
 
----
-
-```
-- RG20 : Un Avion est représenté par un identifiant unique 
-- RG21 : Un Avion possède une numéro de réservation unique
-- RG21 : Un Avion possède une date de réservation
-```
-
-----
-- **RG21 :** Un Avion est associé à **1 ou n sièges** 
-- **RG21 :** Un Avion est associé à **0 ou n vols** ( il se peut qu'un avion ne vol pas ou qu'il participe à plusieurs vols )
-
-
-## Escale 
---- 
-```
-- RG23 : Une escale est définie par un identifiant uniqueX
-- RG24 :  Une escale est définie par une heure d'arrivée
-- RG25 : Une escale est définie par une heure de départ
-- RG25 : Une escale est définie par une ville 
-```
-
-- **RG26 :**  une escale est **associée à un vol**
-
-
-
-## Passager
----
-```
-- RG27 : Un Passager est représenté par un identifiant unique 
-- RG28 : Un Passager est authentifié par son nom
-- RG29 : Un Passager est authentifié par son prenom
-- RG30 : Un client est authentifié par son adresse
-
-```
-- **RG19 :** Un Passager est **associé à une ou n reservation**
-- **RG18 :** Un Passager est **associé à un siège** unique
-- **RG18 :** Un Passager est **associé à 0 ou n bagages**
----
-
-
-## Siège
----
-```
-- RG33 : Un siège est représenté par un identifiant unique 
-- RG34 : Un siège est représenté par son numéro d'emplacement
-- RG35 : Un siège est représenté par son prix
-- RG36 : Un siège est représenté par son statut ( libre réservé)
-```
-
-- **RG37 :** Un siège peut contenir **0 ou 1 passager**.
-- **RG37 :** Un siège est associé à **un vol**. ( siège unique dans un vol unique)
-- **RG37 :** Un siège est associé à **un seul avion**. 
-
-## Bagage
----
-```
-- RG34 : Un Bagage est représenté par un identifiant unique 
-- RG35 : Un Bagage est représenté par son numéro de bagage
-- RG36 : Un Bagage est représenté par ses dimensions
-- RG36 : Un Bagage est représenté par son poids
-- RG36 : Un Bagage est représenté par son type ( bagage à main ou soute )
-
-```
-- **RG37 :**  Un Bagage est lié  à **un passager**
-- **RG39 :**  Un Bagage est enregistré pour **un ou plusieurs vols**
----
 
 
 ## Compagnie Aérienne
@@ -138,6 +131,8 @@
 
 ---
 
+
+
 ## Aeroport 
 ---
 ```
@@ -151,6 +146,22 @@ Un aéroport peut être le point de départ ou d’arrivée de plusieurs vols.
 
 - **RG55 :**  Un aéroport est associé **à une seule ville**??
 - **RG56 :**  Un aéroport peut etre associé à **0 ou n vols**
+
+
+## Escale 
+--- 
+```
+- RG23 : Une escale est définie par un identifiant uniqueX
+- RG24 :  Une escale est définie par une heure d'arrivée
+- RG25 : Une escale est définie par une heure de départ
+- RG25 : Une escale est définie par une ville 
+```
+
+- **RG26 :**  une escale est **associée à un vol**
+
+
+
+
 
 ## Ville??
 ---
