@@ -18,7 +18,6 @@
 ---
 
 ## Reservation 
-
 ---
 ```
 - RG09 : Une réservation est représenté par un identifiant unique 
@@ -67,7 +66,6 @@
 - RG36 : Un Avion est représenté par un modèle
 ```
 
-
 - **RG39 :** Un Avion est associé à **n ou m sièges**
 - **RG40 :** Un Avion est associé à **0 ou n vols** 
 ( il se peut qu'un avion ne vol pas ou qu'il participe à plusieurs vols )
@@ -105,6 +103,25 @@
 - **RG55 :**  Une compagnie aérienne peut **proposer 0 ou n reservations**
 - **RG56 :**  Une compagnie aérienne peut **annuler 0 ou n reservations**   
 - **RG57 :**  Une compagnie aérienne dispose de **1 ou n avions**
+---
+
+## Voyage
+---
+```
+- RG51 : Une Voyage  est représenté par un identifiant unique 
+- RG52 : Une Voyage  est représenté par sa ville de depart
+- RG52 : Une Voyage  est représenté par sa ville d'arrivée
+- RG52 : Une Voyage  est représenté par sa durée
+
+
+
+```
+
+- **RG53 :**  Une Voyage peut **ajouter 1 ou n vols** 
+- **RG54 :**  Une Voyage peut **annuler un ou n vols qu'elle propose**
+- **RG55 :**  Une Voyage peut **proposer 0 ou n reservations**
+- **RG56 :**  Une Voyage peut **annuler 0 ou n reservations**   
+- **RG57 :**  Une Voyage dispose de **1 ou n avions**
 ---
 
 ## Aeroport 
@@ -179,14 +196,15 @@ nosu allons utilsier une clé composé
 ```
 - Un vol est ouvert à la réservation et refermé sur ordre de la compagnie.
 - Un vol peut être annulé par la compagnie
+- Des compagnies aériennes proposent différents vols.
+- Un client peut réserver un ou plusieurs vols, pour des passagers différents.
+- Une réservation concerne un seul vol et un seul passager.
+- Une réservation peut être annulée ou confirmée.
 - Un vol a un aéroport de départ et un aéroport d'arrivée.
 - Un vol a un jour et une heure de départ, et un jour et une heure d'arrivée.
 - Un vol peut comporter des escales dans des aéroports.
-- Une réservation concerne un seul vol et un seul passager.
-- Une réservation peut être annulée ou confirmée.
-- Un client peut réserver un ou plusieurs vols, pour des passagers différents.
 - Une escale a une heure d'arrivée et une heure de départ.
 - Chaque aéroport dessert une ou plusieurs villes.
-- Des compagnies aériennes proposent différents vols.
+
 
 ```
