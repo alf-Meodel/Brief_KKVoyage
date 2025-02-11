@@ -2,7 +2,6 @@
 ----------------------REGLES DE GESTION----------------------
 -------------------------------------------------------------
 
-
 ## Client 
 ---
 ```
@@ -42,10 +41,9 @@
 - RG18 : Un Passager est authentifié par un document d'identitée
 
 ```
-<!-- - RG18 : Un Passager doit posséder des documents d'identitée  -->
 - **RG19 :** Un Passager est **associé à une ou n reservation**
 - **RG20 :** Un Passager est **associé à un siège** unique
-- **RG21 :** Un Passager est **associé à 0 ou n bagages**
+<!-- - **RG21 :** Un Passager est **associé à 0 ou n bagages** -->
 ---
 
 
@@ -58,8 +56,7 @@
 - RG32 : Un siège est représenté par son statut ( libre réservé)
 ```
 
-- **RG33 :** Un siège peut contenir **0 ou 1 passager**.
-- **RG34 :** Un siège est associé à **un vol**. 
+- **RG33 :** Un siège peut accueillir **0 ou 1 passager**.
 - **RG35 :** Un siège est associé à **un seul avion**. 
 
 
@@ -75,6 +72,7 @@
 - **RG40 :** Un Avion est associé à **0 ou n vols** 
 ( il se peut qu'un avion ne vol pas ou qu'il participe à plusieurs vols )
 - **RG39 :** Un Avion peut avoir **0 ou n escales**
+- **RG39 :** Un Avion peut etre proposé par  **1 ou n compagnies aeriennes** (location)
 
 
 ## Vol
@@ -120,7 +118,7 @@
 
 - **RG62 :**  Un aéroport est associé **à une seule ville**
 - **RG63 :**  Un aéroport peut etre associé à **0 ou n vols**
-- **RG63 :**  Un aéroport peut peut accueillir **0 ou n escales**???
+- **RG63 :**  Un aéroport peut peut accueillir **0 ou n escales**
 
 
 ## Escale 
