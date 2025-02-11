@@ -21,7 +21,6 @@
 ## Reservation 
 
 ---
-
 ```
 - RG09 : Une réservation est représenté par un identifiant unique 
 - RG10 : Une réservation possède une numéro de réservation unique (Le PNR Passenger Name Record) 
@@ -29,10 +28,9 @@
 ```
 
 ----
-- **RG12 :** Une réservation est associé à **1 ou n vol** 
 - **RG13 :** Une réservation est associé à **un unique passager**
-- **RG14 :** Une réservation est associé à **une compagnie aerienne**
-
+- **RG14 :** Une réservation est associé à **une seule compagnie aerienne**
+- **RG14 :** Une réservation est associé à **un voyage**
 
 ## Passager
 ---
