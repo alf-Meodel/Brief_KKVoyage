@@ -105,25 +105,6 @@
 - **RG57 :**  Une compagnie aérienne dispose de **1 ou n avions**
 ---
 
-## Voyage
----
-```
-- RG51 : Une Voyage  est représenté par un identifiant unique 
-- RG52 : Une Voyage  est représenté par sa ville de depart
-- RG52 : Une Voyage  est représenté par sa ville d'arrivée
-- RG52 : Une Voyage  est représenté par sa durée
-
-
-
-```
-
-- **RG53 :**  Une Voyage peut **ajouter 1 ou n vols** 
-- **RG54 :**  Une Voyage peut **annuler un ou n vols qu'elle propose**
-- **RG55 :**  Une Voyage peut **proposer 0 ou n reservations**
-- **RG56 :**  Une Voyage peut **annuler 0 ou n reservations**   
-- **RG57 :**  Une Voyage dispose de **1 ou n avions**
----
-
 ## Aeroport 
 ---
 ```
