@@ -42,10 +42,10 @@
 ---
 ```
 - RG15 : Un Passager est représenté par un identifiant unique 
+- RG18 : Un Passager est authentifié par un document d'identitée
 - RG16 : Un Passager est authentifié par son nom
 - RG17 : Un Passager est authentifié par son prenom
 - RG18 : Un Passager est authentifié par son adresse
-- RG18 : Un Passager est authentifié par un document d'identitée
 
 ```
 - **RG19 :** Un Passager est **associé à une ou n reservation**
