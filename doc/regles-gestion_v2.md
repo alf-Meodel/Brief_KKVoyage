@@ -26,9 +26,9 @@
 ```
 
 ----
+- **RG13 :** Une réservation est associé à **un unique client**
 - **RG13 :** Une réservation est associé à **un unique passager**
-- **RG14 :** Une réservation est associé à **une seule compagnie aerienne**
-- **RG14 :** Une réservation est associé à **un voyage**
+- **RG14 :** Une réservation concerne **un ou plusieurs vol** 
 
 ## Passager
 ---
@@ -42,7 +42,6 @@
 ```
 - **RG19 :** Un Passager est **associé à une ou n reservation**
 - **RG20 :** Un Passager est **associé à un siège** unique
-<!-- - **RG21 :** Un Passager est **associé à 0 ou n bagages** -->
 ---
 
 
@@ -125,7 +124,6 @@
 ```
 nosu allons utilsier une clé composé 
 ```
- 
 ```
 - RG65 :  Une escale est définie par une heure d'arrivée ( combinaison 1) 
 - RG66 : Une escale est définie par une heure de départ ( combinaison 2)
