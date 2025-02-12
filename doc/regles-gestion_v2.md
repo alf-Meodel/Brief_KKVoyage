@@ -65,10 +65,12 @@
 - RG36 : Un Avion est représenté par un modèle
 ```
 
-- **RG39 :** Un Avion est associé à **n ou m sièges**
+- **RG39 :** Un Avion est associé à **n ou m sièges** ( il ne peut y avoir un seul siege minimum 2 donc n)
 - **RG40 :** Un Avion est associé à **0 ou n vols** 
 ( il se peut qu'un avion ne vol pas ou qu'il participe à plusieurs vols )
-- **RG39 :** Un Avion peut avoir **0 ou n escales**
+- **RG39 :** Un Avion peut faire l'objet d **0 ou n escales**
+
+
 - **RG39 :** Un Avion peut etre proposé par  **1 ou n compagnies aeriennes** (location)
 
 
@@ -99,9 +101,15 @@
 
 - **RG53 :**  Une compagnie aérienne peut **ajouter 1 ou n vols** 
 - **RG54 :**  Une compagnie aérienne peut **annuler un ou n vols qu'elle propose**
-- **RG55 :**  Une compagnie aérienne peut **proposer 0 ou n reservations**
-- **RG56 :**  Une compagnie aérienne peut **annuler 0 ou n reservations**   
+<!-- - **RG55 :**  Une compagnie aérienne peut **proposer 0 ou n reservations**
+- **RG56 :**  Une compagnie aérienne peut **annuler 0 ou n reservations**    -->
+- <!-- Dans la réalité métier, une compagnie aérienne ne gère pas directement les réservations. Ce sont les clients qui réservent des vols, et chaque réservation est rattachée à un vol, pas à une compagnie directement. -->
 - **RG57 :**  Une compagnie aérienne dispose de **1 ou n avions**
+
+remake 
+- RG55 : Une compagnie aérienne peut proposer 0 ou n vols qui peuvent être réservés.
+
+- RG56 : Une compagnie aérienne peut annuler 0 ou n vols, ce qui entraîne l’annulation des réservations associées.
 ---
 
 ## Aeroport 
