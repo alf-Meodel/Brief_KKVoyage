@@ -76,10 +76,7 @@
 ---
 ```
 - RG41 : Un vol est représenté par un identifiant unique 
-- RG42 : Un vol est associé à un aéroport de départ 
-- RG43 : Un vol est associé à un aéroport d'arrivée 
-- RG44 : Un vol doit avoir un jour et une heure de départ,
-- RG45 : Un vol doit avoir un jour et une heure d'arrivée.
+- RG45 : Un vol doit avoir un numéro de vol.
 ```
 - **RG46 :** Un vol peut etre associé à **0 ou n reservations**
 - **RG47 :** un vol est associé à **1 aeroports** (un aeroport pour l'association depart et un aeroport pour l'association arrivée )
