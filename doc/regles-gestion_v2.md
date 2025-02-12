@@ -142,8 +142,6 @@ nosu allons utilsier une clé composé
 - **RG68 :**  une escale est **associée à un vol**
 <!-- - **RG68 :**  une escale peut inclure 0 ou 1 changement d'avion >>>> comem chaque vol est définit par un avion aps la peine de préciser ce changement --> 
 
-
-
 ## Ville
 ---
 ```
@@ -153,22 +151,7 @@ nosu allons utilsier une clé composé
 - RG72 :  Une ville est représenté par son pays
 
 ```
-
 - **RG73 :**  Une ville peut avoir **1 ou n aeroports**
-
-<!-- ## Bagage
----
-```
-- RG22 : Un Bagage est représenté par un identifiant unique 
-- RG23 : Un Bagage est représenté par son numéro de bagage
-- RG24 : Un Bagage est représenté par ses dimensions
-- RG25 : Un Bagage est représenté par son poids
-- RG26 : Un Bagage est représenté par son type ( bagage à main ou soute )
-
-```
-- **RG27 :**  Un Bagage est lié  à **un passager**
-- **RG28 :**  Un Bagage est enregistré pour **un ou n vols**
---- -->
 
 
 -----------------------------------------
