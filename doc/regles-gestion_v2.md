@@ -69,9 +69,7 @@
 - **RG40 :** Un Avion est associé à **0 ou n vols** 
 ( il se peut qu'un avion ne vol pas ou qu'il participe à plusieurs vols )
 - **RG39 :** Un Avion peut faire l'objet d **0 ou n escales**
-
-
-- **RG39 :** Un Avion peut etre proposé par  **1 ou n compagnies aeriennes** (location)
+- **RG39 :** Un Avion peut appartenir à **0 ou n compagnies aeriennes** (location)
 
 
 ## Vol
@@ -83,11 +81,11 @@
 - RG44 : Un vol doit avoir un jour et une heure de départ,
 - RG45 : Un vol doit avoir un jour et une heure d'arrivée.
 ```
-- **RG46 :** Un vol est associé à **0 ou n reservation**
-- **RG47 :** un vol doit avoir  **0 ou n aeroports** 
+- **RG46 :** Un vol peut etre associé à **0 ou n reservations**
+- **RG47 :** un vol est associé à **1 aeroports** (un aeroport pour l'association depart et un aeroport pour l'association arrivée )
 ( decoller d'un aeroport faire un tour et revenir dans le même aeroport ne compte pas) 
-- **RG48 :** un vol peut contenir **0 ou n escales**
-- **RG49 :** un vol est associé à **une compagnies aérienne**
+- **RG48 :** un vol peut contenir **0 ou 1 escales**
+- **RG49 :** un vol est associé à **une seule compagnies aérienne**
 - **RG50 :** un vol est associé à **un avion unique**
 ---
 
@@ -99,16 +97,16 @@
 - RG52 : Une compagnie aérienne est représenté par son nom
 ```
 
-- **RG53 :**  Une compagnie aérienne peut **ajouter 1 ou n vols** 
+- **RG53 :**  Une compagnie aérienne peut **proposer 1 ou n vols** 
 - **RG54 :**  Une compagnie aérienne peut **annuler un ou n vols qu'elle propose**
 <!-- - **RG55 :**  Une compagnie aérienne peut **proposer 0 ou n reservations**
 - **RG56 :**  Une compagnie aérienne peut **annuler 0 ou n reservations**    -->
 - <!-- Dans la réalité métier, une compagnie aérienne ne gère pas directement les réservations. Ce sont les clients qui réservent des vols, et chaque réservation est rattachée à un vol, pas à une compagnie directement. -->
-- **RG57 :**  Une compagnie aérienne dispose de **1 ou n avions**
+- **RG57 :**  Une compagnie aérienne dispose de **1 ou n avions** ( pas de 0,n pour les compagnies qui louent des avions car ca revient au meme elles peuvent disposer d'un avion)
 
 remake 
-- RG55 : Une compagnie aérienne peut proposer 0 ou n vols qui peuvent être réservés.
-- RG56 : Une compagnie aérienne peut annuler 0 ou n vols, ce qui entraîne l’annulation des réservations associées.
+- **RG55 :** Une compagnie aérienne peut proposer 1 ou n vols à la reservation. ??
+- **RG56 :** Une compagnie aérienne peut annuler 1 ou n vols, ce qui entraîne l’annulation des réservations associées.
 ---
 
 ## Aeroport 
@@ -142,7 +140,7 @@ nosu allons utilsier une clé composé
 
 - **RG68 :**  une escale est **associée à un unique aeroport** 
 - **RG68 :**  une escale est **associée à un vol**
-- **RG68 :**  une escale peut inclure 0 ou 1 changement d'avion 
+<!-- - **RG68 :**  une escale peut inclure 0 ou 1 changement d'avion >>>> comem chaque vol est définit par un avion aps la peine de préciser ce changement --> 
 
 
 
