@@ -157,7 +157,6 @@ nosu allons utiliser une clé composé
 ```
 - **RG73 :**  Une ville peut avoir **1 ou n aeroports**
 
-
 -----------------------------------------
 -----------------------------------------
 
