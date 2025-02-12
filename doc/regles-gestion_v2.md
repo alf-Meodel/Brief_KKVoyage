@@ -108,7 +108,6 @@
 
 remake 
 - RG55 : Une compagnie aérienne peut proposer 0 ou n vols qui peuvent être réservés.
-
 - RG56 : Une compagnie aérienne peut annuler 0 ou n vols, ce qui entraîne l’annulation des réservations associées.
 ---
 
