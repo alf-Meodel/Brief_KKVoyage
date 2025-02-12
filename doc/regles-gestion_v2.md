@@ -77,7 +77,7 @@
 - **RG40 :** Un Avion est associé à **0 ou n vols** 
 ( il se peut qu'un avion ne vol pas ou qu'il participe à plusieurs vols )
 - **RG39 :** Un Avion peut faire l'objet d **0 ou n escales**
-- **RG39 :** Un Avion peut appartenir à **0 ou n compagnies aeriennes** (location)
+- **RG39 :** Un Avions appartient à **une compagnie aeriennes** (location ??  )
 
 
 ## Vol
