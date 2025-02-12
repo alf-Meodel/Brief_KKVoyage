@@ -22,8 +22,16 @@
 ```
 - RG09 : Une réservation est représenté par un identifiant unique 
 - RG10 : Une réservation possède une numéro de réservation unique (Le PNR Passenger Name Record) 
-- RG11 : Une réservation possède une date de réservation
+- RG11 : Une réservation est identifié  par sa date de réservation
+- RG11 : Une réservation est identifié  par son lieu d'arrivée
+- RG11 : Une réservation est identifié  par son lieu de départ
+- RG11 : Une réservation est identifié  par sa date d'arrivée
+- RG11 : Une réservation est identifié  par sa date de départ
+- RG11 : Une réservation est identifié  par l'horaire embarquement
+- RG11 : Une réservation est identifié  par l'horaire de debarquement
+
 ```
+<!-- - RG11 : Une réservation est identifié  par la durée estimé du voyage -->
 
 ----
 - **RG13 :** Une réservation est associé à **un unique client**
