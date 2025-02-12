@@ -85,6 +85,7 @@
 ```
 - RG41 : Un vol est représenté par un identifiant unique 
 - RG45 : Un vol doit avoir un numéro de vol.
+- RG45 : Un vol doit avoir une durée de vol.
 ```
 - **RG46 :** Un vol peut etre associé à **0 ou n reservations**
 - **RG47 :** un vol est associé à **1 aeroports** (un aeroport pour l'association depart et un aeroport pour l'association arrivée )
@@ -137,7 +138,6 @@ nosu allons utiliser une clé composé
 - RG65 :  Une escale est définie par une heure d'arrivée ( combinaison 1) 
 - RG66 : Une escale est définie par une heure de départ ( combinaison 2)
 - RG66 : Une escale est définie par sa durée 
-- RG67 : Une escale est définie par un aeroport 
 - RG67 : Une escale est définie par son type (l'escale technique, l'escale avec changement d'avion et l'escale longue.)
 ```
 - RG67 : Une escale est définie l'id vol et id aeroprt ( pour PK composé robuste  )
