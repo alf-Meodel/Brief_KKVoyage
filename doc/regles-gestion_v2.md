@@ -125,9 +125,8 @@ remake
 
 ## Escale 
 --- 
-
 ```
-nosu allons utilsier une clé composé 
+nosu allons utiliser une clé composé 
 ```
 ```
 - RG65 :  Une escale est définie par une heure d'arrivée ( combinaison 1) 
@@ -156,8 +155,8 @@ nosu allons utilsier une clé composé
 
 -----------------------------------------
 -----------------------------------------
-# ╭─━━━━━─╯ Brief ╰─━━━━━─╮ 
 
+# ╭─━━━━━─╯ Brief ╰─━━━━━─╮ 
 
 ```
 - Un vol est ouvert à la réservation et refermé sur ordre de la compagnie.
@@ -171,6 +170,4 @@ nosu allons utilsier une clé composé
 - Un vol peut comporter des escales dans des aéroports.
 - Une escale a une heure d'arrivée et une heure de départ.
 - Chaque aéroport dessert une ou plusieurs villes.
-
-
 ```
