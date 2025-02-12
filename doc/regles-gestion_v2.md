@@ -57,9 +57,9 @@
 ---
 ```
 - RG29 : Un siège est représenté par un identifiant unique 
-- RG30 : Un siège est représenté par son numéro d'emplacement
+- RG30 : Un siège est représenté par son numéro de siège
 - RG31 : Un siège est représenté par son prix
-- RG32 : Un siège est représenté par son statut ( libre réservé)
+- RG32 : Un siège est représenté par son statut ( libre réservé) ( boolean ????)
 ```
 
 - **RG33 :** Un siège peut accueillir **0 ou 1 passager**.
