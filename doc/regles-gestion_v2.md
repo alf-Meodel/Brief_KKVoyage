@@ -31,8 +31,8 @@
 - RG16 : Une réservation est identifié  par l'horaire embarquement
 - RG17 : Une réservation est identifié  par l'horaire de debarquement
 ```
-<!-- - RG17 : Une réservation est identifié  le montant total  -->
-<!-- - RG11 : Une réservation est identifié  par la durée estimé du voyage -->
+<!-- - RG17 : Une réservation est identifié son montant total  -->
+<!-- - RG11 : Une réservation est identifié  par la durée du voyage -->
 
 ----
 - **RG18 :** Une réservation est associé à **un unique client**
@@ -137,9 +137,11 @@ remake
 ```
 nosu allons utiliser une clé composé 
 ```
-```
-- RG62 :  Une escale est définie par une heure d'arrivée ( combinaison 1) 
-- RG63 : Une escale est définie par une heure de départ ( combinaison 2)
+``` 
+
+- RG62 :  Une escale est définie par un identifiant unique 
+- RG62 :  Une escale est définie par une heure d'arrivée 
+- RG63 : Une escale est définie par une heure de départ 
 - RG64 : Une escale est définie par sa durée 
 - RG65 : Une escale est définie par son type (l'escale technique, l'escale avec changement d'avion et l'escale longue.)
 ```
@@ -147,7 +149,7 @@ nosu allons utiliser une clé composé
 
 - **RG67 :**  une escale est **associée à un unique aeroport** 
 - **RG68 :**  une escale est **associée à un vol**
-<!-- - **RG68 :**  une escale peut inclure 0 ou 1 changement d'avion >>>> comem chaque vol est définit par un avion aps la peine de préciser ce changement --> 
+
 
 ## Ville
 ---
