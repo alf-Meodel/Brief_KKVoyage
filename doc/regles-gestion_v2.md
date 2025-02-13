@@ -6,9 +6,9 @@
 ---
 ```
 - RG01 : Un client est représenté par un identifiant unique 
-- RG02 : Un client est représenté par son nom
 - RG03 : Un client est représenté par son prenom
-- RG04 : Un client est identifié par son mail 
+- RG02 : Un client est représenté par son nom
+- RG04 : Un client est identifié par son email 
 - RG05 : Un client est identifié par son adresse
 - RG06 : Un client est identifié par son numéro de téléphone
 ```
