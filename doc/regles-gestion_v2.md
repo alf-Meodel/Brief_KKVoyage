@@ -11,6 +11,7 @@
 - RG04 : Un client est identifié par son email 
 - RG05 : Un client est identifié par son adresse
 - RG06 : Un client est identifié par son numéro de téléphone
+- RG06 : Un client est identifié par son mot de passe
 ```
 
 - **RG07 :** Un client **peut effectuer 0 ou n reservation**
