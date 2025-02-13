@@ -44,9 +44,11 @@
 ```
 - RG21 : Un Passager est représenté par un identifiant unique 
 - RG22 : Un Passager est authentifié par un document d'identitée
+- RG25 : Un Passager est authentifié par sa date de naissance
 - RG23 : Un Passager est authentifié par son nom
 - RG24 : Un Passager est authentifié par son prenom
 - RG25 : Un Passager est authentifié par son adresse
+- RG25 : Un Passager est authentifié par sa nationalité
 
 ```
 - **RG26 :** Un Passager est **associé à une ou n reservation**
