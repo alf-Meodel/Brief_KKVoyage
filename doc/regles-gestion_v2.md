@@ -30,8 +30,8 @@
 - RG15 : Une réservation est identifié  par sa date de départ
 - RG16 : Une réservation est identifié  par l'horaire embarquement
 - RG17 : Une réservation est identifié  par l'horaire de debarquement
-
 ```
+<!-- - RG17 : Une réservation est identifié  le montant total  -->
 <!-- - RG11 : Une réservation est identifié  par la durée estimé du voyage -->
 
 ----
@@ -43,7 +43,7 @@
 ---
 ```
 - RG21 : Un Passager est représenté par un identifiant unique 
-- RG22 : Un Passager est authentifié par un document d'identitée
+- RG22 : Un Passager est authentifié par un document d'identitée ( numéro de passeport ou  id card)
 - RG25 : Un Passager est authentifié par sa date de naissance
 - RG23 : Un Passager est authentifié par son nom
 - RG24 : Un Passager est authentifié par son prenom
