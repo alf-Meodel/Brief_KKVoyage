@@ -63,6 +63,8 @@
 - RG29 : Un siège est représenté par son numéro de siège
 - RG30 : Un siège est représenté par son prix
 - RG31 : Un siège est représenté par son statut ( libre réservé) ( boolean ????)
+- RG31 : Un siège est représenté par sa classe ( economique, business, première)
+- RG31 : Un siège est représenté par sa position (couloir,fenetre,milieu)
 ```
 
 - **RG32 :** Un siège peut accueillir **0 ou 1 passager**.
@@ -105,12 +107,10 @@
 - RG48 : Une compagnie aérienne est représenté par un identifiant unique 
 - RG49 : Une compagnie aérienne est représenté par son nom
 ```
+<!-- - RG49 : Une compagnie aérienne est représenté par son code iata  -->
 
 - **RG50 :**  Une compagnie aérienne peut **proposer 1 ou n vols** 
 - **RG51 :**  Une compagnie aérienne peut **annuler un ou n vols qu'elle propose**
-<!-- - **RG55 :**  Une compagnie aérienne peut **proposer 0 ou n reservations**
-- **RG56 :**  Une compagnie aérienne peut **annuler 0 ou n reservations**    -->
-- <!-- Dans la réalité métier, une compagnie aérienne ne gère pas directement les réservations. Ce sont les clients qui réservent des vols, et chaque réservation est rattachée à un vol, pas à une compagnie directement. -->
 - **RG52 :**  Une compagnie aérienne dispose de **1 ou n avions** ( pas de 0,n pour les compagnies qui louent des avions car ca revient au meme elles peuvent disposer d'un avion)
 
 remake 
