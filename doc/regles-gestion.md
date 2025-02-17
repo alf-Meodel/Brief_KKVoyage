@@ -39,6 +39,7 @@
 - **RG21 :** Une réservation concerne **un ou plusieurs vol** 
 - **RG21 :** Une réservation peut inclure  **0 ou n escales** 
 
+---
 ## Passager
 ---
 ```
@@ -70,6 +71,7 @@
 - **RG38 :** Un siège est associé à **un seul avion**. 
 
 
+---
 ## Avion 
 ---
 ```
@@ -77,13 +79,14 @@
 - RG40 : Un Avion est représenté par un modèle
 ```
 
-- **RG41 :** Un Avion est associé à **n ou m sièges** ( il ne peut y avoir un seul siege minimum 2 donc n/m)
+- **RG41 :** Un Avion est associé à **n ou m sièges** 
 - **RG42 :** Un Avion est associé à **0 ou n vols** 
 ( il se peut qu'un avion ne vole pas ou qu'il participe à plusieurs vols )
 - **RG43 :** Un Avion peut faire l'objet d **0 ou n escales**
 - **RG44 :** Un Avion appartient à **une compagnie aeriennes** 
 
 
+---
 ## Vol
 ---
 ```
@@ -131,11 +134,11 @@
 - **RG66 :**  Un aéroport peut peut accueillir **0 ou n escales**
 
 
+--- 
 ## Escale 
 --- 
 
 ``` 
-
 - RG67 :  Une escale est définie par un identifiant unique 
 - RG68 :  Une escale est définie par une heure d'arrivée 
 - RG69 : Une escale est définie par une heure de départ 
@@ -149,6 +152,7 @@
 - **RG74 :**  une escale peut etre comprise dans **0 ou n reseravtion**
 
 
+---
 ## Ville
 ---
 ```
@@ -156,11 +160,9 @@
 - RG76 :  Une ville est représenté par son nom
 - RG77 :  Une ville est représenté par sa région
 - RG78 :  Une ville est représenté par son pays
-
 ```
 - **RG79 :**  Une ville peut avoir **1 ou n aeroports**
 
------------------------------------------
 -----------------------------------------
 
 # ╭─━━━━━─╯ Brief ╰─━━━━━─╮ 
