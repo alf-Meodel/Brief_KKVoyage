@@ -31,13 +31,13 @@
 - RG17 : Une réservation est identifié  par l'horaire embarquement
 - RG18 : Une réservation est identifié  par l'horaire de debarquement
 ```
-<!-- - RG17 : Une réservation est identifié son montant total  -->
-<!-- - RG11 : Une réservation est identifié  par la durée du voyage -->
+<!-- - RG18 : Une réservation est identifié  par le nom des vols réservés   -->
 
 ----
 - **RG19 :** Une réservation est associé à **un unique client**
 - **RG20 :** Une réservation est associé à **un unique passager**
 - **RG21 :** Une réservation concerne **un ou plusieurs vol** 
+- **RG21 :** Une réservation peut inclure  **0 ou n escales** 
 
 ## Passager
 ---
@@ -52,7 +52,7 @@
 
 ```
 - **RG29 :** Un Passager est **associé à une ou n reservation**
-- **RG30 :** Un Passager est **associé à un siège** unique
+- **RG30 :** Un Passager est **associé au siège d'un vol**
 ---
 
 
@@ -78,11 +78,11 @@
 - RG40 : Un Avion est représenté par un modèle
 ```
 
-- **RG41 :** Un Avion est associé à **n ou m sièges** ( il ne peut y avoir un seul siege minimum 2 donc n)
+- **RG41 :** Un Avion est associé à **n ou m sièges** ( il ne peut y avoir un seul siege minimum 2 donc n/m)
 - **RG42 :** Un Avion est associé à **0 ou n vols** 
-( il se peut qu'un avion ne vol pas ou qu'il participe à plusieurs vols )
+( il se peut qu'un avion ne vole pas ou qu'il participe à plusieurs vols )
 - **RG43 :** Un Avion peut faire l'objet d **0 ou n escales**
-- **RG44 :** Un Avions appartient à **une compagnie aeriennes** (location ??  )
+- **RG44 :** Un Avion appartient à **une compagnie aeriennes** 
 
 
 ## Vol
@@ -93,9 +93,11 @@
 - RG47 : Un vol doit avoir une durée de vol.
 ```
 - **RG48 :** Un vol peut etre associé à **0 ou n reservations**
-- **RG49 :** un vol est associé à **1 aeroports** (un aeroport pour l'association depart et un aeroport pour l'association arrivée )
-( decoller d'un aeroport faire un tour et revenir dans le même aeroport ne compte pas) 
-- **RG50 :** un vol peut contenir **0 ou 1 escales**
+- **RG48 :** Un vol possède un aeroport de depart et un aeroport d'arrivée 
+<!-- - **RG49 :** un vol est associé à **1 aeroports** (un aeroport pour l'association depart et un aeroport pour l'association arrivée )
+( decoller d'un aeroport faire un tour et revenir dans le même aeroport ne compte pas) ?????????????? NO -->
+
+- **RG49 :** un vol est associé à **1 aeroport de depart est 1 aeroport d'arrivée**
 - **RG51 :** un vol est associé à **une seule compagnies aérienne**
 - **RG52 :** un vol est associé à **un avion unique**
 ---
@@ -106,14 +108,12 @@
 ```
 - RG53 : Une compagnie aérienne est représenté par un identifiant unique 
 - RG54 : Une compagnie aérienne est représenté par son nom
+- RG49 : Une compagnie aérienne est représenté par son code iata 
 ```
-<!-- - RG49 : Une compagnie aérienne est représenté par son code iata  -->
 
-- **RG55 :**  Une compagnie aérienne peut **proposer 1 ou n vols** 
+- **RG55 :**  Une compagnie aérienne peut **proposer 0 ou n vols** (une compagnie peut très bien ne proposer aucun vol comme pour le covid etc)
 - **RG56 :**  Une compagnie aérienne peut **annuler un ou n vols qu'elle propose**
 - **RG57 :**  Une compagnie aérienne dispose de **1 ou n avions** ( pas de 0,n pour les compagnies qui louent des avions car ca revient au meme elles peuvent disposer d'un avion)
-
-remake 
 - **RG58 :** Une compagnie aérienne peut proposer 1 ou n vols à la reservation. ??
 - **RG59 :** Une compagnie aérienne peut annuler 1 ou n vols, ce qui entraîne l’annulation des réservations associées.
 ---
@@ -134,9 +134,7 @@ remake
 
 ## Escale 
 --- 
-```
-nosu allons utiliser une clé composé    
-```
+
 ``` 
 
 - RG67 :  Une escale est définie par un identifiant unique 
@@ -145,7 +143,7 @@ nosu allons utiliser une clé composé
 - RG70 : Une escale est définie par sa durée 
 - RG71 : Une escale est définie par son type (l'escale technique, l'escale avec changement d'avion et l'escale longue.)
 ```
-- RG72 : Une escale est définie l'id vol et id aeroprt ( pour PK composé robuste  )
+- RG72 : Une escale est définie l'id vol et id aeroprt
 
 - **RG73 :**  une escale est **associée à un unique aeroport** 
 - **RG74 :**  une escale est **associée à un vol**
