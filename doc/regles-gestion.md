@@ -49,7 +49,6 @@
 - RG26 : Un Passager est authentifié par son prenom
 - RG27 : Un Passager est authentifié par son adresse
 - RG28 : Un Passager est authentifié par sa nationalité
-
 ```
 - **RG29 :** Un Passager est **associé à une ou n reservation**
 - **RG30 :** Un Passager est **associé au siège d'un vol**
@@ -143,10 +142,11 @@
 - RG70 : Une escale est définie par sa durée 
 - RG71 : Une escale est définie par son type (l'escale technique, l'escale avec changement d'avion et l'escale longue.)
 ```
-- RG72 : Une escale est définie l'id vol et id aeroprt
+<!-- - **RG72 :** Une escale est définie l'id vol et id aeroprt -->
 
 - **RG73 :**  une escale est **associée à un unique aeroport** 
 - **RG74 :**  une escale est **associée à un vol**
+- **RG74 :**  une escale peut etre comprise dans **0 ou n reseravtion**
 
 
 ## Ville
