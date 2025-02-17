@@ -160,6 +160,7 @@
 - RG76 :  Une ville est représenté par son nom
 - RG77 :  Une ville est représenté par sa région
 - RG78 :  Une ville est représenté par son pays
+- RG78 :  Une ville est représenté par son code postal
 ```
 - **RG79 :**  Une ville peut avoir **1 ou n aeroports**
 
