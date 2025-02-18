@@ -94,9 +94,6 @@
 ```
 - **RG48 :** Un vol peut etre associé à **0 ou n reservations**
 - **RG48 :** Un vol possède un aeroport de depart et un aeroport d'arrivée 
-<!-- - **RG49 :** un vol est associé à **1 aeroports** (un aeroport pour l'association depart et un aeroport pour l'association arrivée )
-( decoller d'un aeroport faire un tour et revenir dans le même aeroport ne compte pas) ?????????????? NO -->
-
 - **RG49 :** un vol est associé à **1 aeroport de depart est 1 aeroport d'arrivée**
 - **RG51 :** un vol est associé à **une seule compagnies aérienne**
 - **RG52 :** un vol est associé à **un avion unique**
