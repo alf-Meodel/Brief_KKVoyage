@@ -55,7 +55,6 @@
 - **RG30 :** Un Passager est **associé au siège d'un vol**
 ---
 
-
 ## Siège
 ---
 ```
@@ -66,7 +65,6 @@
 - RG35 : Un siège est représenté par sa classe ( economique, business, première)
 - RG36 : Un siège est représenté par sa position (couloir,fenetre,milieu)
 ```
-
 - **RG37 :** Un siège peut accueillir **0 ou 1 passager**.
 - **RG38 :** Un siège est associé à **un seul avion**. 
 
@@ -145,11 +143,11 @@
 - RG70 : Une escale est définie par sa durée 
 - RG71 : Une escale est définie par son type (l'escale technique, l'escale avec changement d'avion et l'escale longue.)
 ```
-<!-- - **RG72 :** Une escale est définie l'id vol et id aeroprt -->
 
 - **RG73 :**  une escale est **associée à un unique aeroport** 
 - **RG74 :**  une escale est **associée à un vol**
-- **RG74 :**  une escale peut etre comprise dans **0 ou n reseravtion**
+- **RG74 :**  une escale peut etre appartenir **0 ou n reseravtion**
+
 
 
 ---
