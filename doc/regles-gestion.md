@@ -31,12 +31,11 @@
 - RG17 : Une réservation est identifié  par l'horaire embarquement
 - RG18 : Une réservation est identifié  par l'horaire de debarquement
 ```
-<!-- - RG18 : Une réservation est identifié  par le nom des vols réservés   -->
 
 ----
+- **RG21 :** Une réservation concerne **un ou plusieurs vol** 
 - **RG19 :** Une réservation est associé à **un unique client**
 - **RG20 :** Une réservation est associé à **un unique passager**
-- **RG21 :** Une réservation concerne **un ou plusieurs vol** 
 - **RG21 :** Une réservation peut inclure  **0 ou n escales** 
 
 ---
@@ -44,7 +43,7 @@
 ---
 ```
 - RG22 : Un Passager est représenté par un identifiant unique 
-- RG23 : Un Passager est authentifié par un document d'identitée ( numéro de passeport ou  id card)
+- RG23 : Un Passager est authentifié par un document d'identitée ( passeport/id card)
 - RG24 : Un Passager est authentifié par sa date de naissance
 - RG25 : Un Passager est authentifié par son nom
 - RG26 : Un Passager est authentifié par son prenom
@@ -54,21 +53,18 @@
 - **RG29 :** Un Passager est **associé à une ou n reservation**
 - **RG30 :** Un Passager est **associé au siège d'un vol**
 ---
-
 ## Siège
 ---
 ```
 - RG31 : Un siège est représenté par un identifiant unique 
 - RG32 : Un siège est représenté par son numéro de siège
 - RG33 : Un siège est représenté par son prix
-- RG34 : Un siège est représenté par son statut ( libre réservé) ( boolean ????)
+- RG34 : Un siège est représenté par son statut ( libre/réservé)
 - RG35 : Un siège est représenté par sa classe ( economique, business, première)
 - RG36 : Un siège est représenté par sa position (couloir,fenetre,milieu)
 ```
 - **RG37 :** Un siège peut accueillir **0 ou 1 passager**.
 - **RG38 :** Un siège est associé à **un seul avion**. 
-
-
 ---
 ## Avion 
 ---
@@ -83,7 +79,6 @@
 - **RG43 :** Un Avion peut faire l'objet d **0 ou n escales**
 - **RG44 :** Un Avion appartient à **une compagnie aeriennes** 
 
-
 ---
 ## Vol
 ---
@@ -93,8 +88,8 @@
 - RG47 : Un vol doit avoir une durée de vol.
 ```
 - **RG48 :** Un vol peut etre associé à **0 ou n reservations**
-- **RG48 :** Un vol possède un aeroport de depart et un aeroport d'arrivée 
-- **RG49 :** un vol est associé à **1 aeroport de depart est 1 aeroport d'arrivée**
+- **RG49 :** Un vol possède un aeroport de depart et un aeroport d'arrivée 
+- **RG50 :** un vol est associé à **1 aeroport de depart est 1 aeroport d'arrivée**
 - **RG51 :** un vol est associé à **une seule compagnies aérienne**
 - **RG52 :** un vol est associé à **un avion unique**
 ---
@@ -105,28 +100,28 @@
 ```
 - RG53 : Une compagnie aérienne est représenté par un identifiant unique 
 - RG54 : Une compagnie aérienne est représenté par son nom
-- RG49 : Une compagnie aérienne est représenté par son code iata 
+- RG55 : Une compagnie aérienne est représenté par son code iata 
 ```
 
-- **RG55 :**  Une compagnie aérienne peut **proposer 0 ou n vols** (une compagnie peut très bien ne proposer aucun vol comme pour le covid etc)
-- **RG56 :**  Une compagnie aérienne peut **annuler un ou n vols qu'elle propose**
-- **RG57 :**  Une compagnie aérienne dispose de **1 ou n avions** ( pas de 0,n pour les compagnies qui louent des avions car ca revient au meme elles peuvent disposer d'un avion)
-- **RG58 :** Une compagnie aérienne peut proposer 1 ou n vols à la reservation. ??
-- **RG59 :** Une compagnie aérienne peut annuler 1 ou n vols, ce qui entraîne l’annulation des réservations associées.
+- **RG56 :**  Une compagnie aérienne peut **proposer 0 ou n vols** (une compagnie peut très bien ne proposer aucun vol comme pour le covid etc)
+- **RG57 :**  Une compagnie aérienne peut **annuler un ou n vols qu'elle propose**
+- **RG58 :**  Une compagnie aérienne dispose de **1 ou n avions** ( pas de 0,n pour les compagnies qui louent des avions car ca revient au meme elles peuvent disposer d'un avion)
+- **RG59 :** Une compagnie aérienne peut proposer 1 ou n vols à la reservation. ??
+- **RG60 :** Une compagnie aérienne peut annuler 1 ou n vols, ce qui entraîne l’annulation des réservations associées.
 ---
 
 ## Aeroport 
 ---
 ```
-- RG60 :  Un aéroport est représenté par un identifiant unique 
-- RG61 :  Un aéroport est représenté par son nom
-- RG62 :  Un aéroport est représenté par son ville
-- RG63 :  Un aéroport est représenté par son pays
+- RG61 :  Un aéroport est représenté par un identifiant unique 
+- RG62 :  Un aéroport est représenté par son nom
+- RG63 :  Un aéroport est représenté par son ville
+- RG64 :  Un aéroport est représenté par son pays
 ```
 
-- **RG64 :**  Un aéroport est associé **à une seule ville**
-- **RG65 :**  Un aéroport peut etre associé à **0 ou n vols**
-- **RG66 :**  Un aéroport peut peut accueillir **0 ou n escales**
+- **RG65 :**  Un aéroport est associé **à une seule ville**
+- **RG66 :**  Un aéroport peut etre associé à **0 ou n vols**
+- **RG67 :**  Un aéroport peut peut accueillir **0 ou n escales**
 
 
 --- 
@@ -134,16 +129,16 @@
 --- 
 
 ``` 
-- RG67 :  Une escale est définie par un identifiant unique 
-- RG68 :  Une escale est définie par une heure d'arrivée 
-- RG69 : Une escale est définie par une heure de départ 
-- RG70 : Une escale est définie par sa durée 
-- RG71 : Une escale est définie par son type (l'escale technique, l'escale avec changement d'avion et l'escale longue.)
+- RG68 :  Une escale est définie par un identifiant unique 
+- RG69 :  Une escale est définie par une heure d'arrivée 
+- RG70 : Une escale est définie par une heure de départ 
+- RG71 : Une escale est définie par sa durée 
+- RG72 : Une escale est définie par son type (l'escale technique, l'escale avec changement d'avion et l'escale longue.)
 ```
 
 - **RG73 :**  une escale est **associée à un unique aeroport** 
 - **RG74 :**  une escale est **associée à un vol**
-- **RG74 :**  une escale peut etre appartenir **0 ou n reseravtion**
+- **RG75 :**  une escale peut etre appartenir **0 ou n reseravtion**
 
 
 
@@ -151,13 +146,13 @@
 ## Ville
 ---
 ```
-- RG75 :  Une ville est représenté par un identifiant unique 
-- RG76 :  Une ville est représenté par son nom
-- RG77 :  Une ville est représenté par sa région
-- RG78 :  Une ville est représenté par son pays
-- RG78 :  Une ville est représenté par son code postal
+- RG76 :  Une ville est représenté par un identifiant unique 
+- RG77 :  Une ville est représenté par son nom
+- RG78 :  Une ville est représenté par sa région
+- RG79 :  Une ville est représenté par son pays
+- RG80 :  Une ville est représenté par son code postal
 ```
-- **RG79 :**  Une ville peut avoir **1 ou n aeroports**
+- **RG81 :**  Une ville peut avoir **1 ou n aeroports**
 
 -----------------------------------------
 
