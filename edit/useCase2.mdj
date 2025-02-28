@@ -3652,418 +3652,6 @@
 							"propertyLabel": {
 								"$ref": "AAAAAAGVS9tpRu+SvU0="
 							}
-						},
-						{
-							"_type": "UMLUseCaseView",
-							"_id": "AAAAAAGVS95TLvybQ5o=",
-							"_parent": {
-								"$ref": "AAAAAAGUx1InEdA/Ysk="
-							},
-							"model": {
-								"$ref": "AAAAAAGVS95TLfyZPPY="
-							},
-							"subViews": [
-								{
-									"_type": "UMLNameCompartmentView",
-									"_id": "AAAAAAGVS95TLvycq8g=",
-									"_parent": {
-										"$ref": "AAAAAAGVS95TLvybQ5o="
-									},
-									"model": {
-										"$ref": "AAAAAAGVS95TLfyZPPY="
-									},
-									"subViews": [
-										{
-											"_type": "LabelView",
-											"_id": "AAAAAAGVS95TLvyd2cs=",
-											"_parent": {
-												"$ref": "AAAAAAGVS95TLvycq8g="
-											},
-											"visible": false,
-											"font": "Arial;13;0",
-											"parentStyle": true,
-											"left": -96,
-											"top": -64,
-											"height": 13
-										},
-										{
-											"_type": "LabelView",
-											"_id": "AAAAAAGVS95TLvyeDew=",
-											"_parent": {
-												"$ref": "AAAAAAGVS95TLvycq8g="
-											},
-											"font": "Arial;13;1",
-											"parentStyle": true,
-											"left": 346.5,
-											"top": 380,
-											"width": 132,
-											"height": 13,
-											"text": "Ajouter des passager"
-										},
-										{
-											"_type": "LabelView",
-											"_id": "AAAAAAGVS95TLvyfPUc=",
-											"_parent": {
-												"$ref": "AAAAAAGVS95TLvycq8g="
-											},
-											"visible": false,
-											"font": "Arial;13;0",
-											"parentStyle": true,
-											"left": -96,
-											"top": -64,
-											"width": 73.67724609375,
-											"height": 13,
-											"text": "(from Model)"
-										},
-										{
-											"_type": "LabelView",
-											"_id": "AAAAAAGVS95TLvygDjs=",
-											"_parent": {
-												"$ref": "AAAAAAGVS95TLvycq8g="
-											},
-											"visible": false,
-											"font": "Arial;13;0",
-											"parentStyle": true,
-											"left": -96,
-											"top": -64,
-											"height": 13,
-											"horizontalAlignment": 1
-										}
-									],
-									"font": "Arial;13;0",
-									"parentStyle": true,
-									"left": 341.5,
-									"top": 373,
-									"width": 142.21533203125,
-									"height": 25,
-									"stereotypeLabel": {
-										"$ref": "AAAAAAGVS95TLvyd2cs="
-									},
-									"nameLabel": {
-										"$ref": "AAAAAAGVS95TLvyeDew="
-									},
-									"namespaceLabel": {
-										"$ref": "AAAAAAGVS95TLvyfPUc="
-									},
-									"propertyLabel": {
-										"$ref": "AAAAAAGVS95TLvygDjs="
-									}
-								},
-								{
-									"_type": "UMLAttributeCompartmentView",
-									"_id": "AAAAAAGVS95TLvyhmn8=",
-									"_parent": {
-										"$ref": "AAAAAAGVS95TLvybQ5o="
-									},
-									"model": {
-										"$ref": "AAAAAAGVS95TLfyZPPY="
-									},
-									"visible": false,
-									"font": "Arial;13;0",
-									"parentStyle": true,
-									"left": -48,
-									"top": -32,
-									"width": 10,
-									"height": 10
-								},
-								{
-									"_type": "UMLOperationCompartmentView",
-									"_id": "AAAAAAGVS95TLvyiKcM=",
-									"_parent": {
-										"$ref": "AAAAAAGVS95TLvybQ5o="
-									},
-									"model": {
-										"$ref": "AAAAAAGVS95TLfyZPPY="
-									},
-									"visible": false,
-									"font": "Arial;13;0",
-									"parentStyle": true,
-									"left": -48,
-									"top": -32,
-									"width": 10,
-									"height": 10
-								},
-								{
-									"_type": "UMLReceptionCompartmentView",
-									"_id": "AAAAAAGVS95TLvyjsOo=",
-									"_parent": {
-										"$ref": "AAAAAAGVS95TLvybQ5o="
-									},
-									"model": {
-										"$ref": "AAAAAAGVS95TLfyZPPY="
-									},
-									"visible": false,
-									"font": "Arial;13;0",
-									"parentStyle": true,
-									"left": -48,
-									"top": -32,
-									"width": 10,
-									"height": 10
-								},
-								{
-									"_type": "UMLTemplateParameterCompartmentView",
-									"_id": "AAAAAAGVS95TL/ykbgY=",
-									"_parent": {
-										"$ref": "AAAAAAGVS95TLvybQ5o="
-									},
-									"model": {
-										"$ref": "AAAAAAGVS95TLfyZPPY="
-									},
-									"visible": false,
-									"font": "Arial;13;0",
-									"parentStyle": true,
-									"left": -48,
-									"top": -32,
-									"width": 10,
-									"height": 10
-								},
-								{
-									"_type": "UMLExtensionPointCompartmentView",
-									"_id": "AAAAAAGVS95TL/yl4Dw=",
-									"_parent": {
-										"$ref": "AAAAAAGVS95TLvybQ5o="
-									},
-									"model": {
-										"$ref": "AAAAAAGVS95TLfyZPPY="
-									},
-									"visible": false,
-									"font": "Arial;13;0",
-									"parentStyle": true,
-									"left": -48,
-									"top": -32,
-									"width": 10,
-									"height": 10
-								}
-							],
-							"font": "Arial;13;0",
-							"parentStyle": false,
-							"containerChangeable": true,
-							"left": 312,
-							"top": 368,
-							"width": 201,
-							"height": 35,
-							"nameCompartment": {
-								"$ref": "AAAAAAGVS95TLvycq8g="
-							},
-							"suppressAttributes": true,
-							"suppressOperations": true,
-							"attributeCompartment": {
-								"$ref": "AAAAAAGVS95TLvyhmn8="
-							},
-							"operationCompartment": {
-								"$ref": "AAAAAAGVS95TLvyiKcM="
-							},
-							"receptionCompartment": {
-								"$ref": "AAAAAAGVS95TLvyjsOo="
-							},
-							"templateParameterCompartment": {
-								"$ref": "AAAAAAGVS95TL/ykbgY="
-							},
-							"extensionPointCompartment": {
-								"$ref": "AAAAAAGVS95TL/yl4Dw="
-							}
-						},
-						{
-							"_type": "UMLUseCaseView",
-							"_id": "AAAAAAGVS96YSABQXmo=",
-							"_parent": {
-								"$ref": "AAAAAAGUx1InEdA/Ysk="
-							},
-							"model": {
-								"$ref": "AAAAAAGVS96YSABOh+Y="
-							},
-							"subViews": [
-								{
-									"_type": "UMLNameCompartmentView",
-									"_id": "AAAAAAGVS96YSABRRII=",
-									"_parent": {
-										"$ref": "AAAAAAGVS96YSABQXmo="
-									},
-									"model": {
-										"$ref": "AAAAAAGVS96YSABOh+Y="
-									},
-									"subViews": [
-										{
-											"_type": "LabelView",
-											"_id": "AAAAAAGVS96YSQBS/WI=",
-											"_parent": {
-												"$ref": "AAAAAAGVS96YSABRRII="
-											},
-											"visible": false,
-											"font": "Arial;13;0",
-											"parentStyle": true,
-											"top": -32,
-											"height": 13
-										},
-										{
-											"_type": "LabelView",
-											"_id": "AAAAAAGVS96YSQBTbVg=",
-											"_parent": {
-												"$ref": "AAAAAAGVS96YSABRRII="
-											},
-											"font": "Arial;13;1",
-											"parentStyle": true,
-											"left": 344.5,
-											"top": 436,
-											"width": 121,
-											"height": 13,
-											"text": "Ajouter des escales"
-										},
-										{
-											"_type": "LabelView",
-											"_id": "AAAAAAGVS96YSQBU/Bw=",
-											"_parent": {
-												"$ref": "AAAAAAGVS96YSABRRII="
-											},
-											"visible": false,
-											"font": "Arial;13;0",
-											"parentStyle": true,
-											"top": -32,
-											"width": 73.67724609375,
-											"height": 13,
-											"text": "(from Model)"
-										},
-										{
-											"_type": "LabelView",
-											"_id": "AAAAAAGVS96YSQBVaG8=",
-											"_parent": {
-												"$ref": "AAAAAAGVS96YSABRRII="
-											},
-											"visible": false,
-											"font": "Arial;13;0",
-											"parentStyle": true,
-											"top": -32,
-											"height": 13,
-											"horizontalAlignment": 1
-										}
-									],
-									"font": "Arial;13;0",
-									"parentStyle": true,
-									"left": 339.5,
-									"top": 429,
-									"width": 132.1162109375,
-									"height": 25,
-									"stereotypeLabel": {
-										"$ref": "AAAAAAGVS96YSQBS/WI="
-									},
-									"nameLabel": {
-										"$ref": "AAAAAAGVS96YSQBTbVg="
-									},
-									"namespaceLabel": {
-										"$ref": "AAAAAAGVS96YSQBU/Bw="
-									},
-									"propertyLabel": {
-										"$ref": "AAAAAAGVS96YSQBVaG8="
-									}
-								},
-								{
-									"_type": "UMLAttributeCompartmentView",
-									"_id": "AAAAAAGVS96YSQBWasc=",
-									"_parent": {
-										"$ref": "AAAAAAGVS96YSABQXmo="
-									},
-									"model": {
-										"$ref": "AAAAAAGVS96YSABOh+Y="
-									},
-									"visible": false,
-									"font": "Arial;13;0",
-									"parentStyle": true,
-									"top": -16,
-									"width": 10,
-									"height": 10
-								},
-								{
-									"_type": "UMLOperationCompartmentView",
-									"_id": "AAAAAAGVS96YSQBXmHU=",
-									"_parent": {
-										"$ref": "AAAAAAGVS96YSABQXmo="
-									},
-									"model": {
-										"$ref": "AAAAAAGVS96YSABOh+Y="
-									},
-									"visible": false,
-									"font": "Arial;13;0",
-									"parentStyle": true,
-									"top": -16,
-									"width": 10,
-									"height": 10
-								},
-								{
-									"_type": "UMLReceptionCompartmentView",
-									"_id": "AAAAAAGVS96YSQBYxi4=",
-									"_parent": {
-										"$ref": "AAAAAAGVS96YSABQXmo="
-									},
-									"model": {
-										"$ref": "AAAAAAGVS96YSABOh+Y="
-									},
-									"visible": false,
-									"font": "Arial;13;0",
-									"parentStyle": true,
-									"top": -16,
-									"width": 10,
-									"height": 10
-								},
-								{
-									"_type": "UMLTemplateParameterCompartmentView",
-									"_id": "AAAAAAGVS96YSQBZHdA=",
-									"_parent": {
-										"$ref": "AAAAAAGVS96YSABQXmo="
-									},
-									"model": {
-										"$ref": "AAAAAAGVS96YSABOh+Y="
-									},
-									"visible": false,
-									"font": "Arial;13;0",
-									"parentStyle": true,
-									"top": -16,
-									"width": 10,
-									"height": 10
-								},
-								{
-									"_type": "UMLExtensionPointCompartmentView",
-									"_id": "AAAAAAGVS96YSQBatpk=",
-									"_parent": {
-										"$ref": "AAAAAAGVS96YSABQXmo="
-									},
-									"model": {
-										"$ref": "AAAAAAGVS96YSABOh+Y="
-									},
-									"visible": false,
-									"font": "Arial;13;0",
-									"parentStyle": true,
-									"top": -16,
-									"width": 10,
-									"height": 10
-								}
-							],
-							"font": "Arial;13;0",
-							"parentStyle": false,
-							"containerChangeable": true,
-							"left": 312,
-							"top": 424,
-							"width": 186,
-							"height": 35,
-							"nameCompartment": {
-								"$ref": "AAAAAAGVS96YSABRRII="
-							},
-							"suppressAttributes": true,
-							"suppressOperations": true,
-							"attributeCompartment": {
-								"$ref": "AAAAAAGVS96YSQBWasc="
-							},
-							"operationCompartment": {
-								"$ref": "AAAAAAGVS96YSQBXmHU="
-							},
-							"receptionCompartment": {
-								"$ref": "AAAAAAGVS96YSQBYxi4="
-							},
-							"templateParameterCompartment": {
-								"$ref": "AAAAAAGVS96YSQBZHdA="
-							},
-							"extensionPointCompartment": {
-								"$ref": "AAAAAAGVS96YSQBatpk="
-							}
 						}
 					]
 				},
@@ -5621,7 +5209,22 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Ajouter des passager"
+					"name": "Ajouter des passager",
+					"ownedElements": [
+						{
+							"_type": "UMLExtend",
+							"_id": "AAAAAAGVS+ZyZgpZDIE=",
+							"_parent": {
+								"$ref": "AAAAAAGVS95TLfyZPPY="
+							},
+							"source": {
+								"$ref": "AAAAAAGVS95TLfyZPPY="
+							},
+							"target": {
+								"$ref": "AAAAAAGUx5r2xSk/SkU="
+							}
+						}
+					]
 				},
 				{
 					"_type": "UMLUseCase",
@@ -5629,7 +5232,45 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Ajouter des escales"
+					"name": "Ajouter des escales",
+					"ownedElements": [
+						{
+							"_type": "UMLExtend",
+							"_id": "AAAAAAGVS+aXIQ7+ouo=",
+							"_parent": {
+								"$ref": "AAAAAAGVS96YSABOh+Y="
+							},
+							"source": {
+								"$ref": "AAAAAAGVS96YSABOh+Y="
+							},
+							"target": {
+								"$ref": "AAAAAAGUx5r2xSk/SkU="
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLUseCase",
+					"_id": "AAAAAAGVS+aspxBZpaU=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Ajouter des Vols",
+					"ownedElements": [
+						{
+							"_type": "UMLExtend",
+							"_id": "AAAAAAGVS+cQQxkouqU=",
+							"_parent": {
+								"$ref": "AAAAAAGVS+aspxBZpaU="
+							},
+							"source": {
+								"$ref": "AAAAAAGVS+aspxBZpaU="
+							},
+							"target": {
+								"$ref": "AAAAAAGUx5r2xSk/SkU="
+							}
+						}
+					]
 				}
 			]
 		}
